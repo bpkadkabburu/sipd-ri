@@ -33,21 +33,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["xlsx-js-style", "npm:1.2.0"]\
+            ["xlsx", "npm:0.18.5"]\
           ],\
           "linkType": "SOFT"\
         }]\
       ]],\
       ["adler-32", [\
-        ["npm:1.2.0", {\
-          "packageLocation": "./.yarn/cache/adler-32-npm-1.2.0-d6cb5d1f89-aa611316fa.zip/node_modules/adler-32/",\
-          "packageDependencies": [\
-            ["adler-32", "npm:1.2.0"],\
-            ["exit-on-epipe", "npm:1.0.1"],\
-            ["printj", "npm:1.1.2"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
         ["npm:1.3.1", {\
           "packageLocation": "./.yarn/cache/adler-32-npm-1.3.1-8493d3a628-c7f6b02df6.zip/node_modules/adler-32/",\
           "packageDependencies": [\
@@ -68,28 +59,10 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]\
       ]],\
       ["codepage", [\
-        ["npm:1.14.0", {\
-          "packageLocation": "./.yarn/cache/codepage-npm-1.14.0-caaaa03344-ea06cbb7b6.zip/node_modules/codepage/",\
+        ["npm:1.15.0", {\
+          "packageLocation": "./.yarn/cache/codepage-npm-1.15.0-bde3a4eb54-86bdfd8f8f.zip/node_modules/codepage/",\
           "packageDependencies": [\
-            ["codepage", "npm:1.14.0"],\
-            ["commander", "npm:2.14.1"],\
-            ["exit-on-epipe", "npm:1.0.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["commander", [\
-        ["npm:2.14.1", {\
-          "packageLocation": "./.yarn/cache/commander-npm-2.14.1-c6046110cb-26bd49febe.zip/node_modules/commander/",\
-          "packageDependencies": [\
-            ["commander", "npm:2.14.1"]\
-          ],\
-          "linkType": "HARD"\
-        }],\
-        ["npm:2.17.1", {\
-          "packageLocation": "./.yarn/cache/commander-npm-2.17.1-08eb1c40fa-22e7ed5b42.zip/node_modules/commander/",\
-          "packageDependencies": [\
-            ["commander", "npm:2.17.1"]\
+            ["codepage", "npm:1.15.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -103,24 +76,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["exit-on-epipe", [\
-        ["npm:1.0.1", {\
-          "packageLocation": "./.yarn/cache/exit-on-epipe-npm-1.0.1-1aade96e24-e8ab494041.zip/node_modules/exit-on-epipe/",\
-          "packageDependencies": [\
-            ["exit-on-epipe", "npm:1.0.1"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["fflate", [\
-        ["npm:0.3.11", {\
-          "packageLocation": "./.yarn/cache/fflate-npm-0.3.11-96ecb8b8fd-1eca8d3e86.zip/node_modules/fflate/",\
-          "packageDependencies": [\
-            ["fflate", "npm:0.3.11"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["frac", [\
         ["npm:1.1.2", {\
           "packageLocation": "./.yarn/cache/frac-npm-1.1.2-7e88efac4e-fbfbb28003.zip/node_modules/frac/",\
@@ -130,21 +85,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["printj", [\
-        ["npm:1.1.2", {\
-          "packageLocation": "./.yarn/cache/printj-npm-1.1.2-5c18cf1e70-1c0c668445.zip/node_modules/printj/",\
-          "packageDependencies": [\
-            ["printj", "npm:1.1.2"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["sipd-ri", [\
         ["workspace:.", {\
           "packageLocation": "./",\
           "packageDependencies": [\
             ["sipd-ri", "workspace:."],\
-            ["xlsx-js-style", "npm:1.2.0"]\
+            ["xlsx", "npm:0.18.5"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -177,18 +123,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["xlsx-js-style", [\
-        ["npm:1.2.0", {\
-          "packageLocation": "./.yarn/cache/xlsx-js-style-npm-1.2.0-f7cb8cb231-2ec6121fbf.zip/node_modules/xlsx-js-style/",\
+      ["xlsx", [\
+        ["npm:0.18.5", {\
+          "packageLocation": "./.yarn/cache/xlsx-npm-0.18.5-f70d417ac6-c5774d3c6a.zip/node_modules/xlsx/",\
           "packageDependencies": [\
-            ["xlsx-js-style", "npm:1.2.0"],\
-            ["adler-32", "npm:1.2.0"],\
+            ["xlsx", "npm:0.18.5"],\
+            ["adler-32", "npm:1.3.1"],\
             ["cfb", "npm:1.2.2"],\
-            ["codepage", "npm:1.14.0"],\
-            ["commander", "npm:2.17.1"],\
+            ["codepage", "npm:1.15.0"],\
             ["crc-32", "npm:1.2.2"],\
-            ["exit-on-epipe", "npm:1.0.1"],\
-            ["fflate", "npm:0.3.11"],\
             ["ssf", "npm:0.11.2"],\
             ["wmf", "npm:1.0.2"],\
             ["word", "npm:0.3.0"]\

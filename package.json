@@ -2,6 +2,7 @@
   "name": "sipd-ri",
   "packageManager": "yarn@3.2.1",
   "dependencies": {
+    "xlsx": "^0.18.5",
     "xlsx-js-style": "^1.2.0"
   }
 }
