@@ -40,7 +40,7 @@ function format(x) {
     return a
 }
 
-let b = require('./rkpd-22-9-2023.json')
+let b = require('./ringkasan-kua-ppas-22-9-2023.json')
 let listDinas = reducer(b, 'nama_sub_skpd');
 let TOTAL = 0
 let all = [];
@@ -83,4 +83,4 @@ for (const key in listDinas) {
   }
 }
 
-XLSX.writeFile(workbook, "SUBKEGIATAN_RKPD.xlsx", {compression: true})
+XLSX.writeFile(workbook, "SUBKEGIATAN_KUAPPAS.xlsx", {compression: true})
