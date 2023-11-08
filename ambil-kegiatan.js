@@ -13,8 +13,8 @@ for (const key in listSubkegiatan) {
     const element = listSubkegiatan[key]    
     all.push(
       [
-        {t:"s", v:element.kode_sub_giat, s:{font:{bold:true, name: "Calibri", sz: 9}}}, 
-        {t:"s", v:element.nama_sub_giat, s:{font:{bold:true, name: "Calibri", sz: 9}}}, 
+        {t:"s", v:element.kode_sub_giat, s:{font:{name: "Calibri", sz: 9}}}, 
+        {t:"s", v:element.nama_sub_giat, s:{font:{name: "Calibri", sz: 9}}}, 
       ],
     )
   }
