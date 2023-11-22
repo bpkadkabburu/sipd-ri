@@ -127,7 +127,7 @@ for (const key in listDinas) {
           )
         }
       }
-    }    
+    }
     
     // const worksheet = XLSX.utils.aoa_to_sheet(all);
     // worksheet["!cols"] = [ { wpx: 185 }, { wpx: 470 }, { wpx: 580 }, { wpx: 125 }, { wpx: 205 } ];

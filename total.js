@@ -40,11 +40,12 @@ function format(x) {
     return a
 }
 
-let b = require('./kua-ppas2.json')
+let b = require('./JSON/ringkasan-kua-ppas-16-11-2023.json')
 let listDinas = reducer(b, 'nama_sub_skpd');
 let TOTAL = 0
 let all = [];
 let paguAll = [];
+let totalAll = 0
 const workbook = XLSX.utils.book_new();
 for (const key in listDinas) {
   if (Object.hasOwnProperty.call(listDinas, key)) {
@@ -54,10 +55,10 @@ for (const key in listDinas) {
     // console.log('\x1b[31m%s\x1b[0m', key)
     all = []
     all.push(
-      [{t:"s", v:"Tabel IV.3", s:{font:{bold:true, name: "Calibri", sz: 9}}}, "", "", "", ""],
-      [{t:"s", v:"Ringkasan KUA PPAS Tahun 2024", s:{font:{bold:true, name: "Calibri", sz: 9}}}, "", "", "", ""],
-      [{t:"s", v:"Kabupaten Buru", s:{font:{bold:true, name: "Calibri", sz: 9}}}, "", "", "", ""],
-      ["", "", "", "", ""],
+      [{t:"s", v:"Tabel IV.3", s:{font:{bold:true, name: "Calibri", sz: 9}}}, null, null, null, null],
+      [{t:"s", v:"Ringkasan KUA PPAS Tahun 2024", s:{font:{bold:true, name: "Calibri", sz: 9}}}, null, null, null, null],
+      [{t:"s", v:"Kabupaten Buru", s:{font:{bold:true, name: "Calibri", sz: 9}}}, null, null, null, null],
+      [null, null, null, null, null],
       [
         {t:"s", v:"Kode", s:{font:{bold:true, name: "Calibri", sz: 9}}}, 
         {t:"s", v:"Urusan / Bidang Urusan / Program / Kegiatan / Sub Kegiatan", s:{font:{bold:true, name: "Calibri", sz: 9}}}, 
@@ -67,9 +68,9 @@ for (const key in listDinas) {
       ],
       [
         {t:"s", v:duplicate[0].kode_sub_skpd + " " + key, s:{font:{bold:true, name: "Calibri", sz: 9}}}, 
-        "", 
-        "", 
-        "", 
+        null, 
+        null, 
+        null, 
         {t:"n", z:"#,##0.00", v:total(duplicate, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
       ]
     )
@@ -80,8 +81,8 @@ for (const key in listDinas) {
           all.push([
             {t:"s", v:urusan[0].kode_urusan, s:{font:{bold:true, name: "Calibri", sz: 9}}},
             {t:"s", v:keyUrusan, s:{font:{bold:true, name: "Calibri", sz: 9}}},
-            "",
-            "",
+            null,
+            null,
             {t:"n", z:"#,##0.00", v:total(urusan, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
           ])
 
@@ -94,8 +95,8 @@ for (const key in listDinas) {
               all.push([
                 {t:"s", v:bidangUrusan[0].kode_bidang_urusan, s:{font:{bold:true, name: "Calibri", sz: 9}}},
                 {t:"s", v:keyBidangUrusan, s:{font:{bold:true, name: "Calibri", sz: 9}}},
-                "",
-                "",
+                null,
+                null,
                 {t:"n", z:"#,##0.00", v:total(bidangUrusan, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
               ])
               let listProgram = reducer(bidangUrusan, 'nama_program')
@@ -155,6 +156,7 @@ for (const key in listDinas) {
     worksheet["!cols"] = [ { wpx: 185 }, { wpx: 470 }, { wpx: 580 }, { wpx: 125 }, { wpx: 205 } ];
 
     XLSX.utils.book_append_sheet(workbook, worksheet, duplicate[0].nama_sub_skpd.substring(0,30));
+    totalAll+=TOTAL
     // console.log('\x1b[31m%s\x1b[0m', key)
     console.log("PAGU " + key + " " + format(total(duplicate, 'pagu_indikatif')))
     console.log("PAGU JUMLAH SUB KEGIATAN " + key + " " + format(TOTAL))
@@ -177,4 +179,4 @@ XLSX.writeFile(paguWb, "PAGU DINAS-2.xlsx", {compression: true})
 
 XLSX.writeFile(workbook, "PAGU PER DINAS PER URUSAN-2.xlsx", { compression: true });
 // console.log(all)
-console.log("\nTOTAL PAGU " + format(Math.round(TOTAL)))
+console.log("\nTOTAL PAGU " + format(Math.round(totalAll)))
