@@ -48,7 +48,7 @@ function format(x) {
 }
 
 const xlf = './EXCEL/rekap.xlsx'
-const listPMK = require('./JSON/list-pmk110.json')
+const listPMK = require('./JSON/pmk-110-dari-sikd-terisi-anggaran.json')
 const xlb = fs.readFileSync(xlf)
 const wb = XLSX.read(xlb)
 let listData = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]])
@@ -295,6 +295,10 @@ for (const key in listDinas) {
           kodePmk = {t:"s", v:cariSubkegiatanPmk[0].kode, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}}
           bidangPmk = {t:"s", v:cariSubkegiatanPmk[0].bidang, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}}
           paguPmk = {t:"n", v:cariSubkegiatanPmk[0].pagu, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}}
+        } else {
+          kodePmk = {t:"s", v:mapper(cariSubkegiatanPmk, 'kode').join(', '), s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}}
+          bidangPmk = {t:"s", v:mapper(cariSubkegiatanPmk, 'bidang').join(', '), s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}}
+          paguPmk = {t:"n", v:mapper(cariSubkegiatanPmk, 'pagu').join(', '), s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}}
         }
 
 
