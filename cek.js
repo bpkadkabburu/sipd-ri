@@ -1,24 +1,34 @@
 const fs = require('fs')
-// let q = atob(atob("ZXlKMGIydGxiaUk2SWxVeFFtSlNNMGszZGxGMlJsSlFTaUlzSW1sa1gyUmhaWEpoYUNJNk16ZzRMQ0owWVdoMWJpSTZNakF5TkN3aWFXUmZZWEJ3SWpvME9EQTNNeXdpYVhOZllYQndJam94TENKelpXTnlaWFJmYTJWNUlqb2lXbGhzUzJWdFJsaFZhbEpLWVcwNWNGWnJXbUZWTWs1MFZWaGtUMWRGV2xSV2ExSkNUMVZzY0dReWJHcE5iWGh5V1d0T1NrNXJiSE5WYms1VFZrZDRVbFpXVVhkUFZXeHdaREpzYWsxdGVISlhhMDVLVG10c2MxVnNiR3BTZWxaUVZWWlJkMDlWYkhCa01teG9WakZLY2xOWGNIWmhWbHBIWVVoa2FXRjZWa05WUmxGM1lWZGFVbEJVTUQwaUxDSnpaV04xY21sMGVWOXJaWGtpT2lJek9EaDhNakF5Tkh4TlZGazFUVlJCTTA1RVVUTk5kejA5ZkVVMlpGUjFOMDlrZWtoOE56QXpNekFpZlE9PQ=="))
-// console.log(q)
-// let ee = atob(atob("ZXlKemFXUjRJam9pVkZaU2NtUXdOWEZTVkRBOUlpd2ljMmxrYkNJNklsUnNSVGxRVVQwOUlpd2ljMmxrWkNJNklsUlljRzVPUVQwOUlpd2lhV1JrSWpvaVZGaHdiazVCUFQwaWZRPT0="))
-// let eej = JSON.parse(ee)
-// console.log(ee)
-// console.log(atob(atob(eej.sidx)))
-// console.log(atob(atob(eej.sidl)))
-// console.log(atob(atob(eej.sidd)))
-// console.log(atob(atob(eej.idd)))
+let q = atob(atob("ZXlKMGIydGxiaUk2SW1aSFNqRlRPWGsyVWpaVFNVUTRjU0lzSW1sa1gyUmhaWEpoYUNJNk16ZzRMQ0owWVdoMWJpSTZNakF5TkN3aWFXUmZZWEJ3SWpvME5EWTVNaXdpYVhOZllYQndJam94TENKelpXTnlaWFJmYTJWNUlqb2lXbGhzUzJWdFJsaFZhbEpLWVcwNWNGWnJXbUZWTWtwMFZtdGFUbFpzV2xWV2ExSkNUMVZzY0dReWJHcE5iWGh5V1d0T1NrNXJiSE5WYkdSV1lYcFdVbFpXVVhkUFZXeHdaREpzYWsxdGVISlhhMDVLVG10c2MxVnNiR3BTZWxaUVZWWlJkMDlWYkhCa01teG9WakZLY2xOWGNIWmhWbHBIWVVoa2FXRjZWa05WUmxGM1lWZGFVbEJVTUQwaUxDSnpaV04xY21sMGVWOXJaWGtpT2lJek9EaDhNakF5Tkh4TlZHTjZUa1JCZUUxcVZUVk5aejA5ZkdwaVZGTkdTVzFUT0c1OE1UQXlNamdpTENKMGIydGxibDlyWlhsZk1TSTZJbVprT0dSa05USXpNekkyTkRjM1ltTmxNalJtWW1Rd05ESXpPVEUyT1RBeVkySTFNVEV5TURBek5UQXhORGN4TTJabE9XWmlaamswTldJeU5UWTNZakZqT1dFek5EQmlPU0lzSW5SdmEyVnVYMnRsZVY4eUlqb2lOVE16TVRaaU5EYzRabVV3T1RCalkyRmpOR1JsTm1Wa1kyWTFORE5oTlRCaVltWmtaRGswWVNKOQ=="))
+console.log(q)
+let qqq = JSON.parse(q)
+let secret_key = atob(atob(qqq.secret_key))
+let qqr = qqq.security_key.split("|")
+qqr.forEach((element, key) => {
+  if (key == 2) {
+    console.log(key, ":", atob(element))
+  } else if (key == 3) {
+    console.log(key, ":", atob(element))
+  } else {
+    console.log(key, ":", element)
+  }
+});
+let eej = JSON.parse(secret_key)
+console.log(atob(atob(eej.sidx)))
+console.log(atob(atob(eej.sidl)))
+console.log(atob(atob(eej.sidd)))
+console.log(atob(atob(eej.idd)))
 
 function decrip(t) {
-    let e = atob(t),
-        n = e.length - 1,
-        s = "";
-    for (; n >= 0; ) (s += e.charAt(n)), n--;
-    let o = atob(s),
-        l = o.length - 1,
-        _ = "";
-    for (; l >= 0; ) (_ += o.charAt(l)), l--;
-    return JSON.parse(_);
+  let e = atob(t),
+    n = e.length - 1,
+    s = "";
+  for (; n >= 0;) (s += e.charAt(n)), n--;
+  let o = atob(s),
+    l = o.length - 1,
+    _ = "";
+  for (; l >= 0;) (_ += o.charAt(l)), l--;
+  return JSON.parse(_);
 }
 
 function calculateSum(array, property) {
@@ -33,13 +43,13 @@ let aa = decrip("YnRuSTBGR2ExNW1JNkFpTXdJRE5zQWlJcFIyWGtGV1p5RkdhaW9ESXpnRE9zQWl
 
 // console.log(aa)
 
-let file = `.\\JSON\\skpd.json`
-fs.writeFile(file, JSON.stringify(aa), function(err) { 
-    if (err) {
-        console.log('File JSON tidak bisa disimpan', err)
-    }
-    console.log('File JSON Berhasil Disimpan')
-});
+// let file = `.\\JSON\\skpd.json`
+// fs.writeFile(file, JSON.stringify(aa), function(err) { 
+//     if (err) {
+//         console.log('File JSON tidak bisa disimpan', err)
+//     }
+//     console.log('File JSON Berhasil Disimpan')
+// });
 // console.log(aa)
 // function format(x) {
 //     let a = Intl.NumberFormat('id-ID', { style: "currency", currency: "IDR" }).format(x)

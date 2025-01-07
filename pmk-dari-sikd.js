@@ -17,15 +17,17 @@ function groupByLength(array, key) {
 }
 
 function create() {
-  let listSubkegiatan = require('./JSON/pmk-dari-sikd-terisi-anggaran.json')
+  let listSubkegiatan = require('./JSON/2025/pmk-110-dari-sikd-raw.json')
   let allJson = []
   for (const key in listSubkegiatan) {
     if (Object.hasOwnProperty.call(listSubkegiatan, key)) {
       const element = listSubkegiatan[key];
       let bidang = element.list.map(item => {
-        if (item[1].length === 17) {
+        if (item[1].length === 17 || item[1].length === 15) {
+          let nama = item[2].split("#-#")
           return {
             "kode": item[1],
+            "nama": nama[1],
             "bidang": element.bidang,
             "pagu": item[4]
           }
@@ -36,7 +38,7 @@ function create() {
     }
   }
 
-  let pathJson = `JSON\\pmk-110-dari-sikd-terisi-anggaran.json`
+  let pathJson = `JSON\\2025\\pmk-110-dari-sikd.json`
   if (fs.existsSync(pathJson)) {
     fs.unlinkSync(pathJson)
   }
@@ -50,25 +52,39 @@ function create() {
 }
 
 function check() {
-  let listSubkegiatan = require('./JSON/pmk-110-dari-sikd-terisi-anggaran.json')
-  let a = groupByLength(listSubkegiatan, 'kode')
-  console.log(a)
+  let listSubkegiatan = require('./JSON/2025/pmk-110-dari-sikd.json')
+  let listBidang = reducer(listSubkegiatan, 'bidang')
+  for (const key in listBidang) {
+    if (Object.prototype.hasOwnProperty.call(listBidang, key)) {
+      const element = listBidang[key];
+      console.log(key, " => ", element.length)
+      console.log("first element => ", 2, 0, element[0]?.kode)
+      console.log("mid element ", (parseInt(element.length / 2)) + 2, (parseInt(element.length / 2)), " => ", element[parseInt(element.length / 2)]?.kode)
+      console.log("last element ", element.length + 1, element.length - 1, " => ", element[element.length - 1]?.kode)
+      console.log('nomor 101 => ', element[102]?.kode)
+      console.log('nomor 201 => ', element[202]?.kode)
+      console.log('nomor 301 => ', element[302]?.kode)
+      console.log('nomor 401 => ', element[402]?.kode)
+
+    }
+  }
 }
 
 function excel() {
-  let listPMK = require('./JSON/2024/pmk-dari-sikd-terisi-anggaran.json')
-  let excelPMK = [
-    [
-      { t: "s", v: "Kode Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-      { t: "s", v: "Nama Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-      { t: "s", v: "Kode Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-      { t: "s", v: "Nama Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-      { t: "s", v: "Bidang", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-    ]
-  ]
+  const workbook = XLSX.utils.book_new();
+  let listPMK = require('./JSON/2025/pmk-110-dari-sikd-raw.json')
   for (const key in listPMK) {
     if (Object.hasOwnProperty.call(listPMK, key)) {
       const element = listPMK[key];
+      let excelPMK = [
+        [
+          { t: "s", v: "Kode Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Nama Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Kode Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Nama Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Bidang", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+        ]
+      ]
       let bidang = element.list.map(item => {
         if (item[1].length === 17) {
           let nama = item[2].split("#-#")
@@ -79,6 +95,8 @@ function excel() {
             "Nama Sub Kegiatan": nama[1],
             "bidang": element.bidang,
           }
+        } else {
+          console.log(item)
         }
       }).filter(item => item !== undefined)
 
@@ -91,16 +109,17 @@ function excel() {
       ])
 
       excelPMK = excelPMK.concat(res)
+
+      const worksheet = XLSX.utils.aoa_to_sheet(excelPMK);
+
+      XLSX.utils.book_append_sheet(workbook, worksheet, element.bidang);
     }
   }
 
-  const workbook = XLSX.utils.book_new();
-  const ws = XLSX.utils.aoa_to_sheet(excelPMK)
-  XLSX.utils.book_append_sheet(workbook, ws, "SUB KEGIATAN")
   XLSX.writeFile(workbook, "SUBKEGIATAN PMK 2025.xlsx")
 
 }
 
-excel()
+check()
 
 

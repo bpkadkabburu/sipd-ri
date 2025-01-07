@@ -1,0 +1,4736 @@
+[
+  {
+    "kode": "1.03.02.2.01.0128",
+    "nama": "Penyusunan Rencana Teknis dan Dokumen Lingkungan Hidup untuk Konstruksi Bendungan, Embung, dan Bangunan Penampung Air Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0127",
+    "nama": "Penyusunan Rencana Teknis dan Dokumen Lingkungan Hidup untuk Konstruksi Air Tanah dan Air Baku",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0121",
+    "nama": "Pembangunan Embung dan Penampung Air Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0119",
+    "nama": "Pembangunan Sumur Air Tanah untuk Air Baku",
+    "bidang": "pekerjaan_umum",
+    "pagu": 4680000000
+  },
+  {
+    "kode": "1.03.02.2.01.0114",
+    "nama": "Rehabilitasi Embung dan Penampungan Air Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0116",
+    "nama": "Rehabilitasi Sumur Air Tanah untuk Air Baku",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0108",
+    "nama": "Rehabilitasi Unit Air Baku",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0089",
+    "nama": "Operasi dan Pemeliharaan Embung dan Penampung Air Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0095",
+    "nama": "Operasi dan Pemeliharaan Sumur Air Tanah untuk Air Baku",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0051",
+    "nama": "Operasi dan Pemeliharaan Embung Air Baku",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0120",
+    "nama": "Penyusunan Rencana Teknis dan Dokumen Lingkungan Hidup untuk Konstruksi Pengendali Banjir, Lahar, Drainase Utama Perkotaan dan Pengaman Pantai",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0118",
+    "nama": "Penyusunan Pola dan Rencana Pengelolaan SDA WS Kewenangan Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0111",
+    "nama": "Pembangunan Bendungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0115",
+    "nama": "Pembangunan Tanggul Sungai",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0109",
+    "nama": "Pembangunan Bangunan Perkuatan Tebing",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0100",
+    "nama": "Pembangunan Pintu Air/Bendung Pengendali Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0113",
+    "nama": "Pembangunan Kanal Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0013",
+    "nama": "Pembangunan Stasiun Pompa Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0124",
+    "nama": "Pembangunan Polder/Kolam Retensi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0015",
+    "nama": "Pembangunan Bangunan Sabo",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0104",
+    "nama": "Pembangunan Check Dam",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0102",
+    "nama": "Pembangunan Breakwater",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0019",
+    "nama": "Pembangunan Flood Forecasting And Warning System (FFWS)",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0112",
+    "nama": "Rehabilitasi Bendungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0126",
+    "nama": "Rehabilitasi Tanggul Sungai",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0110",
+    "nama": "Rehabilitasi Bangunan Perkuatan Tebing",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0026",
+    "nama": "Rehabilitasi Pintu Air/Bendung Pengendali Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0122",
+    "nama": "Rehabilitasi Kanal Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0028",
+    "nama": "Rehabilitasi Stasiun Pompa Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0123",
+    "nama": "Rehabilitasi Polder/Kolam Retensi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0030",
+    "nama": "Rehabilitasi Bangunan Sabo",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0031",
+    "nama": "Rehabilitasi Check Dam",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0106",
+    "nama": "Rehabilitasi Breakwater",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0105",
+    "nama": "Rehabilitasi Seawall dan Bangunan Pengaman Pantai Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0103",
+    "nama": "Peningkatan Tanggul Sungai",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0101",
+    "nama": "Peningkatan Bangunan Perkuatan Tebing",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0010",
+    "nama": "Peningkatan Pintu Air/Bendung Pengendali Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0099",
+    "nama": "Peningkatan Kanal Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0098",
+    "nama": "Peningkatan Stasiun Pompa Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0097",
+    "nama": "Peningkatan Polder/Kolam Retensi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0096",
+    "nama": "Peningkatan Bangunan Sabo",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0094",
+    "nama": "Peningkatan Check Dam",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0092",
+    "nama": "Peningkatan Breakwater",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0087",
+    "nama": "Peningkatan Seawall dan Bangunan Pengaman Pantai Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0090",
+    "nama": "Peningkatan Flood Forecasting And Warning System (FFWS)",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0093",
+    "nama": "Normalisasi/Restorasi Sungai",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0088",
+    "nama": "Pembangunan Infrastruktur untuk Melindungi Mata Air",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0080",
+    "nama": "Operasi dan Pemeliharaan Tanggul dan Tebing Sungai",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0081",
+    "nama": "Operasi dan Pemeliharaan Kanal Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0085",
+    "nama": "Operasi dan Pemeliharaan Stasiun Pompa Banjir",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0082",
+    "nama": "Operasi dan Pemeliharaan Polder/Kolam Retensi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0084",
+    "nama": "Operasi dan Pemeliharaan Bangunan Sabo",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0083",
+    "nama": "Operasi dan Pemeliharaan Check Dam",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0074",
+    "nama": "Operasi dan Pemeliharaan Breakwater/Seawall dan Bangunan Pengaman Pantai Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0077",
+    "nama": "Pengelolaan Hidrologi dan Kualitas Air WS Kewenangan Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0072",
+    "nama": "Evaluasi dan Rekomendasi Teknis (Rekomtek) Pemanfaatan SDA WS Kewenangan Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0073",
+    "nama": "Operasi dan Pemeliharaan Sungai",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0076",
+    "nama": "Operasi dan Pemeliharaan Infrastruktur untuk Melindungi Mata Air",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0079",
+    "nama": "Operasi dan Pemeliharaan Danau",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0071",
+    "nama": "Operasi dan Pemeliharaan Unit Air Baku",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0075",
+    "nama": "Pembinaan dan Pemberdayaan Kelembagaan Pengelolaan SDA Kewenangan Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0078",
+    "nama": "Koordinasi dan Sinkronisasi Peningkatan Kapasitas Kelembagaan Pengelolaan SDA Kewenangan Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0086",
+    "nama": "Revitalisasi Danau",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0091",
+    "nama": "Operasi dan Pemeliharaan Bendungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0107",
+    "nama": "Pembangunan Unit Air Baku",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.01.0117",
+    "nama": "Pembangunan Seawall dan Bangunan Pengaman Pantai Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": 6675570880
+  },
+  {
+    "kode": "1.03.02.2.02.0035",
+    "nama": "Penyusunan Rencana Teknis dan Dokumen Lingkungan Hidup untuk Konstruksi Irigasi dan Rawa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0014",
+    "nama": "Rehabilitasi Jaringan Irigasi Permukaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 1982039170
+  },
+  {
+    "kode": "1.03.02.2.02.0015",
+    "nama": "Rehabilitasi Bendung Irigasi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0016",
+    "nama": "Rehabilitasi Jaringan Irigasi Rawa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0017",
+    "nama": "Rehabilitasi Jaringan Irigasi Tambak",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0018",
+    "nama": "Rehabilitasi Sumur Jaringan Irigasi Air Tanah",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0019",
+    "nama": "Rehabilitasi Jaringan Irigasi Air Tanah",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0021",
+    "nama": "Operasi dan Pemeliharaan Jaringan Irigasi Permukaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 399994938
+  },
+  {
+    "kode": "1.03.02.2.02.0022",
+    "nama": "Operasi dan Pemeliharaan Bendung Irigasi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0023",
+    "nama": "Operasi dan Pemeliharaan Jaringan Irigasi Rawa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0024",
+    "nama": "Operasi dan Pemeliharaan Jaringan Irigasi Tambak",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0025",
+    "nama": "Operasi dan Pemeliharaan Sumur Jaringan Irigasi Air Tanah",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0026",
+    "nama": "Operasi dan Pemeliharaan Jaringan Irigasi Air Tanah",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0002",
+    "nama": "Pembangunan Jaringan Irigasi Permukaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0003",
+    "nama": "Pembangunan Bendung Irigasi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0004",
+    "nama": "Pembangunan Jaringan Irigasi Rawa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0005",
+    "nama": "Pembangunan Jaringan Irigasi Tambak",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0006",
+    "nama": "Pembangunan Sumur Jaringan Irigasi Air Tanah",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0007",
+    "nama": "Pembangunan Jaringan Irigasi Air Tanah",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0008",
+    "nama": "Peningkatan Jaringan Irigasi Permukaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0009",
+    "nama": "Peningkatan Bendung Irigasi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0010",
+    "nama": "Peningkatan Jaringan Irigasi Rawa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0011",
+    "nama": "Peningkatan Jaringan Irigasi Tambak",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0012",
+    "nama": "Peningkatan Sumur Jaringan Irigasi Air Tanah",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0013",
+    "nama": "Peningkatan Jaringan Irigasi Air Tanah",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0032",
+    "nama": "Pengelolaan dan Pengawasan Alokasi Air Irigasi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0031",
+    "nama": "Koordinasi, Sinkronisasi dan Pelaksanaan Konservasi Kawasan Rawa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0033",
+    "nama": "Koordinasi, Sinkronisasi dan Pelaksanaan Pemeliharaan Kawasan Rawa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.02.2.02.0034",
+    "nama": "Operasional Kelembagaan Pengelola Irigasi",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.03.2.01.0025",
+    "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Penyediaan Air Minum (SPAM)",
+    "bidang": "pekerjaan_umum",
+    "pagu": 725320000
+  },
+  {
+    "kode": "1.03.03.2.01.0028",
+    "nama": "Pembangunan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 826000000
+  },
+  {
+    "kode": "1.03.03.2.01.0032",
+    "nama": "Perluasan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.03.2.01.0030",
+    "nama": "Fasilitasi Kerja Sama Penyelenggaraan Sistem Penyediaan Air Minum (SPAM) di Daerah Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.03.2.01.0029",
+    "nama": "Operasi dan Pemeliharaan Sistem Penyediaan Air Minum (SPAM)",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.03.2.01.0022",
+    "nama": "Pembangunan Sistem Penyediaan Air Minum (SPAM) Bukan Jaringan Perpipaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 1124999712
+  },
+  {
+    "kode": "1.03.03.2.01.0031",
+    "nama": "Optimalisasi Sistem Penyediaan Air Minum (SPAM) jaringan Perpipaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.03.2.01.0023",
+    "nama": "Peningkatan Kapasitas Kelembagaan Sistem Penyediaan Air Minum (SPAM)",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.03.2.01.0024",
+    "nama": "Pembinaan dan Pemberdayaan Masyarakat dalam Pengelolaan dan Pengembangan Sistem Penyediaan Air Minum (SPAM)",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.03.2.01.0026",
+    "nama": "Peningkatan Sistem Penyediaan Air Minum (SPAM) Jaringan Perpipaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.03.2.01.0027",
+    "nama": "Pembinaan Pengelolaan dan Pengembangan Sistem Penyediaan Air Minum (SPAM) Desa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.04.2.01.0015",
+    "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Pengelolaan Persampahan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.04.2.01.0017",
+    "nama": "Penyediaan Sarana Pendukung TPA/TPST/SPA/TPS-3R/TPS",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.04.2.01.0010",
+    "nama": "Pembangunan TPA/TPST/SPA/TPS-3R/TPS",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.04.2.01.0011",
+    "nama": "Pembinaan dan Pemberdayaan Masyarakat dalam Pengembangan Sistem Pengelolaan Persampahan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.04.2.01.0013",
+    "nama": "Peningkatan TPA/TPST/SPA/TPS-3R/TPS",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.04.2.01.0014",
+    "nama": "Pembinaan Pengembangan Sistem Pengelolaan Persampahan Desa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.04.2.01.0016",
+    "nama": "Optimalisasi TPA/TPST/SPA/TPS 3R/TPS",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0041",
+    "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Pengelolaan Air Limbah Domestik (SPALD)",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0040",
+    "nama": "Pembinaan dan Pemberdayaan Masyarakat dalam Pengembangan Sistem Pengelolaan Air Limbah Domestik (SPALD)",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0038",
+    "nama": "Operasi dan Pemeliharaan Sistem Pengelolaan Air Limbah Domestik (SPALD)",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0037",
+    "nama": "Penyediaan Sarana Pengangkutan Lumpur Tinja",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0033",
+    "nama": "Penyediaan Jasa Penyedotan  Lumpur Tinja",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0039",
+    "nama": "Penyediaan Sub Sistem Pengolahan Air Limbah Domestik (SPALD) Setempat",
+    "bidang": "pekerjaan_umum",
+    "pagu": 490000000
+  },
+  {
+    "kode": "1.03.05.2.01.0022",
+    "nama": "Pembangunan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0024",
+    "nama": "Optimalisasi Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Perkotaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0028",
+    "nama": "Peningkatan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Perkotaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0029",
+    "nama": "Optimalisasi Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0031",
+    "nama": "Pembangunan/Penyediaan Sistem Pengelolaan Air Limbah Terpusat Skala Permukiman",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0032",
+    "nama": "Peningkatan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0035",
+    "nama": "Pengembangan Kapasitas Kelembagaan Sistem Pengelolaan Air Limbah Domestik (SPALD)",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0036",
+    "nama": "Pembangunan/Penyediaan Sarana dan Prasarana IPLT",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0030",
+    "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Drainase Perkotaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0025",
+    "nama": "Pembinaan Teknik Sistem Drainase Perkotaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0026",
+    "nama": "Penyediaan Sarana Sistem Drainase Perkotaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0012",
+    "nama": "Pembangunan Sistem Drainase Lingkungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 6313920000
+  },
+  {
+    "kode": "1.03.06.2.01.0022",
+    "nama": "Penyediaan Sarana Sistem Drainase Lingkungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0023",
+    "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Drainase Lingkungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0028",
+    "nama": "Rehabilitasi Saluran Drainase Perkotaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0019",
+    "nama": "Operasi dan Pemeliharaan Sistem Drainase Lingkungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0020",
+    "nama": "Optimalisasai Sistem Drainase Lingkungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0021",
+    "nama": "Peningkatan Saluran Drainase Lingkungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0027",
+    "nama": "Penyusunan Outline Plan pada Kawasan Genangan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0029",
+    "nama": "Pembangunan Sistem Drainase Perkotaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.06.2.01.0024",
+    "nama": "Peningkatan Sistem Drainase Perkotaan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.07.2.01.0007",
+    "nama": "Optimalisasi TPA/TPST/SPA/TPS 3R/TPS di Kawasan Strategis Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.07.2.01.0009",
+    "nama": "Peningkatan TPA/TPST/SPA/TPS 3R/TPS di Kawasan Strategis Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.07.2.01.0015",
+    "nama": "Pembangunan TPA/TPST/SPA/TPS-3R/TPS di Kawasan Strategis Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0021",
+    "nama": "Pembangunan, Pemanfaatan, Pelestariaan dan Pembongkaran Bangunan Gedung untuk Kepentingan Strategis Daerah Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": 11415388930
+  },
+  {
+    "kode": "1.03.08.2.01.0019",
+    "nama": "Penyusunan Kebijakan terkait Penyelenggaraan Bangunan Gedung",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0014",
+    "nama": "Pendaftaran Huruf Daftar Nomor (HDNo) Bangunan Gedung Negara",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0023",
+    "nama": "Penyelenggaraan Penerbitan Persetujuan Bangunan Gedung (PBG), Sertifikat Laik Fungsi (SLF), Surat Bukti Kepemilikan Bangunan Gedung (SBKBG), Rencana Teknis Pembongkaran Bangunan Gedung (RTB), Tim Profesi Ahli (TPA), Tim Penilai Teknis (TPT), Penilik, dan Pendataan Bangunan Gedung melalui SIMBG ",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0015",
+    "nama": "Identifikasi, Penetapan, Penyelenggaraan Bangunan Gedung Cagar Budaya yang Dilestarikan untuk Kepentingan Strategis Daerah Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0016",
+    "nama": "Pemberian Kompensasi, Insentif dan Disinsentif kepada Pemilik, Pengguna, dan/atau Pengelola Bangunan Gedung Cagar Budaya Daerah Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0017",
+    "nama": "Pengubahsuaian Bangunan Gedung untuk Kepentingan Strategis Daerah Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0018",
+    "nama": "Pemeliharaan, Perawatan, dan Pemeriksaan Berkala Bangunan Gedung untuk Kepentingan Strategis Daerah Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0020",
+    "nama": "Bantuan Teknis Pembangunan Bangunan Gedung Negara untuk Kepentingan Strategis Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0022",
+    "nama": "Pembinaan dan Pengawasan Penyelenggaraan Bangunan Gedung",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.09.2.01.0009",
+    "nama": "Supervisi Penataan Bangunan dan Lingkungan Kawasan Cagar Budaya, Kawasan Pariwisata, Kawasan Sistem Perkotaan Nasional dan Kawasan Strategis Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.09.2.01.0010",
+    "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Penataan Bangunan dan Lingkungan di Kabupaten/Kota",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.09.2.01.0007",
+    "nama": "Pengawasan Penataan Bangunan dan Lingkungan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.09.2.01.0008",
+    "nama": "Penataan Bangunan dan Lingkungan Kawasan Cagar Budaya, Kawasan Pariwisata, Kawasan Sistem Perkotaan Nasional dan Kawasan Strategis Lainnya",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0047",
+    "nama": "Pembangunan Underpass",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0039",
+    "nama": "Rehabilitasi Jembatan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 300300000
+  },
+  {
+    "kode": "1.03.10.2.01.0040",
+    "nama": "Pembangunan Jembatan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 1999950000
+  },
+  {
+    "kode": "1.03.10.2.01.0028",
+    "nama": "Pengelolaan Leger Jalan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0032",
+    "nama": "Pembangunan Jalan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 14946502000
+  },
+  {
+    "kode": "1.03.10.2.01.0037",
+    "nama": "Pelebaran Jalan Menuju Standar",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0041",
+    "nama": "Pelebaran Jalan Menambah Lajur",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0033",
+    "nama": "Rekonstruksi Jalan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 0
+  },
+  {
+    "kode": "1.03.10.2.01.0044",
+    "nama": "Rehabilitasi Jalan",
+    "bidang": "pekerjaan_umum",
+    "pagu": 199731090
+  },
+  {
+    "kode": "1.03.10.2.01.0029",
+    "nama": "Penyusunan Rencana, Kebijakan, dan Strategi Pengembangan Jaringan Jalan serta Perencanaan Teknis Penyelenggaraan Jalan dan Jembatan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0046",
+    "nama": "Pemeliharaan Rutin Jalan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0030",
+    "nama": "Pengawasan Penyelenggaraan Jalan Kewenangan Kabupaten/Kota dan Desa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0031",
+    "nama": "Penggantian Jembatan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0034",
+    "nama": "Pemeliharaan Berkala Jalan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0035",
+    "nama": "Pembangunan Flyover",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0036",
+    "nama": "Pemantauan dan Evaluasi Penyelenggaraan Jalan Kewenangan Kabupaten/Kota dan Desa",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0038",
+    "nama": "Pemeliharaan Rutin Jembatan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0042",
+    "nama": "Pemeliharaan Berkala Jembatan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0043",
+    "nama": "Survey Kondisi Jalan/Jembatan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0045",
+    "nama": "Pembangunan Terowongan/Tunnel",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.10.2.01.0048",
+    "nama": "Pelebaran Jembatan",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "x.xx.xx.x.xx.xxxx",
+    "nama": "Pembayaran cicilan pokok dan bunga atas Pinjaman Daerah",
+    "bidang": "pekerjaan_umum",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.01.0001",
+    "nama": "Pembangunan Rumah Sakit beserta Sarana dan Prasarana Pendukungnya",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.01.0002",
+    "nama": "Pembangunan Puskesmas",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.01.0003",
+    "nama": "Pembangunan Fasilitas Kesehatan Lainnya",
+    "bidang": "kesehatan",
+    "pagu": 1000000000
+  },
+  {
+    "kode": "1.02.02.2.01.0004",
+    "nama": "Pembangunan Rumah Dinas Tenaga Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.01.0022",
+    "nama": "Pengembangan Rumah Sakit",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.01.0006",
+    "nama": "Pengembangan Puskesmas",
+    "bidang": "kesehatan",
+    "pagu": 80000000
+  },
+  {
+    "kode": "1.02.02.2.01.0007",
+    "nama": "Pengembangan Fasilitas Kesehatan Lainnya",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.01.0008",
+    "nama": "Rehabilitasi dan Pemeliharaan Rumah Sakit",
+    "bidang": "kesehatan",
+    "pagu": 100076000
+  },
+  {
+    "kode": "1.02.02.2.01.0009",
+    "nama": "Rehabilitasi dan Pemeliharaan Puskesmas",
+    "bidang": "kesehatan",
+    "pagu": 800000000
+  },
+  {
+    "kode": "1.02.02.2.01.0010",
+    "nama": "Rehabilitasi dan Pemeliharaan Fasilitas Kesehatan Lainnya",
+    "bidang": "kesehatan",
+    "pagu": 0
+  },
+  {
+    "kode": "1.02.02.2.01.0011",
+    "nama": "Rehabilitasi dan Pemeliharaan Rumah Dinas Tenaga Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.01.0014",
+    "nama": "Pengadaan Alat Kesehatan/Alat Penunjang Medik Fasilitas Pelayanan Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": 1059691200
+  },
+  {
+    "kode": "1.02.02.2.01.0015",
+    "nama": "Pengadaan dan Pemeliharaan Alat Kalibrasi",
+    "bidang": "kesehatan",
+    "pagu": 220790000
+  },
+  {
+    "kode": "1.02.02.2.01.0023",
+    "nama": "Pengadaan Obat, Bahan Habis Pakai, Bahan Medis Habis Pakai,Vaksin, Makanan dan Minuman di Fasilitas Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": 2156951996
+  },
+  {
+    "kode": "1.02.02.2.01.0020",
+    "nama": "Pemeliharaan Rutin dan Berkala Alat Kesehatan/Alat Penunjang Medik Fasilitas Pelayanan Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": 210000000
+  },
+  {
+    "kode": "1.02.02.2.01.0026",
+    "nama": "Distribusi Alat Kesehatan, Obat, Bahan Medis Habis Pakai, Vaksin,  Makanan dan Minuman Fasilitas Kesehatan ",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0001",
+    "nama": "Pengelolaan Pelayanan Kesehatan Ibu Hamil",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0002",
+    "nama": "Pengelolaan Pelayanan Kesehatan Ibu Bersalin",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0003",
+    "nama": "Pengelolaan Pelayanan Kesehatan Bayi Baru Lahir",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0004",
+    "nama": "Pengelolaan Pelayanan Kesehatan Balita",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0005",
+    "nama": "Pengelolaan Pelayanan Kesehatan pada Usia Pendidikan Dasar",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0006",
+    "nama": "Pengelolaan Pelayanan Kesehatan pada Usia Produktif",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0007",
+    "nama": "Pengelolaan Pelayanan Kesehatan pada Usia Lanjut",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0008",
+    "nama": "Pengelolaan Pelayanan Kesehatan Penderita Hipertensi",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0009",
+    "nama": "Pengelolaan Pelayanan Kesehatan Penderita Diabetes Melitus",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0010",
+    "nama": "Pengelolaan Pelayanan Kesehatan Orang dengan Gangguan Jiwa Berat",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0011",
+    "nama": "Pengelolaan Pelayanan Kesehatan Orang Terduga Tuberkulosis",
+    "bidang": "kesehatan",
+    "pagu": 30100000
+  },
+  {
+    "kode": "1.02.02.2.02.0012",
+    "nama": "Pengelolaan Pelayanan Kesehatan Orang dengan Risiko Terinfeksi HIV",
+    "bidang": "kesehatan",
+    "pagu": 0
+  },
+  {
+    "kode": "1.02.02.2.02.0013",
+    "nama": "Pengelolaan Pelayanan Kesehatan bagi Penduduk pada Kondisi Kejadian Luar Biasa (KLB)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0014",
+    "nama": "Pengelolaan Pelayanan Kesehatan bagi Penduduk Terdampak Krisis Kesehatan Akibat Bencana dan/atau Berpotensi Bencana",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0015",
+    "nama": "Pengelolaan Pelayanan Kesehatan Gizi Masyarakat",
+    "bidang": "kesehatan",
+    "pagu": 312473000
+  },
+  {
+    "kode": "1.02.02.2.02.0016",
+    "nama": "Pengelolaan Pelayanan Kesehatan Kerja dan Olahraga",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0017",
+    "nama": "Pengelolaan Pelayanan Kesehatan Lingkungan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0018",
+    "nama": "Pengelolaan Pelayanan Promosi Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0019",
+    "nama": "Pengelolaan Pelayanan Kesehatan Tradisional, Akupuntur, Asuhan Mandiri, dan Tradisional Lainnya",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0020",
+    "nama": "Pengelolaan Surveilans Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0021",
+    "nama": "Pengelolaan Pelayanan Kesehatan Orang dengan Masalah Kesehatan Jiwa (ODMK)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0022",
+    "nama": "Pengelolaan Pelayanan Kesehatan Jiwa dan NAPZA",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0046",
+    "nama": "Pengelolaan Upaya Kesehatan Ibu dan Anak",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0024",
+    "nama": "Pengelolaan Upaya Pengurangan Risiko Krisis Kesehatan dan Pasca Krisis Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": 98352000
+  },
+  {
+    "kode": "1.02.02.2.02.0025",
+    "nama": "Pelayanan Kesehatan Penyakit Menular dan Tidak Menular",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0026",
+    "nama": "Pengelolaan Jaminan Kesehatan Masyarakat",
+    "bidang": "kesehatan",
+    "pagu": 5481129600
+  },
+  {
+    "kode": "1.02.02.2.02.0027",
+    "nama": "Deteksi Dini Penyalahgunaan NAPZA di Fasyankes dan Sekolah",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0028",
+    "nama": "Pengambilan dan Pengiriman Spesimen Penyakit Potensial KLB ke Laboratorium Rujukan/Nasional",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0029",
+    "nama": "Penyelenggaraan Kabupaten/Kota Sehat",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0030",
+    "nama": "Penyediaan Telemedicine di Fasilitas Pelayanan Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0032",
+    "nama": "Operasional Pelayanan Rumah Sakit",
+    "bidang": "kesehatan",
+    "pagu": 6219110000
+  },
+  {
+    "kode": "1.02.02.2.02.0033",
+    "nama": "Operasional Pelayanan Puskesmas",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0034",
+    "nama": "Operasional Pelayanan Fasilitas Kesehatan Lainnya",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0035",
+    "nama": "Pelaksanaan Akreditasi Fasilitas Kesehatan di Kabupaten/Kota",
+    "bidang": "kesehatan",
+    "pagu": 0
+  },
+  {
+    "kode": "1.02.02.2.02.0036",
+    "nama": "Investigasi Awal Kejadian Tidak Diharapkan (Kejadian Ikutan Pasca Imunisasi dan Pemberian Obat Massal)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0037",
+    "nama": "Pelaksanaan Kewaspadaan Dini dan Respon Wabah",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0038",
+    "nama": "Penyediaan dan Pengelolaan Sistem Penanganan Gawat Darurat Terpadu (SPGDT)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0040",
+    "nama": "Pengelolaan pelayanan kesehatan orang dengan Tuberkulosis",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0041",
+    "nama": "Pengelolaan pelayanan kesehatan orang dengan HIV (ODHIV)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0042",
+    "nama": "Pengelolaan pelayanan kesehatan Malaria",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.02.0043",
+    "nama": "Pengelolaan Kawasan tanpa rokok",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.03.0002",
+    "nama": "Pengelolaan Sistem Informasi Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": 5690700
+  },
+  {
+    "kode": "1.02.02.2.04.0001",
+    "nama": "Pengendalian dan Pengawasan serta Tindak Lanjut Pengawasan Perizinan Rumah Sakit Kelas C, D dan Fasilitas Pelayanan Kesehatan Lainnya",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.04.0002",
+    "nama": "Peningkatan Tata Kelola Rumah Sakit dan Fasilitas Pelayanan Kesehatan Tingkat Daerah Kabupaten/Kota",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.04.0003",
+    "nama": "Peningkatan Mutu Pelayanan Fasilitas Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.02.2.04.0004",
+    "nama": "Penyiapan Perumusan dan Pelaksanaan Pelayanan Kesehatan Rujukan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.03.2.01.0001",
+    "nama": "Pengendalian Perizinan Praktik Tenaga Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.03.2.01.0002",
+    "nama": "Pembinaan dan Pengawasan Tenaga Kesehatan serta Tindak Lanjut Perizinan Praktik Tenaga Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.03.2.02.0001",
+    "nama": "Perencanaan dan Distribusi serta Pemerataan Sumber Daya Manusia Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.03.2.02.0002",
+    "nama": "Pemenuhan Kebutuhan Sumber Daya Manusia Kesehatan Sesuai Standar",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.03.2.02.0003",
+    "nama": "Pembinaan dan Pengawasan Sumber Daya Manusia Kesehatan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.03.2.03.0001",
+    "nama": "Pengembangan Mutu dan Peningkatan Kompetensi Teknis Sumber Daya Manusia Kesehatan Tingkat Daerah Kabupaten/Kota",
+    "bidang": "kesehatan",
+    "pagu": 890000000
+  },
+  {
+    "kode": "1.02.04.2.01.0001",
+    "nama": "Pengendalian dan Pengawasan serta Tindak Lanjut Pengawasan Perizinan Apotek, Toko Obat, Toko Alat Kesehatan, dan Optikal, Usaha Mikro Obat Tradisional (UMOT)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.04.2.02.0001",
+    "nama": "Pengendalian dan Pengawasan serta Tindak Lanjut Pengawasan Sertifikat Produksi Alat Kesehatan Kelas 1 Tertentu dan PKRT Kelas 1 Tertentu Perusahaan Rumah Tangga",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.04.2.03.0001",
+    "nama": "Pengendalian dan Pengawasan serta Tindak Lanjut Pengawasan Sertifikat Produksi Pangan Industri Rumah Tangga dan Nomor P-IRT sebagai Izin Produksi, untuk Produk Makanan Minuman Tertentu yang Dapat Diproduksi oleh Industri Rumah Tangga",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.04.2.04.0001",
+    "nama": "Pengendalian dan Pengawasan serta Tindak Lanjut Pengawasan Penerbitan Sertifikat Laik Higiene Sanitasi Tempat Pengelolaan Makanan (TPM) antara lain Jasa Boga, Rumah Makan/Restoran dan Depot Air Minum (DAM)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.04.2.05.0001",
+    "nama": "Pengendalian dan Pengawasan serta Tindak Lanjut Penerbitan Stiker Pembinaan pada Makanan Jajanan dan Sentra Makanan Jajanan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.04.2.06.0001",
+    "nama": "Pemeriksaan Post Market pada Produk Makanan- Minuman Industri Rumah Tangga yang Beredar dan Pengawasan serta Tindak Lanjut Pengawasan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.05.2.01.0001",
+    "nama": "Peningkatan Upaya Promosi Kesehatan, Advokasi, Kemitraan dan Pemberdayaan Masyarakat",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.05.2.01.0002",
+    "nama": "Teknologi Tepat Guna (TTG) sesuai lokasl spesifik daerah dalam pengamanan kualitas air minum dan sanitasi aman",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.05.2.02.0001",
+    "nama": "Penyelenggaraan Promosi Kesehatan dan Gerakan Hidup Bersih dan Sehat",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.05.2.02.0002",
+    "nama": "Penumbuhan Kesadaran Keluarga dalam Peningkatan Derajat Kesehatan Keluarga dan Lingkungan dengan Menerapkan Perilaku Hidup Bersih dan Sehat",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.05.2.03.0001",
+    "nama": "Bimbingan Teknis dan Supervisi Pengembangan dan Pelaksanaan Upaya Kesehatan Bersumber Daya Masyarakat (UKBM)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.07.3.01.0002",
+    "nama": "Peningkatan Mutu Pelayanan Kesehatan Melalui Akreditasi puskesmas dan rumah sakit di Kabupaten/Kota",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.02.07.3.02.0001",
+    "nama": "Peningkatan Mutu fasilitas pelayanan kesehatan lain kabupaten/ kota",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0041",
+    "nama": "Penyusunan Rencana, Kebijakan, Strategi dan Teknis Sistem Pengelolaan Air Limbah Domestik (SPALD)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0025",
+    "nama": "Pembangunan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Perkotaan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0028",
+    "nama": "Peningkatan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Perkotaan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0027",
+    "nama": "Peningkatan Sistem Pengelolaan Air Limbah Domestik (SPALD) Terpusat Skala Permukiman Berbasis Masyarakat",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0039",
+    "nama": "Penyediaan Sub Sistem Pengolahan Air Limbah Domestik (SPALD) Setempat",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0040",
+    "nama": "Pembinaan dan Pemberdayaan Masyarakat dalam Pengembangan Sistem Pengelolaan Air Limbah Domestik (SPALD)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0038",
+    "nama": "Operasi dan Pemeliharaan Sistem Pengelolaan Air Limbah Domestik (SPALD)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0033",
+    "nama": "Penyediaan Jasa Penyedotan Lumpur Tinja",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.05.2.01.0037",
+    "nama": "Penyediaan Sarana Pengangkutan Lumpur Tinja",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.05.03.2.03.0001",
+    "nama": "Respon Cepat Kejadian Luar Biasa Penyakit/Wabah Zoonosis Prioritas",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.05.03.2.03.0010",
+    "nama": "Respon Cepat Bencana Non Alam Epidemi/Wabah Penyakit",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.06.04.2.02.0006",
+    "nama": "Penyediaan Perbekalan Kesehatan di Luar Panti",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.06.04.2.02.0013",
+    "nama": "Pemberian Layanan Rujukan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.06.06.2.01.0001",
+    "nama": "Penyediaan Makanan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.06.06.2.01.0002",
+    "nama": "Penyediaan Sandang",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.03.2.02.0002",
+    "nama": "Koordinasi dan Sinkronisasi Pelaksanaan Penyediaan Layanan Rujukan Lanjutan bagi Perempuan Korban Kekerasan Kewenangan Kabupaten/Kota",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.03.2.01.0001",
+    "nama": "Koordinasi, Sinkronisasi, dan Pelaksanaan Pencegahan Pencemaran Lingkungan Hidup Dilaksanakan Terhadap Media Tanah, Air, Udara, dan Laut",
+    "bidang": "kesehatan",
+    "pagu": 2599999700
+  },
+  {
+    "kode": "2.11.03.2.01.0002",
+    "nama": "Koordinasi, Sinkronisasi dan Pelaksanaan Pengendalian Emisi Gas Rumah Kaca, Mitigasi dan Adaptasi Perubahan Iklim",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.03.2.01.0015",
+    "nama": "Pengelolaan Laboratorium Lingkungan Hidup kabupaten/kota",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.03.2.02.0001",
+    "nama": "Pemberian Informasi Peringatan Pencemaran dan/atau Kerusakan Lingkungan Hidup pada Masyarakat",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.03.2.02.0002",
+    "nama": "Pengisolasian Pencemaran dan/atau Kerusakan Lingkungan Hidup",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.03.2.02.0003",
+    "nama": "Penghentian Pencemaran dan/atau Kerusakan Lingkungan Hidup",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.03.2.03.0001",
+    "nama": "Koordinasi dan Sinkronisasi Penghentian Sumber Pencemaran",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.03.2.03.0012",
+    "nama": "Koordinasi dan Sinkronisasi Pembersihan Unsur Pencemar di kabupaten/kota",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.05.2.01.0001",
+    "nama": "Fasilitasi Pemenuhan Komitmen Izin Penyimpanan sementara Limbah B3 Dilaksanakan Melalui Sistem Pelayanan Perizinan Berusaha Terintegrasi Secara Elektronik",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.05.2.01.0002",
+    "nama": "Verifikasi Lapangan untuk Memastikan Pemenuhan Persyaratan Administrasi dan Teknis Penyimpanan sementara Limbah B3",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.05.2.02.0001",
+    "nama": "Fasilitasi Pemenuhan Komitmen Izin Pengumpulan Limbah B3 Dilaksanakan Melalui Sistem Pelayanan Perizinan Berusaha Terintegrasi Secara Elektronik",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.05.2.02.0002",
+    "nama": "Koordinasi dan Sinkronisasi Pengelolaan Limbah B3 dengan Pemerintah Provinsi dalam rangka Pengangkutan, Pemanfaatan, Pengolahan, dan/atau Penimbunan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.02.2.02.0013",
+    "nama": "Pengolahan dan Pelaporan Data Pengendalian Lapangan dan Pelayanan KB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.02.2.02.0018",
+    "nama": "Pembinaan dan Pengawasan Pencatatan dan Pelaporan Program Bangga Kencana",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.01.0014",
+    "nama": "Advokasi Program Program Bangga Kencana kepada Stakeholders dan Mitra Kerja",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.01.0013",
+    "nama": "Komunikasi, Informasi dan Edukasi (KIE) Program Bangga Kencana Sesuai Kearifan Budaya Lokal",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.01.0012",
+    "nama": "Promosi dan KIE Program Bangga Kencana Melalui Media Massa Cetak dan Elektronik serta Media Luar Ruang",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.01.0011",
+    "nama": "Pelaksanaan Mekanisme Operasional Program Bangga Kencana melalui Rapat Koordinasi Kecamatan (Rakorcam), Rapat KoordinasDesa (Rakordes), dan MinLokakarya (Minilok)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.01.0008",
+    "nama": "Pengendalian Program KKBPK",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.01.0009",
+    "nama": "Penyediaan dan Distribusi Sarana KIE Program Bangga Kencana",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.01.0010",
+    "nama": "Pengelolaan Operasional dan Sarana di Balai Penyuluhan Bangga Kencana",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.02.0005",
+    "nama": "Pembinaan IMP dan Program Bangga Kencana di Lini Lapangan oleh PKB/PLKB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.02.0002",
+    "nama": "Penyediaan Sarana Pendukung Operasional PKB/PLKB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.02.0006",
+    "nama": "Fasilitasi Pelaksanaan Penyuluhan, Penggerakan, Pelayanan dan Pengembangan Program Bangga Kencana untuk Petugas Keluarga Berencana/Penyuluh Lapangan Keluarga Berencana (PKB/PLKB)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.02.0004",
+    "nama": "Penggerakan Kader Institusi Masyarakat Pedesaan (IMP)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0001",
+    "nama": "Pengendalian Pendistribusian Alat dan Obat Kontrasepsi dan Sarana Penunjang Pelayanan KB ke Fasilitas Kesehatan Termasuk Jaringan dan Jejaringnya",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0003",
+    "nama": "Peningkatan Kesertaan Penggunaan Metode Kontrasepsi Jangka Panjang (MKJP)",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0004",
+    "nama": "Penyediaan Dukungan Ayoman Komplikasi Berat dan Kegagalan Penggunaan MKJP",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0005",
+    "nama": "Penyusunan Rencana Kebutuhan Alat dan Obat Kontrasepsi (Alokon) dan Sarana Penunjang Pelayanan KB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0006",
+    "nama": "Penyediaan Sarana Penunjang Pelayanan KB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0007",
+    "nama": "Pembinaan Pasca Pelayanan bagi Peserta KB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0008",
+    "nama": "Pembinaan Pelayanan Keluarga Berencana dan Kesehatan Reproduksi di Fasilitas Kesehatan Termasuk Jaringan dan Jejaringnya",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0010",
+    "nama": "Peningkatan Kompetensi Tenaga Pelayanan Keluarga Berencana dan Kesehatan Reproduksi",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0011",
+    "nama": "Dukungan Operasional Pelayanan KB Bergerak",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0013",
+    "nama": "Peningkatan Kesertaan KB Pria",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0015",
+    "nama": "Peningkatan Kompetensi Pengelola dan Petugas Logistik Alat dan Obat Kontrasepsi serta Sarana Penunjang Pelayanan KB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.03.0016",
+    "nama": "Promosi dan Konseling KB Pasca Persalinan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.04.0001",
+    "nama": "Penguatan Peran Serta Organisasi Kemasyarakatan dan Mitra Kerja Lainnya dalam Pelaksanaan Pelayanan dan Pembinaan Kesertaan Ber-KB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.04.0002",
+    "nama": "Integrasi Pembangunan Lintas Sektor di Kampung KB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.03.2.04.0004",
+    "nama": "Pembinaan Terpadu Kampung KB",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "4.01.02.2.02.0001",
+    "nama": "Fasilitasi Pengelolaan Bina Mental Spiritual",
+    "bidang": "kesehatan",
+    "pagu": 1000000000
+  },
+  {
+    "kode": "7.01.03.2.05.0001",
+    "nama": "Pencegahan COVID-19 di Tingkat Desa dan Kelurahan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "7.01.03.2.05.0002",
+    "nama": "Penanganan COVID-19 di Tingkat Desa dan Kelurahan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "7.01.03.2.05.0003",
+    "nama": "Pembinaan Penanganan Covid-19 di Tingkat Desa dan Kelurahan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "7.01.03.2.05.0004",
+    "nama": "Pengadaan Pendukung Pelaksanaan Penanganan COVID-19 di Tingkat Desa dan Kelurahan",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "X.XX.01.2.02.0001",
+    "nama": "Penyediaan Gaji dan Tunjangan ASN",
+    "bidang": "kesehatan",
+    "pagu": 7560483500
+  },
+  {
+    "kode": "X.XX.01.2.11.0003",
+    "nama": "Pelaksanaan Medical Check Up Kepala Daerah dan Wakil Kepala Daerah",
+    "bidang": "kesehatan",
+    "pagu": 54200000
+  },
+  {
+    "kode": "X.XX.01.2.15.0003",
+    "nama": "Pelaksanaan Medical Check Up DPRD",
+    "bidang": "kesehatan",
+    "pagu": 522886000
+  },
+  {
+    "kode": "x.xx.xx.x.xx.xxxx",
+    "nama": "Pembayaran cicilan pokok dan bunga atas Pinjaman Daerah",
+    "bidang": "kesehatan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0001",
+    "nama": "Pembangunan Unit Sekolah Baru (USB)",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0047",
+    "nama": "Pembangunan Ruang Kelas Baru",
+    "bidang": "pendidikan",
+    "pagu": 450000000
+  },
+  {
+    "kode": "1.01.02.2.01.0003",
+    "nama": "Pembangunan Ruang Guru/Kepala Sekolah/TU",
+    "bidang": "pendidikan",
+    "pagu": 200000000
+  },
+  {
+    "kode": "1.01.02.2.01.0004",
+    "nama": "Pembangunan Ruang Unit Kesehatan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0005",
+    "nama": "Pembangunan Perpustakaan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0006",
+    "nama": "Pembangunan Sarana, Prasarana dan Utilitas Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 3588875400
+  },
+  {
+    "kode": "1.01.02.2.01.0007",
+    "nama": "Pembangunan Rumah Dinas Kepala Sekolah/Guru/Penjaga Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 240000000
+  },
+  {
+    "kode": "1.01.02.2.01.0051",
+    "nama": "Rehabilitasi Sedang/Berat Ruang Kelas Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 2325000000
+  },
+  {
+    "kode": "1.01.02.2.01.0009",
+    "nama": "Rehabilitasi Sedang/Berat Ruang Guru/Kepala Sekolah/TU",
+    "bidang": "pendidikan",
+    "pagu": 180000000
+  },
+  {
+    "kode": "1.01.02.2.01.0010",
+    "nama": "Rehabilitasi Sedang/Berat Ruang Unit Kesehatan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0011",
+    "nama": "Rehabilitasi Sedang/Berat Perpustakaan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0048",
+    "nama": "Rehabilitasi Sedang/Berat Sarana, Prasarana dan Utilitas Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0013",
+    "nama": "Rehabilitasi Sedang/Berat Rumah Dinas Kepala Sekolah/Guru/Penjaga Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 250000000
+  },
+  {
+    "kode": "1.01.02.2.01.0014",
+    "nama": "Pengadaan Mebel Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 280833000
+  },
+  {
+    "kode": "1.01.02.2.01.0015",
+    "nama": "Pengadaan Alat Rumah Tangga Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0016",
+    "nama": "Pengadaan Perlengkapan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 195000000
+  },
+  {
+    "kode": "1.01.02.2.01.0046",
+    "nama": "Pengadaan Perlengkapan Peserta Didik",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0019",
+    "nama": "Pemeliharaan Rutin Sarana, Prasarana dan Utilitas Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["1.01.02.2.01.0021", "1.01.02.2.01.0054"],
+    "nama": "Penyediaan Biaya Personil Peserta Didik Sekolah Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0022",
+    "nama": "Pengadaan Alat Praktik dan Peraga Siswa",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0050",
+    "nama": "Penyelenggaraan Proses Belajar Bagi Peserta Didik",
+    "bidang": "pendidikan",
+    "pagu": 214645800
+  },
+  {
+    "kode": "1.01.02.2.01.0025",
+    "nama": "Pembinaan Minat, Bakat dan Kreativitas Siswa",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0026",
+    "nama": "Penyediaan Pendidik dan Tenaga Kependidikan bagi Satuan Pendidikan Sekolah Dasar",
+    "bidang": "pendidikan",
+    "pagu": 0
+  },
+  {
+    "kode": "1.01.02.2.01.0027",
+    "nama": "Pengembangan Karir Pendidik dan Tenaga Kependidikan Pada Satuan Pendidikan Sekolah Dasar",
+    "bidang": "pendidikan",
+    "pagu": 474692000
+  },
+  {
+    "kode": "1.01.02.2.01.0028",
+    "nama": "Pembinaan Kelembagaan dan Manajemen Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 490347500
+  },
+  {
+    "kode": "1.01.02.2.01.0029",
+    "nama": "Pengelolaan Dana BOS Sekolah Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0030",
+    "nama": "Peningkatan Kapasitas Pengelolaan Dana BOS Sekolah Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0031",
+    "nama": "Pembangunan Laboratorium Sekolah Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0032",
+    "nama": "Rehabilitasi Sedang/Berat Laboratorium Sekolah Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0035",
+    "nama": "Pembinaan Penggunaan Teknologi, Informasi dan Komunikasi (TIK) untuk Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0036",
+    "nama": "Pengembangan konten digital untuk pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0037",
+    "nama": "Pelatihan Penggunaan Aplikasi Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0038",
+    "nama": "Koordinasi, Perencanaan, Supervisi dan Evaluasi Layanan di Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0039",
+    "nama": "Sosialisasi dan Advokasi Kebijakan Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.01.0049",
+    "nama": "Bimbingan Teknis, Pelatihan, dan/atau Magang/PKL untuk Peningkatan Kapasitas Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0001",
+    "nama": "Pembangunan Unit Sekolah Baru (USB)",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0003",
+    "nama": "Pembangunan Ruang Guru/Kepala Sekolah/TU",
+    "bidang": "pendidikan",
+    "pagu": 200000000
+  },
+  {
+    "kode": "1.01.02.2.02.0004",
+    "nama": "Pembangunan Ruang Unit Kesehatan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0005",
+    "nama": "Pembangunan Perpustakaan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0006",
+    "nama": "Pembangunan Laboratorium",
+    "bidang": "pendidikan",
+    "pagu": 89370000
+  },
+  {
+    "kode": "1.01.02.2.02.0007",
+    "nama": "Pembangunan Ruang Serba Guna/Aula",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0008",
+    "nama": "Pembangunan Asrama Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0009",
+    "nama": "Pembangunan Rumah Dinas Kepala Sekolah/Guru/Penjaga Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 50000000
+  },
+  {
+    "kode": "1.01.02.2.02.0010",
+    "nama": "Pembangunan Fasilitas Parkir",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0011",
+    "nama": "Pembangunan Kantin Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0012",
+    "nama": "Pembangunan Sarana, Prasarana dan Utilitas Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 1970749500
+  },
+  {
+    "kode": "1.01.02.2.02.0014",
+    "nama": "Rehabilitasi Sedang/Berat Ruang Kelas Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 400000000
+  },
+  {
+    "kode": "1.01.02.2.02.0016",
+    "nama": "Rehabilitasi Sedang/Berat Ruang Unit Kesehatan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0017",
+    "nama": "Rehabilitasi Sedang/Berat Perpustakaan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0018",
+    "nama": "Rehabilitasi Sedang/Berat Laboratorium",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0019",
+    "nama": "Rehabilitasi Sedang/Berat Ruang Serba Guna/Aula",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0021",
+    "nama": "Rehabilitasi Sedang/Berat Rumah Dinas Kepala Sekolah/Guru/Penjaga Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0022",
+    "nama": "Rehabilitasi Sedang/Berat Fasilitas Parkir",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0024",
+    "nama": "Rehabilitasi Sedang/Berat Sarana, Prasarana dan Utilitas Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 237500000
+  },
+  {
+    "kode": "1.01.02.2.02.0025",
+    "nama": "Pengadaan Mebel Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 300833000
+  },
+  {
+    "kode": "1.01.02.2.02.0026",
+    "nama": "Pengadaan Alat Rumah Tangga Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0027",
+    "nama": "Pengadaan Perlengkapan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 120000000
+  },
+  {
+    "kode": "1.01.02.2.02.0030",
+    "nama": "Pemeliharaan Rutin Sarana, Prasarana dan Utilitas Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0032",
+    "nama": "Penyediaan Biaya Personil Peserta Didik Sekolah Menengah Pertama",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0034",
+    "nama": "Perlengkapan Belajar Peserta Didik",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["1.01.02.2.02.0035", "1.01.02.2.02.0067"],
+    "nama": "Pengadaan Alat Praktik dan Peraga Siswa",
+    "bidang": "pendidikan",
+    "pagu": 195000000
+  },
+  {
+    "kode": "1.01.02.2.02.0038",
+    "nama": "Pembinaan Minat, Bakat dan Kreativitas Siswa",
+    "bidang": "pendidikan",
+    "pagu": 210000600
+  },
+  {
+    "kode": "1.01.02.2.02.0039",
+    "nama": "Penyediaan Pendidik dan Tenaga Kependidikan bagi Satuan Pendidikan Sekolah Menengah Pertama",
+    "bidang": "pendidikan",
+    "pagu": 0
+  },
+  {
+    "kode": "1.01.02.2.02.0040",
+    "nama": "Pengembangan Karir Pendidik dan Tenaga Kependidikan Pada Satuan Pendidikan Sekolah Menengah Pertama",
+    "bidang": "pendidikan",
+    "pagu": 576642800
+  },
+  {
+    "kode": "1.01.02.2.02.0041",
+    "nama": "Pembinaan Kelembagaan dan Manajemen Sekolah",
+    "bidang": "pendidikan",
+    "pagu": 4431948200
+  },
+  {
+    "kode": "1.01.02.2.02.0042",
+    "nama": "Pengelolaan Dana BOS Sekolah Menengah Pertama",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0043",
+    "nama": "Peningkatan Kapasitas Pengelolaan Dana BOS Sekolah Menengah Pertama",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0044",
+    "nama": "Rehabilitasi Sedang/Berat Ruang TU",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0045",
+    "nama": "Rehabilitasi Sedang/Berat Ruang Kepala Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0048",
+    "nama": "Pembinaan Penggunaan Teknologi, Informasi dan Komunikasi (TIK) untuk Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0049",
+    "nama": "Pengembangan konten digital untuk pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0050",
+    "nama": "Pelatihan Penggunaan Aplikasi Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0051",
+    "nama": "Koordinasi, Perencanaan, Supervisi dan Evaluasi Layanan di Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0052",
+    "nama": "Sosialisasi dan Advokasi Kebijakan Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0058",
+    "nama": "Penyelenggaraan Proses Belajar bagi Peserta Didik",
+    "bidang": "pendidikan",
+    "pagu": 172327300
+  },
+  {
+    "kode": "1.01.02.2.02.0059",
+    "nama": "Pembangunan Ruang Kelas Baru",
+    "bidang": "pendidikan",
+    "pagu": 400000000
+  },
+  {
+    "kode": "1.01.02.2.02.0060",
+    "nama": "Bimbingan Teknis, Pelatihan, dan/atau Magang/PKL untuk Peningkatan Kapasitas Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0062",
+    "nama": "Pengadaan Perlengkapan Peserta Didik",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0064",
+    "nama": "Rehabilitasi Sedang/Berat Ruang Guru/Kepala Sekolah/TU",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.02.0061",
+    "nama": "Perlengkapan Dasar Buku Teks dan Non Teks Peserta Didik",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0002",
+    "nama": "Pembangunan Sarana, Prasarana dan Utilitas PAUD",
+    "bidang": "pendidikan",
+    "pagu": 300000000
+  },
+  {
+    "kode": ["1.01.02.2.03.0003", "1.01.02.2.03.0049", "1.01.02.2.03.0051"],
+    "nama": "Rehabilitasi Sedang/Berat Gedung/Ruang Kelas/Ruang Guru PAUD",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["1.01.02.2.03.0004", "1.01.02.2.03.0045"],
+    "nama": "Rehabilitasi Sedang/Berat Pembangunan Sarana, Prasarana dan Utilitas PAUD",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0007",
+    "nama": "Pengadaan Mebel PAUD",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0008",
+    "nama": "Pengadaan Alat Rumah Tangga PAUD",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0009",
+    "nama": "Pengadaan Perlengkapan PAUD",
+    "bidang": "pendidikan",
+    "pagu": 44880000
+  },
+  {
+    "kode": "1.01.02.2.03.0011",
+    "nama": "Penyediaan Biaya Personil Peserta Didik PAUD",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["1.01.02.2.03.0012", "1.01.02.2.03.0046"],
+    "nama": "Pengadaan Alat Praktik dan Peraga Siswa PAUD",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["1.01.02.2.03.0013", "1.01.02.2.03.0047"],
+    "nama": "Penyelenggaraan Proses Belajar PAUD",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0015",
+    "nama": "Penyediaan Pendidik dan Tenaga Kependidikan bagi Satuan PAUD",
+    "bidang": "pendidikan",
+    "pagu": 0
+  },
+  {
+    "kode": "1.01.02.2.03.0016",
+    "nama": "Pengembangan Karir Pendidik dan Tenaga Kependidikan pada Satuan Pendidikan PAUD",
+    "bidang": "pendidikan",
+    "pagu": 403947900
+  },
+  {
+    "kode": "1.01.02.2.03.0017",
+    "nama": "Pembinaan Kelembagaan dan Manajemen PAUD",
+    "bidang": "pendidikan",
+    "pagu": 300000000
+  },
+  {
+    "kode": "1.01.02.2.03.0018",
+    "nama": "Pengelolaan Dana BOP PAUD",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0019",
+    "nama": "Peningkatan Kapasitas Pengelolaan Dana BOP PAUD",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0022",
+    "nama": "Pembinaan Penggunaan Teknologi, Informasi dan Komunikasi (TIK) untuk Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0023",
+    "nama": "Pengembangan konten digital untuk pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0024",
+    "nama": "Pelatihan Penggunaan Aplikasi Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0025",
+    "nama": "Koordinasi, Perencanaan, Supervisi dan Evaluasi Layanan di Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": 98200000
+  },
+  {
+    "kode": "1.01.02.2.03.0026",
+    "nama": "Sosialisasi dan Advokasi Kebijakan Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0028",
+    "nama": "Pembangunan Ruang Guru/Kepala Sekolah/TU",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0039",
+    "nama": "Bimbingan Teknis, Pelatihan, dan/atau Magang/PKL untuk Peningkatan Kapasitas Bidang Pendidikan ",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0030",
+    "nama": "Pembangunan Ruang Kelas Baru",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0041",
+    "nama": "Pengadaan Perlengkapan Peserta Didik",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.03.0042",
+    "nama": "Pemeliharaan Rutin Sarana, Prasarana dan Utilitas Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0001",
+    "nama": "Pembangunan Gedung/Ruang Kelas/Ruang Guru Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0050",
+    "nama": "Rehabilitasi Sedang/Berat Gedung/Ruang Kelas/Ruang Guru Pendidikan Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0041",
+    "nama": "Rehabilitasi Sedang/Berat Pembangunan Sarana, Prasarana dan Utilitas Sekolah Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0049",
+    "nama": "Pemeliharaan Rutin Sarana, Prasarana dan Utilitas Sekolah Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0045",
+    "nama": "Pengadaan Alat Rumah Tangga Pendidikan Nonformal/ Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0010",
+    "nama": "Penyediaan Biaya Personil Peserta Didik Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0011",
+    "nama": "Pengadaan Alat Praktik dan Peraga Siswa Nonformal / Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0014",
+    "nama": "Penyediaan Pendidik dan Tenaga Kependidikan bagi Satuan Pendidikan Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0015",
+    "nama": "Pengembangan Karir Pendidik dan Tenaga Kependidikan Pada Satuan Pendidikan Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0016",
+    "nama": "Pembinaan Kelembagaan dan Manajemen Sekolah Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0017",
+    "nama": "Pengelolaan Dana BOP Sekolah Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0018",
+    "nama": "Peningkatan Kapasitas Pengelolaan Dana BOP Sekolah Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0047",
+    "nama": "Pembangunan Laboratorium",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0043",
+    "nama": "Rehabilitasi Sedang/Berat Laboratorium",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0021",
+    "nama": "Pemeliharaan Mebel Pendidikan Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0024",
+    "nama": "Pembinaan Penggunaan Teknologi, Informasi dan Komunikasi (TIK) untuk Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0025",
+    "nama": "Pengembangan konten digital untuk pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0026",
+    "nama": "Pelatihan Penggunaan Aplikasi Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0027",
+    "nama": "Koordinasi, Perencanaan, Supervisi dan Evaluasi Layanan di Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0028",
+    "nama": "Sosialisasi dan Advokasi Kebijakan Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0042",
+    "nama": "Bimbingan Teknis, Pelatihan, dan/atau Magang/PKL untuk Peningkatan Kapasitas Bidang Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0046",
+    "nama": "Penyelenggaraan Proses Belajar bagi Peserta Didik",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0040",
+    "nama": "Pengadaan Perlengkapan Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.02.2.04.0048",
+    "nama": "Pengadaan Mebel Sekolah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.01.0002",
+    "nama": "Penyusunan Silabus Muatan Lokal Pendidikan Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.01.0003",
+    "nama": "Penyediaan Buku Teks Pelajaran Muatan Lokal Pendidikan Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.01.0004",
+    "nama": "Pelatihan Penyusunan Kurikulum Muatan Lokal Pendidikan Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.01.0005",
+    "nama": "Pelaksanaan penilaian/penelaahan buku teks muatan lokal Pendidikan Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.01.0006",
+    "nama": "Penyusunan model-model pembelajaran inovatif Pendidikan Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.01.0007",
+    "nama": "Penyusunan Kompetensi Dasar/Capaian Pembelajaran Muatan Lokal Pendidikan Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.02.0002",
+    "nama": "Penyusunan Silabus Muatan Lokal Pendidikan Anak Usia Dini dan Pendidikan Nonformal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.02.0003",
+    "nama": "Penyediaan Buku Teks Pelajaran Muatan Lokal Pendidikan Anak Usia Dini dan Pendidikan Nonformal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.02.0004",
+    "nama": "Pelaksanaan penilaian/penelaahan buku teks muatan lokal Pendidikan Anak Usia Dini dan Pendidikan Nonformal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.02.0005",
+    "nama": "Penyusunan model-model pembelajaran inovatif Pendidikan Anak Usia Dini dan Pendidikan Nonformal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.03.2.02.0006",
+    "nama": "Penyusunan Kompetensi Dasar/Capaian Pembelajaran Muatan Lokal Pendidikan Anak Usia Dini dan Pendidikan Nonformal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.04.2.01.0001",
+    "nama": "Perhitungan dan Pemetaan Pendidik dan Tenaga Kependidikan Satuan Pendidikan Dasar, PAUD, dan Pendidikan Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.04.2.01.0002",
+    "nama": "Penataan Pendistribusian Pendidik dan Tenaga Kependidikan bagi Satuan Pendidikan Dasar, PAUD, dan Pendidikan Nonformal/Kesetaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.05.2.01.0001",
+    "nama": "Penilaian Kelayakan Usul Perizinan Pendidikan Dasar yang Diselenggarakan oleh Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.05.2.01.0002",
+    "nama": "Pengendalian dan Pengawasan Perizinan Pendidikan Dasar yang Diselenggarakan oleh Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.05.2.02.0001",
+    "nama": "Penilaian Kelayakan Usul Perizinan PAUD dan Pendidikan Nonformal yang Diselenggarakan oleh Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.05.2.02.0003",
+    "nama": "Pembinaan PAUD dan Pendidikan Nonformal yang Diselenggarakan oleh Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.05.2.02.0002",
+    "nama": "Pengendalian dan Pengawasan Perizinan PAUD dan Pendidikan Nonformal yang Diselenggarakan oleh Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.06.2.01.0001",
+    "nama": "Penyusunan Kamus Bahasa Daerah Kabupaten / Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.06.2.01.0002",
+    "nama": "Vitalitas, Konservasi dan Revitalisasi Bahasa dan Sastra Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.06.2.01.0003",
+    "nama": "Publikasi Bahasa dan Sastra Daerah Kabupaten / Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.06.2.01.0004",
+    "nama": "Penghargaan Tokoh Kebahasaan dan Kesastraan Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.06.2.01.0005",
+    "nama": "Penyediaan dan Pendistribusian Buku Cerita Rakyat Daerah Penunjang Literasi Kabupaten / Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.06.2.01.0006",
+    "nama": "Peningkatan Apresiasi Siswa Terhadap Bahasa dan Sastra Daerah Kewenangan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.06.2.01.0007",
+    "nama": "Penyusunan Modul dan Bahan Ajar Bahasa Daerah Kewenangan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0001",
+    "nama": "Pembangunan Sarana dan Prasarana Dayah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0002",
+    "nama": "Rehabilitasi Sarana dan Prasarana Dayah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0003",
+    "nama": "Peningkatan Mutu Pendidik dan Tenaga Kependidikan Dayah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0004",
+    "nama": "Pemberdayaan dan Pendidikan Santri",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0005",
+    "nama": "Pembinaan Manajemen Dayah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0006",
+    "nama": "Penelitian dan Pengembangan Dayah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0007",
+    "nama": "Peningkatan Kualitas dan Pengembangan Kelembagaan Dayah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0008",
+    "nama": "Pengadaan Kitab/Buku Pendidikan Dayah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0009",
+    "nama": "Pembangunan dan Rehabilitasi Tempat Ibadah Dayah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0010",
+    "nama": "Koordinasi dan Sinkronisasi Pelaksanaan Kependidikan Dayah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0011",
+    "nama": "Pelaksanaan Akreditasi Pendidikan Dayah/Pesantren",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0012",
+    "nama": "Fasilitasi dan Pengawasan Penyelenggaraan Pendidikan Dayah/Pesantren dan Balai Pengajian",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0013",
+    "nama": "Pemberian Bantuan Pembiayaan untuk Dayah Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0014",
+    "nama": "Fasilitasi Penyusunan Kurikulum Dayah Salafiah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0015",
+    "nama": "Penyediaan Biaya Penyelenggaraan Proses Evaluasi Hasil Belajar Peserta Didik pada Dayah yang Berskala Provinsi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.07.7.01.0016",
+    "nama": "Supervisi dan Fasilitasi Satuan Pendidikan Dayah/Pesantren untuk Pengendalian Mutu Pendidikan Aceh",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.01.0001",
+    "nama": "Penetapan Standar Pendidikan Aceh",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.01.0002",
+    "nama": "Penyelenggaraan Sistem Informasi Manajemen Pendidikan Aceh",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.02.0001",
+    "nama": "Pengelolaan TDBH Migas untuk Membiayai Program dan Kegiatan Pembangunan Pendidikan Aceh",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.02.0002",
+    "nama": "Pengelolaan Dana Otsus untuk Membiayai Program dan Kegiatan Pembangunan Pendidikan Alokasi Pemerintah Aceh",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.02.0003",
+    "nama": "Pembiayaan Pendidikan Formal, dan Pendidikan Nonformal bagi Satuan Pendidikan yang Diselenggarakan oleh Pemerintah Aceh",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.02.0004",
+    "nama": "Pemberian Bantuan Pembiayaan untuk Madrasah, dan Satuan Pendidikan yang Diselenggarakan oleh Masyarakat Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.03.0001",
+    "nama": "Penyusunan Kurikulum Aceh yang Islami untuk Jenjang Pendidikan Dasar dan Pendidikan Menengah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.03.0002",
+    "nama": "Pengawasan Kurikulum Pendidikan Agama pada Sekolah Umum dan Madrasah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.03.0003",
+    "nama": "Implementasi Kurikulum Aceh yang Islami",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.04.0001",
+    "nama": "Peningkatan Mutu Pendidik dan Tenaga Kependidikan pada Dayah Salafiah dan Diniyah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.04.0002",
+    "nama": "Peningkatan Kesejahteraan, Memberikan Penghargaan dan Perlindungan kepada Pendidik dan Tenaga Kependidikan pada Setiap Satuan Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.05.0001",
+    "nama": "Penyediaan Biaya Penyelenggaraan Proses Evaluasi Hasil Belajar Peserta Didik pada Sekolah/Madrasah dan Dayah yang Berskala Provinsi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.05.0002",
+    "nama": "Supervisi dan Fasilitasi Satuan Pendidikan Dasar dan Pendidikan Menengah untuk Pengendalian Mutu Pendidikan Aceh",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.05.0003",
+    "nama": "Evaluasi Pencapaian Standar Pendidikan Aceh pada Setiap Satuan Pendidikan di Aceh",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.01.08.7.05.0004",
+    "nama": "Penilaian Pencapaian Standar Pendidikan Aceh dan Standar Pelayanan Minimal pada Pendidikan Menengah dan Pendidikan Khusus",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0015",
+    "nama": "Identifikasi, Penetapan, Penyelenggaraan Bangunan Gedung Cagar Budaya yang Dilestarikan untuk Kepentingan Strategis Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.03.08.2.01.0016",
+    "nama": "Pemberian Kompensasi, Insentif dan Disinsentif kepada Pemilik, Pengguna, dan/atau Pengelola Bangunan Gedung Cagar Budaya untuk Kepentingan Strategis Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.05.02.7.04.0011",
+    "nama": "Koordinasi dengan Organisasi Masyarakat, Organisasi Kepemudaan dan Lembaga Swadaya Masyarakat di Bidang Pembinaan dan Pengawasan Qanun Syariat Islam",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["1.05.03.2.02.0016", "1.05.03.2.02.0028"],
+    "nama": "Pelatihan Pencegahan dan Mitigasi Bencana Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 400000368
+  },
+  {
+    "kode": "1.05.04.2.04.0001",
+    "nama": "Pemberdayaan Masyarakat dalam Pencegahan dan Penanggulangan Kebakaran Melalui Sosialisasi dan Edukasi Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": 700000000
+  },
+  {
+    "kode": "1.06.02.2.01.0002",
+    "nama": "Peningkatan Kapasitas dan Pendampingan KAT",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "1.06.04.2.01.0005",
+    "nama": "Pemberian Bimbingan Fisik, Mental, Spiritual, dan Sosial",
+    "bidang": "pendidikan",
+    "pagu": 36000000
+  },
+  {
+    "kode": "1.06.04.2.01.0006",
+    "nama": "Pemberian Bimbingan Sosial kepada Keluarga Penyandang Disabilitas Terlantar, Anak Terlantar, Lanjut Usia Terlantar, serta Gelandangan Pengemis dan Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": 54000100
+  },
+  {
+    "kode": "1.06.04.2.01.0008",
+    "nama": "Pemberian Akses ke Layanan Pendidikan dan Kesehatan Dasar",
+    "bidang": "pendidikan",
+    "pagu": 950399400
+  },
+  {
+    "kode": "1.06.04.2.02.0007",
+    "nama": "Pemberian Bimbingan Fisik, Mental, Spiritual, dan Sosial",
+    "bidang": "pendidikan",
+    "pagu": 29999600
+  },
+  {
+    "kode": "1.06.04.2.02.0008",
+    "nama": "Pemberian Bimbingan Sosial kepada Keluarga Penyandang Masalah Kesejahteraan Sosial (PMKS) Lainnya Bukan Korban HIV/AIDS dan NAPZA",
+    "bidang": "pendidikan",
+    "pagu": 50000000
+  },
+  {
+    "kode": "1.06.04.2.02.0010",
+    "nama": "Pemberian Akses ke Layanan Pendidikan dan Kesehatan Dasar",
+    "bidang": "pendidikan",
+    "pagu": 30000000
+  },
+  {
+    "kode": "2.07.03.2.01.0001",
+    "nama": "Proses Pelaksanaan Pendidikan dan Pelatihan Keterampilan bagi Pencari Kerja berdasarkan Klaster Kompetensi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.07.03.2.01.0003",
+    "nama": "Pengadaan Sarana Pelatihan Kerja Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.07.03.2.02.0001",
+    "nama": "Pembinaan Lembaga Pelatihan Kerja Swasta",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.02.2.02.0002",
+    "nama": "Advokasi Kebijakan dan Pendampingan Peningkatan Partisipasi Perempuan dan Politik, Hukum, Sosial dan Ekonomi",
+    "bidang": "pendidikan",
+    "pagu": 300000000
+  },
+  {
+    "kode": "2.08.02.2.03.0001",
+    "nama": "Advokasi Kebijakan dan Pendampingan kepada Lembaga Penyedia Layanan Pemberdayaan Perempuan Kewenangan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.02.2.03.0002",
+    "nama": "Peningkatan Kapasitas Sumber Daya Lembaga Penyedia Layanan Pemberdayaan Perempuan Kewenangan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.02.2.03.0003",
+    "nama": "Pengembangan Komunikasi, Informasi dan Edukasi (KIE) Pemberdayaan Perempuan Kewenangan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.03.2.01.0002",
+    "nama": "Advokasi Kebijakan dan Pendampingan Layanan Perlindungan Perempuan Kewenangan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.04.2.01.0001",
+    "nama": "Advokasi Kebijakan dan Pendampingan untuk Mewujudkan KG dan Perlindungan Anak Kewenangan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.04.2.01.0003",
+    "nama": "Pengembangan Kegiatan Masyarakat untuk Peningkatan Kualitas Keluarga Kewenangan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.04.2.02.0001",
+    "nama": "Advokasi Kebijakan dan Pendampingan Pengembangan Lembaga Penyedia Layanan Peningkatan Kualitas Keluarga Tingkat Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.04.2.02.0002",
+    "nama": "Peningkatan Kapasitas Sumber Daya Lembaga Penyedia Layanan Peningkatan Kualitas Keluarga Tingkat Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.06.2.01.0001",
+    "nama": "Advokasi Kebijakan dan Pendampingan Pemenuhan Hak Anak pada Lembaga Pemerintah, Non Pemerintah, Media dan Dunia Usaha Kewenangan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.08.07.2.01.0004",
+    "nama": "Advokasi dan pendampingan Perangkat Daerah dalam pelaksanaan kebijakan /program/ kegiatan pencegahan KTA",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.10.14.7.01.0001",
+    "nama": "Pembinaan Kerja Sama Pendidikan Pertanahan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.08.2.01.0005",
+    "nama": "Peningkatan Kapasitas dan Kompetensi Sumber Daya Manusia Bidang Lingkungan hidup untul Lembaga pendidikan formal/lembagamasyarakat/komunitas/kelompok masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.08.2.01.0002",
+    "nama": "Pendampingan Gerakan Peduli Lingkungan Hidup",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.11.08.2.01.0003",
+    "nama": "Penyelenggaraan Penyuluhan dan Kampanye Lingkungan Hidup",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.12.03.2.03.0004",
+    "nama": "Bimbingan Teknis Terkait Pencatatan Sipil",
+    "bidang": "pendidikan",
+    "pagu": 499999520
+  },
+  {
+    "kode": "2.13.05.2.01.0003",
+    "nama": "Peningkatan Kapasitas Kelembagaan Lembaga Kemasyarakatan Desa/Kelurahan (RT, RW, PKK, Posyandu, LPM, dan Karang Taruna), Lembaga Adat Desa/Kelurahan dan Masyarakat Hukum Adat",
+    "bidang": "pendidikan",
+    "pagu": 899999900
+  },
+  {
+    "kode": "2.14.02.2.01.0021",
+    "nama": "Penguatan Kerja Sama Pelaksanaan Pendidikan Kependudukan Jalur Pendidikan Formal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.02.2.01.0018",
+    "nama": "Penguatan Kerja Sama Pelaksanaan Pendidikan Kependudukan Jalur Pendidikan Nonformal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.02.2.01.0007",
+    "nama": "Penyediaan dan Pengembangan Materi Pendidikan Kependudukan Jalur Pendidikan Formal Sesuai Isu Lokal Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.02.2.01.0008",
+    "nama": "Penyediaan dan Pengembangan Materi Pendidikan Kependudukan Jalur Pendidikan Nonformal Sesuai Isu Lokal Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.02.2.01.0009",
+    "nama": "Advokasi, Sosialisasi dan Fasilitasi Pelaksanaan Pendidikan Kependudukan Jalur Formal di Satuan Pendidikan Jenjang SD/MI dan SLTP/MTS, Jalur Nonformal dan Informal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.02.2.01.0019",
+    "nama": "Implementasi Pendidikan Kependudukan Jalur Pendidikan Formal dan Nonformal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.14.02.2.01.0016",
+    "nama": "Implementasi Pendidikan Kependudukan Jalur Informal di Kelompok Kegiatan Masyarakat Binaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.02.2.01.0001", "2.19.02.2.01.0015"],
+    "nama": "Koordinasi, Sinkronisasi dan Penyelenggaraan Peningkatan Kapasitas Daya Saing Pemuda Pelopor",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.02.2.01.0002", "2.19.02.2.01.0011"],
+    "nama": "Koordinasi, Sinkronisasi dan Penyelenggaraan Peningkatan Kapasitas Daya Saing Wira Usaha Pemula",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.02.2.01.0003",
+    "nama": "Koordinasi, Sinkronisasi dan Penyelenggaraan Peningkatan Kapasitas Daya Saing Pemuda Kader Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.02.2.01.0004", "2.19.02.2.01.0014"],
+    "nama": "Pemenuhan Hak Setiap Pemuda Melalui Perlindungan Pemuda, Advokasi, Akses Pengembangan Diri, Penggunaan Prasarana dan Sarana Tanpa Diskriminatif, Partisipasi Pemuda dalam Proses Perencanaan, Pelaksanaan Evaluasi dan Pengambilan Keputusan Program Strategis Kepemudaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.02.2.01.0005", "2.19.02.2.01.0010"],
+    "nama": "Pelaksanaan Koordinasi Strategis Lintas Sektor Penyelenggaraan Pelayanan Kepemudaan Melalui Implementasi Rencana Aksi Daerah/RAD Tingkat Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.02.2.01.0006", "2.19.02.2.01.0016"],
+    "nama": "Perencanaan, Pengadaan, Pemanfaatan, Pemeliharaan, dan Pengawasan Prasarana dan Sarana Kepemudaan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.02.2.01.0007", "2.19.02.2.01.0012"],
+    "nama": "Pemberian Penghargaan Pemuda dan Organisasi Pemuda yang Berjasa dan/atau Berprestasi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.02.2.01.0008", "2.19.02.2.01.0013"],
+    "nama": "Peningkatan Kepemimpinan, Kepeloporan dan Kesukarelawanan Pemuda",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.02.2.02.0002", "2.19.02.2.02.0003"],
+    "nama": "Peningkatan Kapasitas Pemuda dan Organisasi Kepemudaan Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 2162078900
+  },
+  {
+    "kode": ["2.19.02.2.02.0001", "2.19.02.2.02.0004"],
+    "nama": "Koordinasi, Sinkronisasi dan Pelaksanaan Pemberdayaan Pemuda atau Organisasi Kepemudaan Melalui Kemitraan dengan Dunia Usaha",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.03.2.01.0001",
+    "nama": "Koordinasi, Sinkronisasi dan Pelaksanaan Pembentukan dan Pengembangan Pusat Pembinaan dan Pelatihan Olahraga serta Sekolah Olahraga yang Diselenggarakan oleh Masyarakat dan Dunia Usaha",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.01.0002", "2.19.03.2.01.0006"],
+    "nama": "Koordinasi, Sinkronisasi dan Pelaksanaan Pemberdayaan Perkumpulan Olahraga dan Penyelenggaraan Kompetisi oleh Satuan Pendidikan Dasar",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.01.0003", "2.19.03.2.01.0005"],
+    "nama": "Koordinasi, Sinkronisasi dan Pelaksanaan Penyediaan Sarana dan Prasarana Olahraga Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.02.0001", "2.19.03.2.02.0004"],
+    "nama": "Penyelenggaraan Kejuaraan Olahraga Multi Event dan Single Event Tingkat Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.03.2.02.0002",
+    "nama": "Penyelenggaraan Kejuaraan dan Pekan Olahraga Tingkat Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 662717400
+  },
+  {
+    "kode": "2.19.03.2.02.0003",
+    "nama": "Partisipasi dan Keikutsertaan dalam Penyelenggaraan Kejuaraan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.03.0001", "2.19.03.2.03.0006"],
+    "nama": "Seleksi Atlet Daerah",
+    "bidang": "pendidikan",
+    "pagu": 168000000
+  },
+  {
+    "kode": ["2.19.03.2.03.0002", "2.19.03.2.03.0008"],
+    "nama": "Pemusatan Latihan Daerah, Ilmu Pengetahuan dan Teknologi Keolahragaan (Sport Science)",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.03.0003", "2.19.03.2.03.0009"],
+    "nama": "Pembinaan dan Pengembangan Atlet Berprestasi Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 246843400
+  },
+  {
+    "kode": ["2.19.03.2.03.0004", "2.19.03.2.03.0007"],
+    "nama": "Pemberian Penghargaan Olahraga Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.03.0005", "2.19.03.2.03.0010"],
+    "nama": "Koordinasi dan Sinkronisasi Penyediaan Data dan Informasi Sektoral Olahraga",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.04.0001", "2.19.03.2.04.0005"],
+    "nama": "Standardisasi Organisasi Keolahragaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.03.2.04.0002",
+    "nama": "Pengembangan Organisasi Keolahragaan",
+    "bidang": "pendidikan",
+    "pagu": 150000000
+  },
+  {
+    "kode": ["2.19.03.2.04.0003", "2.19.03.2.04.0006"],
+    "nama": "Peningkatan Kerja Sama Organisasi Keolahragaan Kabupaten/Kota dengan Lembaga Terkait",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.03.2.04.0004",
+    "nama": "Pemberian Penghargaan bagi Organisasi Keolahragaan Berprestasi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.05.0003", "2.19.03.2.05.0009"],
+    "nama": "Penyediaan, Pengembangan dan Pemeliharaan Sarana dan Prasarana Olahraga Rekreasi",
+    "bidang": "pendidikan",
+    "pagu": 143677700
+  },
+  {
+    "kode": ["2.19.03.2.05.0001", "2.19.03.2.05.0010"],
+    "nama": "Penyelenggaraan, Pengembangan dan Pemasalan Festival dan Olahraga Rekreasi",
+    "bidang": "pendidikan",
+    "pagu": 200000000
+  },
+  {
+    "kode": ["2.19.03.2.05.0002", "2.19.03.2.05.0006"],
+    "nama": "Pemberdayaan Perkumpulan Olahraga Rekreasi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.05.0004", "2.19.03.2.05.0007"],
+    "nama": "Pengembangan Olahraga Wisata, Tantangan dan Petualangan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.19.03.2.05.0005", "2.19.03.2.05.0008"],
+    "nama": "Pemanfaatan Olahraga Tradisional dalam Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.04.2.01.0001",
+    "nama": "Koordinasi dan Sinkronisasi Penyediaan Data dan Informasi Kepramukaan Berbasis Elektronik",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.04.2.01.0002",
+    "nama": "Peningkatan Kapasitas Organisasi Kepramukaan Tingkat Daerah",
+    "bidang": "pendidikan",
+    "pagu": 500000000
+  },
+  {
+    "kode": "2.19.04.2.01.0003",
+    "nama": "Pengembangan Kapasitas SDM Kepramukaan Tingkat Daerah",
+    "bidang": "pendidikan",
+    "pagu": 250000000
+  },
+  {
+    "kode": "2.19.04.2.01.0004",
+    "nama": "Penyediaan Pusat Pendidikan dan Pelatihan Kepramukaan di Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.04.2.01.0005",
+    "nama": "Penyelenggaraan Kegiatan Kepramukaan Tingkat Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.04.2.01.0006",
+    "nama": "Penyediaan Prasarana dan Sarana Kepramukaan Tingkat Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.04.2.01.0007",
+    "nama": "Perencanaan, Pengadaan, Pemanfaatan, Pemeliharaan, dan Pengawasan Prasarana dan Sarana Kepramukaan Tingkat Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.19.04.2.01.0008",
+    "nama": "Partisipasi dan Keikutsertaan dalam Kegiatan Kepramukaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.02.2.01.0001",
+    "nama": "Pelindungan, Pengembangan, Pemanfaatan Objek Pemajuan Kebudayaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.02.2.01.0002",
+    "nama": "Pembinaan Sumber Daya Manusia, Lembaga, dan Pranata Kebudayaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.02.2.02.0001",
+    "nama": "Pelindungan, Pengembangan, Pemanfaatan Objek Pemajuan Tradisi Budaya",
+    "bidang": "pendidikan",
+    "pagu": 1380120900
+  },
+  {
+    "kode": "2.22.02.2.02.0002",
+    "nama": "Pembinaan Sumber Daya Manusia, Lembaga, dan Pranata Tradisional",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.02.2.02.0003",
+    "nama": "Pemberian Penghargaan kepada Pihak yang Berprestasi atau Berkontribusi Luar Biasa Sesuai dengan Prestasi dan Kontribusinya dalam Pemajuan Kebudayaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.02.2.03.0001",
+    "nama": "Pelindungan, Pengembangan, Pemanfaatan Objek Pemajuan Lembaga Adat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.02.2.03.0002",
+    "nama": "Pembinaan Sumber Daya Manusia, Lembaga, dan Pranata Adat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.02.2.03.0003",
+    "nama": "Penyediaan Sarana dan Prasarana Pembinaan Lembaga Adat",
+    "bidang": "pendidikan",
+    "pagu": 200000000
+  },
+  {
+    "kode": "2.22.03.2.01.0001",
+    "nama": "Peningkatan Pendidikan dan Pelatihan Sumber Daya Manusia Kesenian Tradisional",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.03.2.01.0002",
+    "nama": "Standardisasi dan Sertifikasi Sumber Daya Manusia Kesenian Tradisional Sesuai dengan Kebutuhan dan Tuntutan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.03.2.01.0003",
+    "nama": "Peningkatan Kapasitas Tata Kelola Lembaga Kesenian Tradisional",
+    "bidang": "pendidikan",
+    "pagu": 250000000
+  },
+  {
+    "kode": "2.22.04.2.01.0001",
+    "nama": "Pemberdayaan Sumber Daya Manusia dan Lembaga Sejarah Lokal Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.04.2.01.0002",
+    "nama": "Penyediaan Sarana dan Prasarana Pembinaan Sejarah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.04.2.01.0003",
+    "nama": "Peningkatan Akses Masyarakat Terhadap Data dan Informasi Sejarah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.05.2.01.0001",
+    "nama": "Pendaftaran Objek Diduga Cagar Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.05.2.01.0002",
+    "nama": "Penetapan Cagar Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.05.2.02.0002",
+    "nama": "Pengembangan Cagar Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.05.2.02.0001",
+    "nama": "Pelindungan Cagar Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.05.2.02.0003",
+    "nama": "Pemanfaatan Cagar Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.05.2.03.0001",
+    "nama": "Penerbitan Izin Membawa Cagar Budaya ke Luar Daerah Kabupaten/Kota dalam 1 (Satu) Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.05.2.03.0002",
+    "nama": "Evaluasi dan Pengawasan Cagar Budaya ke Luar Daerah Kabupaten/Kota dalam 1 (Satu) Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.06.2.01.0001",
+    "nama": "Pelindungan, Pengembangan, dan Pemanfaatan Koleksi Secara Terpadu",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.06.2.01.0002",
+    "nama": "Pembinaan dan Peningkatan Mutu dan Kapasitas Sumber Daya Manusia Permuseuman",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.06.2.01.0003",
+    "nama": "Peningkatan Pelayanan dan Akses Masyarakat Terhadap Museum",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.06.2.01.0004",
+    "nama": "Penyediaan dan Pemeliharaan Sarana dan Prasarana Museum",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.06.2.01.0005",
+    "nama": "Revitalisasi Sarana dan Prasarana Museum",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.01.0001",
+    "nama": "Pembinaan Adat Seumapa/Narit Maja, Meunasib dan Tarian Tradisional",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.01.0002",
+    "nama": "Pemasyarakatan Adat Do Da Idi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.01.0003",
+    "nama": "Sosialisasi Adat Istiadat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.01.0004",
+    "nama": "Pembinaan Keluarga Meuadab dan Adat Perkawinan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.01.0005",
+    "nama": "Pengadaan Buku-Buku tentang Adat Aceh",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.01.0006",
+    "nama": "Publikasi Adat dan Adat Istiadat Melalui Media Luar Ruang",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.02.0001",
+    "nama": "Penguatan Peradilan Adat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.02.0002",
+    "nama": "Rapat Koordinasi/Evaluasi Pelaksanaan Peradilan Adat dan Perpolisian Masyarakat (Polmas)",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.02.0003",
+    "nama": "Pembinaan Mediasi Adat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.02.0004",
+    "nama": "Sosialisasi Hukum Adat dan Lembaga Adat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.03.0001",
+    "nama": "Pembinaan Kapasitas MAA",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.03.0002",
+    "nama": "Pelatihan Pemberdayaan Kelembagaan Adat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.03.0003",
+    "nama": "Rapat Kerja MAA",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.03.0004",
+    "nama": "Penerbitan Majalah dan Buku tentang Adat dan Adat Istiadat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.03.0005",
+    "nama": "Pembinaan Pemuda Pelopor Adat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.03.0006",
+    "nama": "Pendataan dan Dokumentasi Sengketa Adat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.07.2.03.0007",
+    "nama": "Pengadaan Pakaian dan Perlengkapan Adat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.01.0001",
+    "nama": "Pembinaan dan Pengembangan Kesejarahan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.01.0002",
+    "nama": "Pembinaan, Pengembangan Bahasa dan Sastra",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.01.0003",
+    "nama": "Pembinaan dan Pengelolaan Permuseuman",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.02.0001",
+    "nama": "Tata Kelola Cagar Budaya dan Warisan Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.02.0002",
+    "nama": "Pengembangan Cagar Budaya dan Warisan Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.02.0003",
+    "nama": "Nominasi Warisan Budaya Nasional dan Dunia",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.03.0001",
+    "nama": "Pengelolaan dan Pengembangan Taman Budaya Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.04.0001",
+    "nama": "Pengadaan Sarana dan Prasarana Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.04.0002",
+    "nama": "Pembangunan Ekosistem Kultural DIY Berbasis Digital",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.04.0003",
+    "nama": "Pengadaan Sarana Publikasi dan Penanda Keistimewaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.04.0004",
+    "nama": "Pengadaan Sarana dan Prasarana Lembaga Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.05.0001",
+    "nama": "Perencanaan Program dan Kegiatan Urusan Kebudayaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.05.0002",
+    "nama": "Monitoring dan Evaluasi Program dan Kegiatan Urusan Kebudayaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.05.0003",
+    "nama": "Membangun Kemitraan dengan Lembaga Pelestari Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.06.0001",
+    "nama": "Pengembangan Lumbung Mataraman",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.06.0002",
+    "nama": "Pengembangan Atraksi Wisata Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.06.0003",
+    "nama": "Pengembangan Industri Kreatif",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.06.0004",
+    "nama": "Peningkatan Pelayanan Kesehatan Tradisional",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.06.0005",
+    "nama": "Pengembangan Budaya Bahari",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.06.0006",
+    "nama": "Pengembangan Wana Wisata Budaya Mataram",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.06.0007",
+    "nama": "Pengembangan Sistem Pertanian Tradisional",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0001",
+    "nama": "Pembinaan dan Pengembangan Rintisan Desa dan Kantong Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0002",
+    "nama": "Pembinaan Lembaga Penggiat Seni",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0003",
+    "nama": "Misi Kebudayaan ke Dalam dan Luar Negeri dalam rangka Diplomasi Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0004",
+    "nama": "Penghargaan Seniman dan Budayawan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0005",
+    "nama": "Festival Kebudayaan Yogyakarta",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0006",
+    "nama": "Gelar Budaya Jogja",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0007",
+    "nama": "Publikasi Seni dan Budaya Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0008",
+    "nama": "Pembinaan Penghayat Kepercayaan, Adat dan Tradisi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0009",
+    "nama": "Pengembangan dan Implementasi Nilai-Nilai Luhur dalam Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0010",
+    "nama": "Penyelenggaraan Event Penggiat Seni",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0011",
+    "nama": "Pembinaan Kelembagaan Adat dan Tradisi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0012",
+    "nama": "Pembinaan Jagawarga",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0013",
+    "nama": "Pengembangan Kewirausahaan Desa",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0014",
+    "nama": "Peningkatan Lembaga Wisata Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0015",
+    "nama": "Pengembangan Ekonomi Perempuan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0016",
+    "nama": "Pengelolaan dan Pengembangan Museum Gunung Api Merapi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0017",
+    "nama": "Peningkatan Kapasitas SDM dan Kelembagaan Desa",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.07.0018",
+    "nama": "Pembangunan Ketahanan Sosial Budaya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.08.0001",
+    "nama": "Pembinaan Muatan Lokal",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.08.0002",
+    "nama": "Sarana dan Prasarana Pendidikan Urusan Keistimewaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "2.22.08.5.08.0003",
+    "nama": "Kependidikan Kepramukaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": ["2.23.02.2.01.0001", "2.23.02.2.01.0020"],
+    "nama": "Pengembangan dan Pemeliharaan Layanan Perpustakaan Elektronik",
+    "bidang": "pendidikan",
+    "pagu": 544613300
+  },
+  {
+    "kode": ["2.23.02.2.01.0002", "2.23.02.2.01.0011"],
+    "nama": "Pengembangan Perpustakaan di Tingkat Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 321166500
+  },
+  {
+    "kode": ["2.23.02.2.01.0003", "2.23.02.2.01.0019"],
+    "nama": "Pengembangan Kekhasan Koleksi Perpustakaan Daerah Tingkat Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 35000000
+  },
+  {
+    "kode": "2.23.02.2.01.0004",
+    "nama": "Pembinaan Perpustakaan pada Satuan Pendidikan Dasar di Seluruh Wilayah Kabupaten/Kota Sesuai dengan Standar Nasional Perpustakaan",
+    "bidang": "pendidikan",
+    "pagu": 114168400
+  },
+  {
+    "kode": ["2.23.02.2.01.0005", "2.23.02.2.01.0013"],
+    "nama": "Pembinaan Perpustakaan Khusus Tingkat Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 14983100
+  },
+  {
+    "kode": ["2.23.02.2.01.0006", "2.23.02.2.01.0016"],
+    "nama": "Peningkatan Kapasitas Tenaga Perpustakaan dan Pustakawan Tingkat Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 102795000
+  },
+  {
+    "kode": ["2.23.02.2.01.0007", "2.23.02.2.01.0012"],
+    "nama": "Pengembangan Layanan Perpustakaan Rujukan Tingkat Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 81675900
+  },
+  {
+    "kode": "2.23.02.2.01.0008",
+    "nama": "Pengembangan Bahan Pustaka",
+    "bidang": "pendidikan",
+    "pagu": 482717600
+  },
+  {
+    "kode": ["2.23.02.2.01.0009", "2.23.02.2.01.0018"],
+    "nama": "Pengelolaan dan Pengembangan Bahan Pustaka",
+    "bidang": "pendidikan",
+    "pagu": 49971700
+  },
+  {
+    "kode": ["2.23.02.2.01.0010", "2.23.02.2.01.0017"],
+    "nama": "Penyusunan Data dan Informasi Perpustakaan, Tenaga Perpustakaan dan Pustakawan Tingkat Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 9823000
+  },
+  {
+    "kode": ["2.23.02.2.02.0001", "2.23.02.2.02.0010"],
+    "nama": "Sosialisasi Budaya Baca dan Literasi pada Satuan Pendidikan Dasar dan Pendidikan Khusus serta Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": 167481800
+  },
+  {
+    "kode": ["2.23.02.2.02.0002", "2.23.02.2.02.0008"],
+    "nama": "Pembangunan dan Pemeliharaan Sarana Perpustakaan di Tempat-Tempat Umum yang Menjadi Kewenangan Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 88400000
+  },
+  {
+    "kode": ["2.23.02.2.02.0003", "2.23.02.2.02.0009"],
+    "nama": "Pemberian Penghargaan Gerakan Budaya Gemar Membaca",
+    "bidang": "pendidikan",
+    "pagu": 166180500
+  },
+  {
+    "kode": ["2.23.02.2.02.0004", "2.23.02.2.02.0007"],
+    "nama": "Pengembangan Literasi Berbasis Inklusi Sosial",
+    "bidang": "pendidikan",
+    "pagu": 568832400
+  },
+  {
+    "kode": ["2.23.02.2.02.0005", "2.23.02.2.02.0006"],
+    "nama": "Pemilihan Duta Baca Tingkat Daerah Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": 105296100
+  },
+  {
+    "kode": ["2.23.03.2.01.0001", "2.23.03.2.01.0003"],
+    "nama": "Peningkatan Peran Serta Masyarakat dalam Penyimpanan, Perawatan, Pelestarian, dan Pendaftaran Naskah Kuno",
+    "bidang": "pendidikan",
+    "pagu": 74167400
+  },
+  {
+    "kode": ["2.23.03.2.01.0002", "2.23.03.2.01.0004"],
+    "nama": "Pengembangan, Pengolahan dan Pengalihmediaan Naskah Kuno yang Dimiliki oleh Masyarakat untuk Dilestarikan dan Didayagunakan",
+    "bidang": "pendidikan",
+    "pagu": 14998500
+  },
+  {
+    "kode": ["2.23.03.2.02.0001", "2.23.03.2.02.0003"],
+    "nama": "Seleksi dan Pengadaan Koleksi Budaya Etnis Nusantara",
+    "bidang": "pendidikan",
+    "pagu": 45690300
+  },
+  {
+    "kode": ["2.23.03.2.02.0002", "2.23.03.2.02.0004"],
+    "nama": "Pengolahan dan Penyiangan Koleksi Budaya Etnis Nusantara",
+    "bidang": "pendidikan",
+    "pagu": 2000000
+  },
+  {
+    "kode": "2.xx.xx.x.xx.xxx2",
+    "nama": "Pembayaran cicilan pokok dan bunga atas Pinjaman Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.25.03.2.02.0001",
+    "nama": "Pengembangan Kapasitas Nelayan Kecil",
+    "bidang": "pendidikan",
+    "pagu": 302089200
+  },
+  {
+    "kode": "3.25.04.2.02.0001",
+    "nama": "Pengembangan Kapasitas Pembudi Daya Ikan Kecil",
+    "bidang": "pendidikan",
+    "pagu": 147912000
+  },
+  {
+    "kode": "3.25.04.2.02.0004",
+    "nama": "Pemberian Pendampingan, Kemudahaan Akses Ilmu Pengetahuan, Teknologi dan Informasi, serta Penyelenggaraan Pendidikan dan Pelatihan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.26.02.2.03.0006",
+    "nama": "Pemberdayaan Masyarakat dalam Pengelolaan Destinasi Pariwisata Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.26.04.2.02.0002",
+    "nama": "Pengembangan Pendidikan",
+    "bidang": "pendidikan",
+    "pagu": 200000400
+  },
+  {
+    "kode": "3.26.05.2.01.0008",
+    "nama": "Pengembangan Kapasitas SDM Pariwisata Berbasis SKKNI",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.26.05.2.01.0006",
+    "nama": "Fasilitasi Pengembangan Kompetensi Sumber Daya Manusia Ekonomi Kreatif",
+    "bidang": "pendidikan",
+    "pagu": 200000000
+  },
+  {
+    "kode": "3.26.05.2.01.0011",
+    "nama": "Monitoring dan Evaluasi Pengembangan Sumber Daya Pariwisata dan Ekonomi Kreatif",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.26.05.2.01.0009",
+    "nama": "Pemberdayaan dan Pembinaan Masyarakat untuk Pengembangan Pariwisata",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.26.05.2.02.0001",
+    "nama": "Pelatihan, Bimbingan Teknis, dan Pendampingan Ekonomi Kreatif",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.27.07.2.01.0005",
+    "nama": "Pembentukan dan Penyelenggaraan Sekolah Lapang Kelompok Tani Tingkat Kabupaten/Kota",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.32.03.2.01.0005",
+    "nama": "Penyuluhan Transmigrasi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.32.03.2.01.0006",
+    "nama": "Pelatihan Transmigrasi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "3.32.04.2.01.0001",
+    "nama": "Penguatan SDM dalam rangka Kemandirian Satuan Pemukiman",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0001",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Penyelenggaraan Otonomi Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0002",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Pemerintahan Umum",
+    "bidang": "pendidikan",
+    "pagu": 295000000
+  },
+  {
+    "kode": "5.05.02.2.01.0003",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Kelembagaan dan Ketatalaksanaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0004",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Aparatur dan Reformasi Birokrasi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0005",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Keuangan dan Aset Daerah, Reformasi Birokrasi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0006",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Ketertiban dan Ketentraman Umum dan Perlindungan Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0007",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Penataan Kelembagaan Desa",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0008",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Ketatalaksanaan Desa",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0009",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Aparatur Desa",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0010",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Keuangan dan Aset Desa",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0011",
+    "nama": "Fasilitasi, Pelaksanaan dan Evaluasi Penelitian dan Pengembangan Bidang Badan Usaha Milik Desa",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0012",
+    "nama": "Pengelolaan Data Kelitbangan dan Peraturan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0013",
+    "nama": "Perumusan Rekomendasi atas Rencana Penetapan Peraturan Baru dan/atau Evaluasi Terhadap Pelaksanaan Peraturan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.01.0014",
+    "nama": "Fasilitasi dan Evaluasi Pelaksanaan Kegiatan Data dan Pengkajian Peraturan",
+    "bidang": "pendidikan",
+    "pagu": 450000000
+  },
+  {
+    "kode": "5.05.02.2.02.0001",
+    "nama": "Penelitian dan Pengembangan Bidang Aspek- Aspek Sosial",
+    "bidang": "pendidikan",
+    "pagu": 75000000
+  },
+  {
+    "kode": "5.05.02.2.02.0002",
+    "nama": "Penelitian dan Pengembangan Pemberdayaan Perempuan dan Perlindungan Anak",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.02.0003",
+    "nama": "Penelitian dan Pengembangan Pendidikan dan Kebudayaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.02.0004",
+    "nama": "Penelitian dan Pengembangan Kepemudaan dan Olahraga",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.02.0005",
+    "nama": "Penelitian dan Pengembangan Pariwisata",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.02.0006",
+    "nama": "Penelitian dan Pengembangan Kesehatan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.02.0007",
+    "nama": "Penelitian dan Pengembangan Pengendalian Penduduk dan Keluarga Berencana",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.02.0008",
+    "nama": "Penelitian dan Pengembangan Administrasi Kependudukan dan Pencatatan Sipil",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.02.0009",
+    "nama": "Penelitian dan Pengembangan Tenaga Kerja",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.02.0010",
+    "nama": "Penelitian dan Pengembangan Partisipasi Masyarakat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.02.0011",
+    "nama": "Penelitian dan Pengembangan Transmigrasi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0001",
+    "nama": "Penelitian dan Pengembangan Koperasi, Usaha Kecil dan Menengah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0002",
+    "nama": "Penelitian dan Pengembangan Perindustrian dan Perdagangan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0003",
+    "nama": "Penelitian dan Pengembangan Badan Usaha Milik Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0004",
+    "nama": "Penelitian dan Pengembangan Pertanian, Perkebunan dan Pangan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0005",
+    "nama": "Penelitian dan Pengembangan Kelautan dan Perikanan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0007",
+    "nama": "Penelitian dan Pengembangan Lingkungan Hidup",
+    "bidang": "pendidikan",
+    "pagu": 1215000000
+  },
+  {
+    "kode": "5.05.02.2.03.0008",
+    "nama": "Penelitian dan Pengembangan Kehutanan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0009",
+    "nama": "Penelitian dan Pengembangan Pekerjaan Umum",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0010",
+    "nama": "Penelitian dan Pengembangan Perhubungan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0011",
+    "nama": "Penelitian dan Pengembangan Perumahan dan Kawasan Permukiman",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.03.0012",
+    "nama": "Penelitian dan Pengembangan Penataan Ruang dan Pertanahan",
+    "bidang": "pendidikan",
+    "pagu": 1885000000
+  },
+  {
+    "kode": "5.05.02.2.03.0013",
+    "nama": "Penelitian dan Pengembangan Komunikasi dan Informatika",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.04.0001",
+    "nama": "Penelitian, Pengembangan, dan Perekayasaan di Bidang Teknologi dan Inovasi",
+    "bidang": "pendidikan",
+    "pagu": 280000000
+  },
+  {
+    "kode": "5.05.02.2.04.0002",
+    "nama": "Uji Coba dan Penerapan Rancang Bangun/Model Replikasi dan Invensi di Bidang Difusi Inovasi dan Penerapan Teknologi",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "5.05.02.2.04.0005",
+    "nama": "Fasilitasi Hak Kekayaan Intelektual",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.01.0001",
+    "nama": "Pelatihan Mawaris",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.01.0002",
+    "nama": "TOT Modul Wawasan Keislaman bagi Guru Sekolah Menengah Pertama/Sekolah Menengah Atas",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.01.0003",
+    "nama": "Pembinaan dan Peningkatan Kapasitas Tokoh Masyarakat dalam Pelaksanaan Syariat Islam",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.01.0004",
+    "nama": "Peningkatan Kapasitas Tenaga Hisab dan Ru'yat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.01.0005",
+    "nama": "Seminar Problematika Syariat Islam",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.01.0006",
+    "nama": "Pembinaan Mental Spritual Siswa/Siswi Sekolah Menengah Atas Sederajat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.02.0001",
+    "nama": "Pembinaan Kelembagaan Tilawatil Quran",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.02.0002",
+    "nama": "Peningkatan Kualitas Tenaga Pelatihan/Juri Tilawatil Quran",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.02.0003",
+    "nama": "Pembinaan Imam Hafidz pada Masjid",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.02.0004",
+    "nama": "Pelaksanaan MTQ",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.02.0005",
+    "nama": "Pelatihan/Training Center Peserta MTQ/STQ Tingkat Nasional",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.02.0006",
+    "nama": "Pemberangkatan Kafilah Mengikuti MTQ/STQ Tingkat Nasional dan Internasional",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.03.0001",
+    "nama": "Working Group Penyelesaian Permasalahan Syariat Islam",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.04.0001",
+    "nama": "Peningkatan Kualitas Dakwah dan Penyemarakan Syariat Islam",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.04.0002",
+    "nama": "Pembinaan Dai Perbatasan dan Daerah Terpencil",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.04.0003",
+    "nama": "Pembinaan dan Peningkatan Kualitas Dai dan Koordinator Lapangan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.04.0004",
+    "nama": "Pembinaan Warga Binaan Lembaga Pemasyarakatan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.04.0005",
+    "nama": "Pelatihan Takmir Mesjid",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.04.0006",
+    "nama": "Pelaksanaan Cerdas Cermat Syariat Islam",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.04.0007",
+    "nama": "Pembinaan Gampong Percontohan Syariat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.04.0010",
+    "nama": "Penyelenggaraan Pengajian di Gampong",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.05.0001",
+    "nama": "Pemasyarakatan dan Penyebaran Informasi Keislaman",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.05.0003",
+    "nama": "Pelatihan Peningkatan Kapasitas Imeum Masjid/Meunasah dalam Pelaksanaan Syariat Islam",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.05.0004",
+    "nama": "Pembinaan Keluarga Islami",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.05.0005",
+    "nama": "Pembinaan Pelaku Ekonomi Mikro/Kecil Berbasis Syariah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.05.0006",
+    "nama": "Pelatihan Penyelenggaraan Fardu Kifayah/Tajhiz Mayat",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.05.0007",
+    "nama": "Pembinaan Badan Kemakmuran Masjid/Meunasah/ Mushalla",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.05.0008",
+    "nama": "Pembinaan Qari Qariah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.05.0009",
+    "nama": "Pembinaan Hafizh Hafizhah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.05.0010",
+    "nama": "Pemberian Beasiswa bagi Qari/Hafidz",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.06.0001",
+    "nama": "Penyuluhan Regulasi Syariat Islam",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.07.0001",
+    "nama": "Pembinaan Kelembagaan Pendidikan dan Dakwah pada Masjid Agung Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.07.0002",
+    "nama": "Bimbingan Teknis Petugasan IT Masjid Agung Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.02.7.07.0004",
+    "nama": "Pelatihan Tutor Pendidikan Al-quran di Masjid Agung Daerah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.03.7.01.0001",
+    "nama": "Pembinaan Badan Otonom Majelis Permusyawaratan Ulama",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.03.7.01.0003",
+    "nama": "Pendidikan Kader Ulama",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.03.7.01.0007",
+    "nama": "Penterjemahan Kitab Berbahasa Arab dan Pengadaannya",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.03.7.01.0010",
+    "nama": "Nadwah/Mubahasah Ilmiah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.03.7.01.0011",
+    "nama": "Sosialisasi Fatwa dan Hukum Islam",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.03.7.01.0013",
+    "nama": "Kajian Pedoman Keagamaan",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.03.7.01.0014",
+    "nama": "Pendidikan Kader Ulama",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.03.7.02.0001",
+    "nama": "Lokakarya Ulama Umara Bidang Muamallah",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "9.01.04.7.02.0001",
+    "nama": "Sosialisasi dan Edukasi Kesadaran ZISWAF",
+    "bidang": "pendidikan",
+    "pagu": null
+  },
+  {
+    "kode": "X.XX.01.2.02.0001",
+    "nama": "Penyediaan Gaji dan Tunjangan ASN",
+    "bidang": "pendidikan",
+    "pagu": 12013786712
+  }
+]

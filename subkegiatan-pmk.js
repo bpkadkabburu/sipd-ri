@@ -40,7 +40,7 @@ function format(x) {
   return a
 }
 
-let b = require('./JSON/2025/ringkasan-kua-ppas.json')
+let b = require('./JSON/2025/ringkasan-kua-ppas-9-3-2024.json')
 let listPMK = require('./JSON/2025/pmk-110-dari-sikd.json')
 let listDinas = reducer(b, 'nama_sub_skpd');
 let TOTAL = 0
