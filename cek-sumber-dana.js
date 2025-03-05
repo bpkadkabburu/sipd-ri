@@ -47,7 +47,7 @@ function format(x) {
   return a
 }
 
-function cekSumberDana(xlf, listPMK, listSumberDanaSIPD) {
+function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
   const xlb = fs.readFileSync(xlf)
   const wb = XLSX.read(xlb)
   let listData = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]])
@@ -399,7 +399,7 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD) {
   XLSX.utils.book_append_sheet(workbook, totalPaguWs, 'PAGU PER OPD');
   XLSX.utils.book_append_sheet(workbook, gajiTunjanganPNSWs, 'GAJI PNS PER OPD');
   XLSX.utils.book_append_sheet(workbook, gajiTunjanganP3KWs, 'GAJI P3K PER OPD');
-  XLSX.writeFile(workbook, "PAGU OPD 2025.xlsx", { compression: true });
+  XLSX.writeFile(workbook, namaFile, { compression: true });
 }
 
 function s(xlf) {
@@ -452,7 +452,8 @@ function s(xlf) {
 const xlf = './EXCEL/2025/rekap3.xlsx'
 const listPMK = require('./JSON/2025/pmk-110.json') // 2024 pmk-110-dari-sikd-terisi-anggaran. 2025 pmk-110
 const listSumberDanaSIPD = require('./JSON/2025/sumber_dana.json')
+let namaFile = 'PAGU OPD 2025.xlsx'
 
-cekSumberDana(xlf, listPMK, listSumberDanaSIPD)
+cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile)
 // s(xlf)
 
