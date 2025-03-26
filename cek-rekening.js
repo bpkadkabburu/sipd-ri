@@ -748,4 +748,87 @@ function efisiensi() {
 
 }
 
+function pemotongan() {
+  const xlf = './EXCEL/2025/rekap3.xlsx'
+  const xlb = fs.readFileSync(xlf)
+  const wb = XLSX.read(xlb)
+  let listData = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]])
+
+  let newData = listData.filter((x) => {
+    if (typeof x['KODE REKENING'] !== 'undefined') {
+      x['AKUN'] = x['KODE REKENING'].substring(0, 1)
+      x['KELOMPOK'] = x['KODE REKENING'].substring(0, 3)
+      x['JENIS'] = x['KODE REKENING'].substring(0, 6)
+      x['OBJEK'] = x['KODE REKENING'].substring(0, 9)
+      x['RINCIAN OBJEK'] = x['KODE REKENING'].substring(0, 12)
+      x['SUB RINCIAN OBJEK'] = x['KODE REKENING']
+      return x
+    }
+  })
+
+  let listDinas = reducer(newData, 'KODE SUB UNIT')
+  for (const key in listDinas) {
+    if (Object.hasOwnProperty.call(listDinas, key)) {
+      const dinas = listDinas[key]
+      let listSubkegiatan = reducer(dinas, 'KODE SUB KEGIATAN')
+      let listSubkegiatanDinasDAU = [
+        [
+          { t: "s", v: "Kode Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Nama Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Biasa", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Tetap", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Paket Meeting Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Paket Meeting Luar Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Bahan-Bahan Bakar dan Pelumas", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor- Kertas dan Cover", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor- Bahan Cetak", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Natura dan Pakan-Natura", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Makanan dan Minuman Rapat", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Makanan dan Minuman Jamuan Tamu", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Makanan dan Minuman Aktivitas Lapangan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Jasa Pembersihan, Pengendalian Hama, dan Fumigasi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Dinas Bermotor Perorangan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Bermotor Penumpang", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Modal Mebel", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Modal Alat Rumah Tangga Lainnya (Home Use)", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Modal Personal Computer", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+        ]
+      ]
+
+      let listSubkegiatanDinasDAUPeruntukkan = [
+        [
+          { t: "s", v: "Kode Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Nama Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Biasa", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Tetap", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Paket Meeting Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Perjalanan Dinas Paket Meeting Luar Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Bahan-Bahan Bakar dan Pelumas", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor- Kertas dan Cover", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Natura dan Pakan-Natura", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Makanan dan Minuman Rapat", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Makanan dan Minuman Aktivitas Lapangan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "n", v: "Belanja Hibah Uang kepada Badan dan Lembaga Nirlaba, Sukarela dan Sosial yang Telah Memiliki Surat Keterangan Terdaftar", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+        ]
+      ]
+
+      for (const keyListSubkegiatan in listSubkegiatan) {
+        if (Object.hasOwnProperty.call(listSubkegiatan, keyListSubkegiatan)) {
+          const subkegiatan = listSubkegiatan[keyListSubkegiatan]
+          listSubkegiatanDinas.push([
+            { t: "s", v: keyListSubkegiatan, s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+            { t: "n", v: subkegiatan[0]['NAMA SUB KEGIATAN'], s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          ])
+        }
+      }
+      const worksheet = XLSX.utils.aoa_to_sheet(all);
+      XLSX.utils.book_append_sheet(workbook, worksheet, dinas['NAMA SUB UNIT'].substring(0, 30));
+    }
+  }
+}
+
 efisiensi()

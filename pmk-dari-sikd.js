@@ -72,7 +72,7 @@ function check() {
 
 function excel() {
   const workbook = XLSX.utils.book_new();
-  let listPMK = require('./JSON/2025/pmk-110-dari-sikd-raw.json')
+  let listPMK = require('./JSON/2025/pmk-110-dari-sikd-2025.json')
   for (const key in listPMK) {
     if (Object.hasOwnProperty.call(listPMK, key)) {
       const element = listPMK[key];
@@ -116,7 +116,7 @@ function excel() {
     }
   }
 
-  XLSX.writeFile(workbook, "SUBKEGIATAN PMK 2025.xlsx")
+  XLSX.writeFile(workbook, "SUBKEGIATAN PMK 2025 BARU.xlsx")
 
 }
 
