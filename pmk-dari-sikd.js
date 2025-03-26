@@ -51,6 +51,42 @@ function create() {
   });
 }
 
+function create2025() {
+  let listSubkegiatan = require('./JSON/2025/pmk-110-dari-sikd-2025.json')
+  let allJson = []
+  for (const key in listSubkegiatan) {
+    if (Object.hasOwnProperty.call(listSubkegiatan, key)) {
+      const element = listSubkegiatan[key];
+      let bidang = element.list.map(item => {
+        let kodeRekening = item[1].replace(/\s+/g, '').replace(/\.2$/, '')
+        if (kodeRekening.length === 17 || kodeRekening.length === 15) {
+          let nama = item[2].split("#-#")
+          return {
+            "kode": kodeRekening,
+            "nama": nama[1],
+            "bidang": element.bidang,
+            "pagu": item[4]
+          }
+        }
+      }).filter(item => item !== undefined)
+
+      allJson = allJson.concat(bidang)
+    }
+  }
+
+  let pathJson = `JSON\\2025\\pmk-110-baru.json`
+  if (fs.existsSync(pathJson)) {
+    fs.unlinkSync(pathJson)
+  }
+
+  fs.writeFile(pathJson, JSON.stringify(allJson, null, 2), function (err) {
+    if (err) {
+      console.log('File JSON tidak bisa disimpan', err)
+    }
+    console.log('Data Berhasil Disimpan')
+  });
+}
+
 function check() {
   let listSubkegiatan = require('./JSON/2025/pmk-110-dari-sikd.json')
   let listBidang = reducer(listSubkegiatan, 'bidang')
@@ -72,7 +108,7 @@ function check() {
 
 function excel() {
   const workbook = XLSX.utils.book_new();
-  let listPMK = require('./JSON/2025/pmk-110-dari-sikd-2025.json')
+  let listPMK = require('./JSON/2025/pmk-110-dari-sikd-raw.json')
   for (const key in listPMK) {
     if (Object.hasOwnProperty.call(listPMK, key)) {
       const element = listPMK[key];
@@ -116,10 +152,61 @@ function excel() {
     }
   }
 
+  XLSX.writeFile(workbook, "SUBKEGIATAN PMK 2025.xlsx")
+
+}
+
+function excel2025() {
+  const workbook = XLSX.utils.book_new();
+  let listPMK = require('./JSON/2025/pmk-110-dari-sikd-2025.json')
+  for (const key in listPMK) {
+    if (Object.hasOwnProperty.call(listPMK, key)) {
+      const element = listPMK[key];
+      let excelPMK = [
+        [
+          { t: "s", v: "Kode Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Nama Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Kode Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Nama Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Bidang", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+        ]
+      ]
+      let bidang = element.list.map(item => {
+        let kodeRekening = item[1].replace(/\s+/g, '').replace(/\.2$/, '')
+        if (kodeRekening.length === 17) {
+          let nama = item[2].split("#-#")
+          return {
+            "Kode Bidang": kodeRekening.substring(0, 12),
+            "Nama Bidang": nama[0],
+            "Kode Sub Kegiatan": kodeRekening,
+            "Nama Sub Kegiatan": nama[1],
+            "bidang": element.bidang,
+          }
+        } else {
+          console.log(item)
+        }
+      }).filter(item => item !== undefined)
+
+      let res = bidang.map(item => [
+        { t: "s", v: item['Kode Bidang'], s: { font: { name: "Calibri", sz: 9 } } },
+        { t: "s", v: item['Nama Bidang'], s: { font: { name: "Calibri", sz: 9 } } },
+        { t: "s", v: item['Kode Sub Kegiatan'], s: { font: { name: "Calibri", sz: 9 } } },
+        { t: "s", v: item['Nama Sub Kegiatan'], s: { font: { name: "Calibri", sz: 9 } } },
+        { t: "s", v: item.bidang, s: { font: { name: "Calibri", sz: 9 } } },
+      ])
+
+      excelPMK = excelPMK.concat(res)
+
+      const worksheet = XLSX.utils.aoa_to_sheet(excelPMK);
+
+      XLSX.utils.book_append_sheet(workbook, worksheet, element.bidang);
+    }
+  }
+
   XLSX.writeFile(workbook, "SUBKEGIATAN PMK 2025 BARU.xlsx")
 
 }
 
-excel()
+create2025()
 
 

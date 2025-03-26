@@ -450,9 +450,9 @@ function s(xlf) {
 }
 
 const xlf = './EXCEL/2025/rekap3.xlsx'
-const listPMK = require('./JSON/2025/pmk-110.json') // 2024 pmk-110-dari-sikd-terisi-anggaran. 2025 pmk-110
+const listPMK = require('./JSON/2025/pmk-110-baru.json') // 2024 pmk-110-dari-sikd-terisi-anggaran. 2025 pmk-110
 const listSumberDanaSIPD = require('./JSON/2025/sumber_dana.json')
-let namaFile = 'PAGU OPD 2025.xlsx'
+let namaFile = 'PAGU OPD 2025 BARU.xlsx'
 
 cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile)
 // s(xlf)
