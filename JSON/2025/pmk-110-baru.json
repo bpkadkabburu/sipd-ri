@@ -2892,7 +2892,10 @@
     "pagu": null
   },
   {
-    "kode": "2.08.02.2.02.0003",
+    "kode": [
+      "2.08.02.2.02.0003",
+      "2.08.02.2.02.0002"
+    ],
     "nama": "Advokasi Kebijakan dan Pendampingan Peningkatan Partisipasi Perempuan dalam Politik, Hukum, Sosial dan Ekonomi",
     "bidang": "pendidikan",
     "pagu": null
@@ -3648,7 +3651,7 @@
     "pagu": null
   },
   {
-    "kode": "X.XX.01.2.02.0001",
+    "kode": "1.01.01.2.02.0001",
     "nama": "Penyediaan Gaji dan Tunjangan ASN",
     "bidang": "pendidikan",
     "pagu": null
@@ -4578,19 +4581,19 @@
     "pagu": null
   },
   {
-    "kode": "X.XX.01.2.02.0001",
+    "kode": "1.02.01.2.02.0001",
     "nama": "Penyediaan Gaji dan Tunjangan ASN",
     "bidang": "kesehatan",
     "pagu": null
   },
   {
-    "kode": "X.XX.01.2.11.0003",
+    "kode": "4.01.01.2.11.0003",
     "nama": "Pelaksanaan Medical Check Up Kepala Daerah dan Wakil Kepala Daerah",
     "bidang": "kesehatan",
     "pagu": null
   },
   {
-    "kode": "X.XX.01.2.15.0003",
+    "kode": "4.02.01.2.15.0003",
     "nama": "Pelaksanaan Medical Check Up DPRD",
     "bidang": "kesehatan",
     "pagu": null
@@ -5634,7 +5637,10 @@
     "pagu": null
   },
   {
-    "kode": "1.03.10.2.01.0053",
+    "kode": [
+      "1.03.10.2.01.0053",
+      "1.03.10.2.01.0032"
+    ],
     "nama": "Pembangunan Jalan",
     "bidang": "pekerjaan_umum",
     "pagu": null
@@ -5652,7 +5658,10 @@
     "pagu": null
   },
   {
-    "kode": "1.03.10.2.01.0059",
+    "kode": [
+      "1.03.10.2.01.0059",
+      "1.03.10.2.01.0033"
+    ],
     "nama": "Rekonstruksi Jalan",
     "bidang": "pekerjaan_umum",
     "pagu": null
@@ -5676,7 +5685,10 @@
     "pagu": null
   },
   {
-    "kode": "1.03.10.2.01.0069",
+    "kode": [
+      "1.03.10.2.01.0069",
+      "1.03.10.2.01.0040"
+    ],
     "nama": "Pembangunan Jembatan",
     "bidang": "pekerjaan_umum",
     "pagu": null
@@ -5712,13 +5724,19 @@
     "pagu": null
   },
   {
-    "kode": "1.03.10.2.01.0058",
+    "kode": [
+      "1.03.10.2.01.0058",
+      "1.03.10.2.01.0039"
+    ],
     "nama": "Rehabilitasi Jembatan",
     "bidang": "pekerjaan_umum",
     "pagu": null
   },
   {
-    "kode": "1.03.10.2.01.0067",
+    "kode": [
+      "1.03.10.2.01.0067",
+      "1.03.10.2.01.0038"
+    ],
     "nama": "Pemeliharaan Rutin Jembatan",
     "bidang": "pekerjaan_umum",
     "pagu": null
