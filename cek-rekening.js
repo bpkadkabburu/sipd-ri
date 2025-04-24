@@ -41,6 +41,14 @@ function unique(element, index, mode) {
   }
 }
 
+function isDAUUmum(namaSumberDana) {
+  return !/DAK|Alokasi Khusus|yang Ditentukan Penggunaannya|Tambahan Dukungan|Pajak|Retribusi/i.test(namaSumberDana);
+}
+
+function isDAUPeruntukkan(namaSumberDana) {
+  return /yang Ditentukan Penggunaannya|Tambahan Dukungan/i.test(namaSumberDana);
+}
+
 function format(x) {
   let a = Intl.NumberFormat('id-ID', { style: "currency", currency: "IDR" }).format(x)
   a = a.replace("Rp", "Rp.")
@@ -749,10 +757,40 @@ function efisiensi() {
 }
 
 function pemotongan() {
-  const xlf = './EXCEL/2025/rekap3.xlsx'
+  const xlf = './EXCEL/2025/rekap_penyesuaian.xlsx'
+  const xlfMurni = './EXCEL/2025/rekap_murni.xlsx'
   const xlb = fs.readFileSync(xlf)
+  const xlbMurni = fs.readFileSync(xlfMurni)
   const wb = XLSX.read(xlb)
+  const wbMurni = XLSX.read(xlbMurni)
   let listData = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]])
+  let listDataMurni = XLSX.utils.sheet_to_json(wbMurni.Sheets[wbMurni.SheetNames[0]])
+
+  const workbookSubkegiatan = XLSX.utils.book_new();
+  const workbookDinas = XLSX.utils.book_new();
+
+  const rekeningEfisiensi = [
+    "5.1.02.04.01.0001",
+    "5.1.02.04.01.0002",
+    "5.1.02.04.01.0003",
+    "5.1.02.04.01.0004",
+    "5.1.02.04.01.0005",
+    "5.1.02.01.01.0004",
+    "5.1.02.01.01.0024",
+    "5.1.02.01.01.0025",
+    "5.1.02.01.01.0026",
+    "5.1.02.01.01.0043",
+    "5.1.02.01.01.0052",
+    "5.1.02.01.01.0053",
+    "5.1.02.01.01.0058",
+    "5.1.02.02.01.0052",
+    "5.1.02.03.02.0035",
+    "5.1.02.03.02.0036",
+    "5.2.02.05.02.0001",
+    "5.2.02.05.02.0006",
+    "5.2.02.10.01.0002",
+    "5.1.05.05.02.0001",
+  ]
 
   let newData = listData.filter((x) => {
     if (typeof x['KODE REKENING'] !== 'undefined') {
@@ -766,69 +804,924 @@ function pemotongan() {
     }
   })
 
+  let newDataMurni = listDataMurni.filter((x) => {
+    if (typeof x['KODE REKENING'] !== 'undefined') {
+      x['AKUN'] = x['KODE REKENING'].substring(0, 1)
+      x['KELOMPOK'] = x['KODE REKENING'].substring(0, 3)
+      x['JENIS'] = x['KODE REKENING'].substring(0, 6)
+      x['OBJEK'] = x['KODE REKENING'].substring(0, 9)
+      x['RINCIAN OBJEK'] = x['KODE REKENING'].substring(0, 12)
+      x['SUB RINCIAN OBJEK'] = x['KODE REKENING']
+      return x
+    }
+  })
+
+  // console.log(newDataMurni)
+
   let listDinas = reducer(newData, 'KODE SUB UNIT')
-  for (const key in listDinas) {
-    if (Object.hasOwnProperty.call(listDinas, key)) {
-      const dinas = listDinas[key]
+  for (const keyDinas in listDinas) {
+    if (Object.hasOwnProperty.call(listDinas, keyDinas)) {
+      const dinas = listDinas[keyDinas]
+      // console.log(dinas)
+
+      if (/Puskesmas/.test(dinas[0]['NAMA SUB UNIT'])) {
+        continue;
+      }
+
       let listSubkegiatan = reducer(dinas, 'KODE SUB KEGIATAN')
       let listSubkegiatanDinasDAU = [
         [
           { t: "s", v: "Kode Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Nama Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Biasa", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Tetap", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Paket Meeting Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Paket Meeting Luar Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Bahan-Bahan Bakar dan Pelumas", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor- Kertas dan Cover", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor- Bahan Cetak", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Natura dan Pakan-Natura", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Makanan dan Minuman Rapat", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Makanan dan Minuman Jamuan Tamu", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Makanan dan Minuman Aktivitas Lapangan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Jasa Pembersihan, Pengendalian Hama, dan Fumigasi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Dinas Bermotor Perorangan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Bermotor Penumpang", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Modal Mebel", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Modal Alat Rumah Tangga Lainnya (Home Use)", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Modal Personal Computer", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-        ]
-      ]
-
-      let listSubkegiatanDinasDAUPeruntukkan = [
+          { t: "s", v: "Nama Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Total", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Perjalanan Dinas Biasa", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Perjalanan Dinas Tetap", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Perjalanan Dinas Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Perjalanan Dinas Paket Meeting Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Perjalanan Dinas Paket Meeting Luar Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Bahan-Bahan Bakar dan Pelumas", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Alat/Bahan untuk Kegiatan Kantor- Kertas dan Cover", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Alat/Bahan untuk Kegiatan Kantor- Bahan Cetak", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Natura dan Pakan-Natura", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Makanan dan Minuman Rapat", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Makanan dan Minuman Jamuan Tamu", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Makanan dan Minuman Aktivitas Lapangan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Jasa Pembersihan, Pengendalian Hama, dan Fumigasi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Dinas Bermotor Perorangan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Bermotor Penumpang", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Hibah Uang kepada Badan dan Lembaga Nirlaba, Sukarela dan Sosial yang Telah Memiliki Surat Keterangan Terdaftar", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Modal Mebel", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Modal Alat Rumah Tangga Lainnya (Home Use)", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Modal Personal Computer", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "Belanja Rekening Lainnya", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+        ],
         [
-          { t: "s", v: "Kode Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Nama Sub Kegiatan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Biasa", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Tetap", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Paket Meeting Dalam Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Perjalanan Dinas Paket Meeting Luar Kota", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Bahan-Bahan Bakar dan Pelumas", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Alat/Bahan untuk Kegiatan Kantor- Kertas dan Cover", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Natura dan Pakan-Natura", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Makanan dan Minuman Rapat", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Makanan dan Minuman Aktivitas Lapangan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          { t: "n", v: "Belanja Hibah Uang kepada Badan dan Lembaga Nirlaba, Sukarela dan Sosial yang Telah Memiliki Surat Keterangan Terdaftar", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          null,
+          null,
+          { t: "s", v: "DAU Umum", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+          { t: "s", v: "DAU Peruntukkan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          null,
+          null,
+        ],
+        [
+          null,
+          null,
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Efisiensi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ E", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Murni", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Input", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+          { t: "s", v: "Δ I", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
         ]
       ]
 
       for (const keyListSubkegiatan in listSubkegiatan) {
         if (Object.hasOwnProperty.call(listSubkegiatan, keyListSubkegiatan)) {
           const subkegiatan = listSubkegiatan[keyListSubkegiatan]
-          listSubkegiatanDinas.push([
+          let rincianSubKegiatan = []
+          rincianSubKegiatan.push(
             { t: "s", v: keyListSubkegiatan, s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-            { t: "n", v: subkegiatan[0]['NAMA SUB KEGIATAN'], s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-          ])
+            { t: "s", v: subkegiatan[0]['NAMA SUB KEGIATAN'], s: { font: { bold: true, name: "Calibri", sz: 9 } } }
+          )
+
+          for (let index = 2; index < 178; index++) {
+            rincianSubKegiatan[index] = null;
+          }
+
+          let newDAU = subkegiatan.filter((x) => {
+            if (isDAUUmum(x['NAMA SUMBER DANA'])) {
+              return x
+            }
+          })
+
+          let newDAUPeruntukkan = subkegiatan.filter((x) => {
+            if (isDAUPeruntukkan(x['NAMA SUMBER DANA'])) {
+              return x
+            }
+          })
+
+          if (newDAU.length) {
+            let totalEfisiensi = 0
+            let totalBelanjaRekeningMurni = 0
+            let totalBelanjaRekeningInput = 0
+            let totalBelanjaRekeningLainnyaMurni = 0
+            let totalBelanjaRekeningLainnyaInput = 0
+            let listSubkegiatanMurni = newDataMurni.filter(x =>
+              x['KODE SUB UNIT'] === keyDinas &&
+              x['KODE SUB KEGIATAN'] === keyListSubkegiatan &&
+              isDAUUmum(x['NAMA SUMBER DANA'])
+            );
+
+            console.log(listSubkegiatanMurni);
+            let paguDAUMurni = total(listSubkegiatanMurni, 'PAGU')
+            let paguDAUInput = total(newDAU, 'PAGU')
+            let selisihInput = paguDAUMurni - paguDAUInput
+            console.log(subkegiatan[0]['NAMA SUB KEGIATAN'], paguDAUMurni, paguDAUInput, selisihInput)
+            rincianSubKegiatan[2] = { t: "n", v: paguDAUMurni, s: { font: { bold: true, name: "Calibri", sz: 9 } } }
+            rincianSubKegiatan[3] = { t: "n", v: paguDAUInput, s: { font: { bold: true, name: "Calibri", sz: 9 } } }
+            rincianSubKegiatan[4] = { t: "n", v: selisihInput, s: { font: { bold: true, name: "Calibri", sz: 9 } } }
+            let listBelanja = reducer(newDAU, 'SUB RINCIAN OBJEK')
+            for (const keyBelanja in listBelanja) {
+              if (Object.hasOwnProperty.call(listBelanja, keyBelanja)) {
+                const belanja = listBelanja[keyBelanja];
+                let listBelanjaKegiatanMurni = listSubkegiatanMurni.filter(x =>
+                  x['SUB RINCIAN OBJEK'] === keyBelanja
+                )
+                let belanjaMurni = { t: "n", v: total(listBelanjaKegiatanMurni, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                let belanjaInput = { t: "n", v: total(belanja, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                console.log(belanja[0]['NAMA REKENING'], belanjaMurni.v, belanjaInput.v)
+                let efisiensiBelanja = 0
+                let deltaInput = 0
+                let deltaEfisiensi = 0
+
+                if (!rekeningEfisiensi.includes(keyBelanja)) {
+                  totalBelanjaRekeningLainnyaMurni += belanjaMurni.v
+                  totalBelanjaRekeningLainnyaInput += belanjaInput.v
+                } else {
+                  if (keyBelanja === '5.1.02.04.01.0001') {
+                    totalBelanjaRekeningMurni += belanjaMurni.v
+                    totalBelanjaRekeningInput += belanjaInput.v
+                    efisiensiBelanja = belanjaMurni.v * 0.5
+                    totalEfisiensi += efisiensiBelanja
+                    deltaInput = belanjaMurni.v - belanjaInput.v
+                    deltaEfisiensi = efisiensiBelanja - deltaInput
+                    rincianSubKegiatan[12] = belanjaMurni
+                    rincianSubKegiatan[13] = belanjaInput
+                    rincianSubKegiatan[14] = { t: "n", v: deltaInput, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[15] = { t: "n", v: efisiensiBelanja, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[16] = { t: "n", v: deltaEfisiensi, s: { font: { name: "Calibri", sz: 9 } } }
+                  }
+
+                  if (keyBelanja === '5.1.02.04.01.0002') {
+                    totalBelanjaRekeningMurni += belanjaMurni.v
+                    totalBelanjaRekeningInput += belanjaInput.v
+                    efisiensiBelanja = belanjaMurni.v * 0.5
+                    totalEfisiensi += efisiensiBelanja
+                    deltaInput = belanjaMurni.v - belanjaInput.v
+                    deltaEfisiensi = efisiensiBelanja - deltaInput
+                    rincianSubKegiatan[22] = belanjaMurni
+                    rincianSubKegiatan[23] = belanjaInput
+                    rincianSubKegiatan[24] = { t: "n", v: deltaInput, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[25] = { t: "n", v: efisiensiBelanja, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[26] = { t: "n", v: deltaEfisiensi, s: { font: { name: "Calibri", sz: 9 } } }
+                  }
+
+                  if (keyBelanja === '5.1.02.04.01.0003') {
+                    totalBelanjaRekeningMurni += belanjaMurni.v
+                    totalBelanjaRekeningInput += belanjaInput.v
+                    efisiensiBelanja = belanjaMurni.v * 0.5
+                    totalEfisiensi += efisiensiBelanja
+                    deltaInput = belanjaMurni.v - belanjaInput.v
+                    deltaEfisiensi = efisiensiBelanja - deltaInput
+                    rincianSubKegiatan[32] = belanjaMurni
+                    rincianSubKegiatan[33] = belanjaInput
+                    rincianSubKegiatan[34] = { t: "n", v: deltaInput, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[35] = { t: "n", v: efisiensiBelanja, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[36] = { t: "n", v: deltaEfisiensi, s: { font: { name: "Calibri", sz: 9 } } }
+                  }
+
+                  if (keyBelanja === '5.1.02.04.01.0004') {
+                    totalBelanjaRekeningMurni += belanjaMurni.v
+                    totalBelanjaRekeningInput += belanjaInput.v
+                    efisiensiBelanja = belanjaMurni.v * 0.5
+                    totalEfisiensi += efisiensiBelanja
+                    deltaInput = belanjaMurni.v - belanjaInput.v
+                    deltaEfisiensi = efisiensiBelanja - deltaInput
+                    rincianSubKegiatan[42] = belanjaMurni
+                    rincianSubKegiatan[43] = belanjaInput
+                    rincianSubKegiatan[44] = { t: "n", v: deltaInput, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[45] = { t: "n", v: efisiensiBelanja, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[46] = { t: "n", v: deltaEfisiensi, s: { font: { name: "Calibri", sz: 9 } } }
+                  }
+
+                  if (keyBelanja === '5.1.02.04.01.0005') {
+                    totalBelanjaRekeningMurni += belanjaMurni.v
+                    totalBelanjaRekeningInput += belanjaInput.v
+                    efisiensiBelanja = belanjaMurni.v * 0.5
+                    totalEfisiensi += efisiensiBelanja
+                    deltaInput = belanjaMurni.v - belanjaInput.v
+                    deltaEfisiensi = efisiensiBelanja - deltaInput
+                    rincianSubKegiatan[52] = belanjaMurni
+                    rincianSubKegiatan[53] = belanjaInput
+                    rincianSubKegiatan[54] = { t: "n", v: deltaInput, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[55] = { t: "n", v: efisiensiBelanja, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[56] = { t: "n", v: deltaEfisiensi, s: { font: { name: "Calibri", sz: 9 } } }
+                  }
+
+                  if (keyBelanja === '5.1.02.01.01.0004') {
+                    totalBelanjaRekeningMurni += belanjaMurni.v
+                    totalBelanjaRekeningInput += belanjaInput.v
+                    efisiensiBelanja = belanjaMurni.v * 0.35
+                    totalEfisiensi += efisiensiBelanja
+                    deltaInput = belanjaMurni.v - belanjaInput.v
+                    deltaEfisiensi = efisiensiBelanja - deltaInput
+                    rincianSubKegiatan[62] = belanjaMurni
+                    rincianSubKegiatan[63] = belanjaInput
+                    rincianSubKegiatan[64] = { t: "n", v: deltaInput, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[65] = { t: "n", v: efisiensiBelanja, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[66] = { t: "n", v: deltaEfisiensi, s: { font: { name: "Calibri", sz: 9 } } }  
+                  }
+
+                  if (keyBelanja === '5.1.02.01.01.0024') {
+                    }
+
+                  if (keyBelanja === '5.1.02.01.01.0025') {
+                    }
+
+                  if (keyBelanja === '5.1.02.01.01.0026') {
+                    }
+
+                  if (keyBelanja === '5.1.02.01.01.0043') {
+                    }
+
+                  if (keyBelanja === '5.1.02.01.01.0052') {
+                    }
+
+                  if (keyBelanja === '5.1.02.01.01.0053') {
+                    }
+
+                  if (keyBelanja === '5.1.02.01.01.0058') {
+                    }
+
+                  if (keyBelanja === '5.1.02.02.01.0052') {
+                    }
+
+                  if (keyBelanja === '5.1.02.03.02.0035') {
+                    }
+
+                  if (keyBelanja === '5.1.02.03.02.0036') {
+                    }
+
+                  if (keyBelanja === '5.1.05.05.02.0001') {
+                    }
+
+                  if (keyBelanja === '5.2.02.05.02.0001') {
+                    }
+
+                  if (keyBelanja === '5.2.02.05.02.0006') {
+                    }
+
+                  if (keyBelanja === '5.2.02.10.01.0002') {
+                    rincianSubKegiatan[162] = belanjaMurni
+                    totalBelanjaRekeningMurni += belanjaMurni.v
+                    totalBelanjaRekeningInput += belanjaInput.v
+                    efisiensiBelanja = belanjaMurni.v * 0.7
+                    totalEfisiensi += efisiensiBelanja
+                    rincianSubKegiatan[163] = { t: "n", v: efisiensiBelanja, s: { font: { name: "Calibri", sz: 9 } } }
+                    rincianSubKegiatan[164] = belanjaInput
+                    rincianSubKegiatan[165] = { t: "n", v: belanjaMurni.v - belanjaInput.v, s: { font: { name: "Calibri", sz: 9 } } }
+                  }
+                }
+              }
+            }
+
+            rincianSubKegiatan[170] = { t: "n", v: totalBelanjaRekeningMurni, s: { font: { name: "Calibri", sz: 9 } } }
+            rincianSubKegiatan[172] = { t: "n", v: totalBelanjaRekeningInput, s: { font: { name: "Calibri", sz: 9 } } }
+            rincianSubKegiatan[173] = { t: "n", v: totalBelanjaRekeningMurni - totalBelanjaRekeningInput, s: { font: { name: "Calibri", sz: 9 } } }
+            console.log("Total Belanja Rekening Murni", totalBelanjaRekeningMurni, totalBelanjaRekeningInput, totalBelanjaRekeningMurni - totalBelanjaRekeningInput)
+            console.log("Total Belanja Rekening Lainnya Murni", totalBelanjaRekeningLainnyaMurni, totalBelanjaRekeningLainnyaInput, totalBelanjaRekeningLainnyaMurni - totalBelanjaRekeningLainnyaInput)
+            console.log("DAU", newDAU)
+          }
+
+          if (newDAUPeruntukkan.length) {
+            // console.log("DAU Peruntukkan", newDAUPeruntukkan)
+          }
+
+          // per sumber dana
+
+          listSubkegiatanDinasDAU.push(rincianSubKegiatan)
         }
       }
-      const worksheet = XLSX.utils.aoa_to_sheet(all);
-      XLSX.utils.book_append_sheet(workbook, worksheet, dinas['NAMA SUB UNIT'].substring(0, 30));
+
+      // per sumber dana
+
+      const worksheet = XLSX.utils.aoa_to_sheet(listSubkegiatanDinasDAU);
+      XLSX.utils.book_append_sheet(workbookSubkegiatan, worksheet, dinas[0]['NAMA SUB UNIT'].substring(0, 30));
     }
   }
+
+  XLSX.writeFile(workbookSubkegiatan, "SUBKEGIATAN EFISIENSI PER DINAS.xlsx", { compression: true });
 }
 
-efisiensi()
+pemotongan()
