@@ -402,7 +402,7 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
   XLSX.writeFile(workbook, namaFile, { compression: true });
 }
 
-function s(xlf) {
+function mutakhir(xlf) {
   const xlb = fs.readFileSync(xlf)
   const wb = XLSX.read(xlb)
   let listData = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]])
