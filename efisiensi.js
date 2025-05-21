@@ -413,7 +413,7 @@ function pemotongan() {
   for (const keyDinas in listDinas) {
     if (Object.hasOwnProperty.call(listDinas, keyDinas)) {
       const dinas = listDinas[keyDinas]
-      if (dinas[0]['NAMA SUB UNIT'] !== 'Dinas Pemberdayaan Perempuan dan Perlindungan Anak') continue;
+      // if (dinas[0]['NAMA SUB UNIT'] !== 'Dinas Pemberdayaan Perempuan dan Perlindungan Anak') continue;
       // console.log(dinas)
 
 
@@ -655,7 +655,7 @@ function pemotongan() {
                 grandTotalEfisiensiMurni += efisiensiBelanjaMurni
               }
             }
-            let targetInput = belanjaMurni - efisiensiBelanjaMurni
+            let targetInput = belanjaMurni + efisiensiBelanjaMurni
             let lkPotongan = belanjaInput - targetInput
             let persentaseEfisiensi = (belanjaMurni - belanjaInput) / efisiensiBelanjaMurni * 100 * -1
             grandTotalRealisasi += realisasiReal
