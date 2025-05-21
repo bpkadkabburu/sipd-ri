@@ -40,26 +40,26 @@ const efisiensiDauPeruntukkan = [
 ]
 
 const efisiensiGrandTotal = [
-  { "rekening": "5.1.02.04.01.0001", "nama": "Belanja Perjalanan Dinas Biasa", "persentase": 0.5, },
-  { "rekening": "5.1.02.04.01.0002", "nama": "Belanja Perjalanan Dinas Tetap", "persentase": 0.5, },
-  { "rekening": "5.1.02.04.01.0003", "nama": "Belanja Perjalanan Dinas Dalam Kota", "persentase": 0.5, },
-  { "rekening": "5.1.02.04.01.0004", "nama": "Belanja Perjalanan Dinas Paket Meeting Dalam Kota", "persentase": 0.5, },
-  { "rekening": "5.1.02.04.01.0005", "nama": "Belanja Perjalanan Dinas Paket Meeting Luar Kota", "persentase": 0.5, },
-  { "rekening": "5.1.02.01.01.0004", "nama": "Belanja Bahan-Bahan Bakar dan Pelumas", "persentase": 0.35, },
-  { "rekening": "5.1.02.01.01.0024", "nama": "Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor", "persentase": 0.35, },
-  { "rekening": "5.1.02.01.01.0025", "nama": "Belanja Alat/Bahan untuk Kegiatan Kantor- Kertas dan Cover", "persentase": 0.35, },
-  { "rekening": "5.1.02.01.01.0026", "nama": "Belanja Alat/Bahan untuk Kegiatan Kantor- Bahan Cetak", "persentase": 0.35, },
-  { "rekening": "5.1.02.01.01.0043", "nama": "Belanja Natura dan Pakan-Natura", "persentase": 0.35, },
-  { "rekening": "5.1.02.01.01.0052", "nama": "Belanja Makanan dan Minuman Rapat", "persentase": 0.35, },
-  { "rekening": "5.1.02.01.01.0053", "nama": "Belanja Makanan dan Minuman Jamuan Tamu", "persentase": 0.35, },
-  { "rekening": "5.1.02.01.01.0058", "nama": "Belanja Makanan dan Minuman Aktivitas Lapangan", "persentase": 0.35, },
-  { "rekening": "5.1.02.02.01.0052", "nama": "Belanja Jasa Pembersihan, Pengendalian Hama, dan Fumigasi", "persentase": 0.35, },
-  { "rekening": "5.1.02.03.02.0035", "nama": "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Dinas Bermotor Perorangan", "persentase": 0.35, },
-  { "rekening": "5.1.02.03.02.0036", "nama": "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Bermotor Penumpang", "persentase": 0.35, },
-  { "rekening": "5.2.02.05.02.0001", "nama": "Belanja Modal Mebel", "persentase": 0.35, },
-  { "rekening": "5.2.02.05.02.0006", "nama": "Belanja Modal Alat Rumah Tangga Lainnya (Home Use)", "persentase": 0.35, },
-  { "rekening": "5.2.02.10.01.0002", "nama": "Belanja Modal Personal Computer", "persentase": 0.7, },
-  { "rekening": "5.1.05.05.02.0001", "nama": "Belanja Hibah Uang kepada Badan dan Lembaga Nirlaba, Sukarela dan Sosial yang Telah Memiliki Surat Keterangan Terdaftar", "persentase": 0.3, },
+  { "rekening": "5.1.02.04.01.0001", "nama": "Belanja Perjalanan Dinas Biasa", "persentase": 0.5, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.04.01.0002", "nama": "Belanja Perjalanan Dinas Tetap", "persentase": 0.5, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.04.01.0003", "nama": "Belanja Perjalanan Dinas Dalam Kota", "persentase": 0.5, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.04.01.0004", "nama": "Belanja Perjalanan Dinas Paket Meeting Dalam Kota", "persentase": 0.5, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.04.01.0005", "nama": "Belanja Perjalanan Dinas Paket Meeting Luar Kota", "persentase": 0.5, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.01.01.0004", "nama": "Belanja Bahan-Bahan Bakar dan Pelumas", "persentase": 0.35, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.01.01.0024", "nama": "Belanja Alat/Bahan untuk Kegiatan Kantor-Alat Tulis Kantor", "persentase": 0.35, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.01.01.0025", "nama": "Belanja Alat/Bahan untuk Kegiatan Kantor- Kertas dan Cover", "persentase": 0.35, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.01.01.0026", "nama": "Belanja Alat/Bahan untuk Kegiatan Kantor- Bahan Cetak", "persentase": 0.35, "owner": ["umum"] },
+  { "rekening": "5.1.02.01.01.0043", "nama": "Belanja Natura dan Pakan-Natura", "persentase": 0.35, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.01.01.0052", "nama": "Belanja Makanan dan Minuman Rapat", "persentase": 0.35, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.01.01.0053", "nama": "Belanja Makanan dan Minuman Jamuan Tamu", "persentase": 0.35, "owner": ["umum"] },
+  { "rekening": "5.1.02.01.01.0058", "nama": "Belanja Makanan dan Minuman Aktivitas Lapangan", "persentase": 0.35, "owner": ["umum", "peruntukkan"] },
+  { "rekening": "5.1.02.02.01.0052", "nama": "Belanja Jasa Pembersihan, Pengendalian Hama, dan Fumigasi", "persentase": 0.35, "owner": ["umum"] },
+  { "rekening": "5.1.02.03.02.0035", "nama": "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Dinas Bermotor Perorangan", "persentase": 0.35, "owner": ["umum"] },
+  { "rekening": "5.1.02.03.02.0036", "nama": "Belanja Pemeliharaan Alat Angkutan-Alat Angkutan Darat Bermotor-Kendaraan Bermotor Penumpang", "persentase": 0.35, "owner": ["umum"] },
+  { "rekening": "5.2.02.05.02.0001", "nama": "Belanja Modal Mebel", "persentase": 0.35, "owner": ["umum"] },
+  { "rekening": "5.2.02.05.02.0006", "nama": "Belanja Modal Alat Rumah Tangga Lainnya (Home Use)", "persentase": 0.35, "owner": ["umum"] },
+  { "rekening": "5.2.02.10.01.0002", "nama": "Belanja Modal Personal Computer", "persentase": 0.7, "owner": ["umum"] },
+  { "rekening": "5.1.05.05.02.0001", "nama": "Belanja Hibah Uang kepada Badan dan Lembaga Nirlaba, Sukarela dan Sosial yang Telah Memiliki Surat Keterangan Terdaftar", "persentase": 0.3, "owner": ["peruntukkan"] },
 ]
 
 
@@ -252,15 +252,19 @@ const buildPemotongan = (
   let totalRealisasi = 0
   let totalRealisasiBelanjaRekeningLainnya = 0
   let listSubkegiatanMurni = filterSubkegiatanMurni(dataMurni, dinas, options)
-
   let realisasi = filterRealisasi(dataRealisasi, dinas, options)
-
   // console.log(listSubkegiatanMurni);
   let paguDAUMurni = total(listSubkegiatanMurni, 'PAGU')
   let paguDAUInput = total(dataPergeseran, 'PAGU')
   let selisihInput = paguDAUMurni - paguDAUInput
   // console.log(subkegiatan[0]['NAMA SUB KEGIATAN'], paguDAUMurni, paguDAUInput, selisihInput)
   let listBelanja = reducer(dataPergeseran, 'SUB RINCIAN OBJEK')
+  if (!options.keyListSubkegiatan) {
+    console.log("====== TEF" + options.sumberDanaFilter + "======")
+  } else {
+    console.log(options.keyListSubkegiatan)
+    console.log("======" + options.sumberDanaFilter + "======")
+  }
   for (const keyBelanja in listBelanja) {
     if (Object.hasOwnProperty.call(listBelanja, keyBelanja)) {
       // console.log(keyBelanja)
@@ -279,14 +283,17 @@ const buildPemotongan = (
       // console.log(belanja[0]['NAMA REKENING'], belanjaMurni.v, belanjaInput.v)
 
       if (!rekeningEfisiensi.includes(keyBelanja)) {
+        // console.log("Lainnya")
         totalBelanjaRekeningLainnyaMurni += belanjaMurni
         totalBelanjaRekeningLainnyaInput += belanjaInput
         totalRealisasiBelanjaRekeningLainnya += realisasiReal
+        console.log(keyBelanja, format(belanjaMurni), format(0))
       } else {
         let startIndex = findIndex(listHeader[1], keyBelanja)
         let excelIndex = startIndex[options.index]
         let rekening = getRekening(keyBelanja, listEfisiensi)
         let efisiensiBelanjaMurni = belanjaMurni * rekening.persentase * -1
+        console.log(keyBelanja, format(belanjaMurni), rekening.persentase, format(efisiensiBelanjaMurni))
         totalEfisiensiMurni += efisiensiBelanjaMurni
         let targetInput = belanjaMurni + efisiensiBelanjaMurni
         let lkPotongan = belanjaInput - targetInput
@@ -324,6 +331,10 @@ const buildPemotongan = (
   result[lainnyaIndex++] = createCell('n', (paguDAUMurni - paguDAUInput) / totalEfisiensiMurni * 100 * -1)
   result[lainnyaIndex++] = createCell('n', totalRealisasi)
   result[lainnyaIndex++] = createCell('n', selisihInput)
+  if (!options.keyListSubkegiatan) {
+    console.log("TEF: " + format(totalEfisiensiMurni))
+  }
+  // console.log("\n")
 }
 
 function pemotongan() {
@@ -402,7 +413,7 @@ function pemotongan() {
   for (const keyDinas in listDinas) {
     if (Object.hasOwnProperty.call(listDinas, keyDinas)) {
       const dinas = listDinas[keyDinas]
-      // if (dinas[0]['NAMA SUB UNIT'] !== 'Dinas Pendidikan dan Kebudayaan') break;
+      if (dinas[0]['NAMA SUB UNIT'] !== 'Dinas Pemberdayaan Perempuan dan Perlindungan Anak') continue;
       // console.log(dinas)
 
 
@@ -481,104 +492,30 @@ function pemotongan() {
             // console.log("DAU UMUM")
             buildPemotongan(
               rincianSubKegiatan,
-              newDataMurni, 
-              pergeseranDAU, 
-              listRealisasi, 
-              keyDinas, 
-              listSubkegiatanDinas, 
-              rekeningEfisiensiDau, 
+              newDataMurni,
+              pergeseranDAU,
+              listRealisasi,
+              keyDinas,
+              listSubkegiatanDinas,
+              rekeningEfisiensiDau,
               efisiensiDau,
-              options = { keyListSubkegiatan: keyListSubkegiatan, index: 0, sumberDanaFilter: 'umum' }
+              options = { keyListSubkegiatan, index: 0, sumberDanaFilter: 'umum' }
             )
           }
 
           if (pergeseranDAUPeruntukkan.length) {
             // console.log("DAU PERUNTUKKAN")
-            let totalEfisiensiMurni = 0
-            let totalBelanjaRekeningLainnyaMurni = 0
-            let totalBelanjaRekeningLainnyaInput = 0
-            let totalRealisasi = 0
-            let totalRealisasiBelanjaRekeningLainnya = 0
-            let listSubkegiatanMurni = newDataMurni.filter(x =>
-              x['KODE SUB UNIT'] === keyDinas &&
-              x['KODE SUB KEGIATAN'] === keyListSubkegiatan &&
-              isDAUPeruntukkan(x['NAMA SUMBER DANA'])
-            );
-
-            let realisasi = listRealisasi.filter(x =>
-              x['KODE SUB UNIT'] === keyDinas &&
-              x['KODE SUB KEGIATAN'] === keyListSubkegiatan
+            buildPemotongan(
+              rincianSubKegiatan,
+              newDataMurni,
+              pergeseranDAUPeruntukkan,
+              listRealisasi,
+              keyDinas,
+              listSubkegiatanDinas,
+              rekeningEfisiensiDauPeruntukkan,
+              efisiensiDauPeruntukkan,
+              options = { keyListSubkegiatan, index: 1, sumberDanaFilter: 'peruntukkan' }
             )
-
-            // console.log(listSubkegiatanMurni);
-            let paguDAUMurni = total(listSubkegiatanMurni, 'PAGU')
-            let paguDAUInput = total(pergeseranDAUPeruntukkan, 'PAGU')
-            let selisihInput = paguDAUMurni - paguDAUInput
-            // console.log(subkegiatan[0]['NAMA SUB KEGIATAN'], paguDAUMurni, paguDAUInput, selisihInput)
-            let listBelanja = reducer(pergeseranDAUPeruntukkan, 'SUB RINCIAN OBJEK')
-            for (const keyBelanja in listBelanja) {
-              if (Object.hasOwnProperty.call(listBelanja, keyBelanja)) {
-                // console.log(keyBelanja)
-                const belanja = listBelanja[keyBelanja];
-                let listBelanjaKegiatanMurni = listSubkegiatanMurni.filter(x =>
-                  x['SUB RINCIAN OBJEK'] === keyBelanja
-                )
-
-                let realisasiBelanja = realisasi.filter(x =>
-                  x['SUB RINCIAN OBJEK'] === keyBelanja
-                )
-
-                let belanjaMurni = total(listBelanjaKegiatanMurni, 'PAGU')
-                let belanjaInput = total(belanja, 'PAGU')
-                let realisasiReal = total(realisasiBelanja, 'REALISASI')
-                // console.log(belanja[0]['NAMA REKENING'], belanjaMurni.v, belanjaInput.v)
-
-                if (!rekeningEfisiensiDauPeruntukkan.includes(keyBelanja)) {
-                  totalBelanjaRekeningLainnyaMurni += belanjaMurni
-                  totalBelanjaRekeningLainnyaInput += belanjaInput
-                  totalRealisasiBelanjaRekeningLainnya += realisasiReal
-                } else {
-                  let startIndex = findIndex(listSubkegiatanDinas[1], keyBelanja)
-                  let excelIndex = startIndex[1]
-                  let rekening = getRekening(keyBelanja, efisiensiDauPeruntukkan)
-                  let efisiensiBelanjaMurni = belanjaMurni * rekening.persentase * -1
-                  totalEfisiensiMurni += efisiensiBelanjaMurni
-                  let targetInput = belanjaMurni + efisiensiBelanjaMurni
-                  let lkPotongan = belanjaInput - targetInput
-                  let persentaseEfisiensi = (belanjaMurni - belanjaInput) / efisiensiBelanjaMurni * 100 * -1
-                  totalRealisasi += realisasiReal
-                  let selisihBelanja = belanjaMurni - belanjaInput
-
-                  rincianSubKegiatan[excelIndex++] = createCell('n', belanjaMurni)
-                  rincianSubKegiatan[excelIndex++] = createCell('n', efisiensiBelanjaMurni)
-                  rincianSubKegiatan[excelIndex++] = createCell('n', targetInput)
-                  rincianSubKegiatan[excelIndex++] = createCell('n', belanjaInput)
-                  rincianSubKegiatan[excelIndex++] = createCell('n', lkPotongan)
-                  rincianSubKegiatan[excelIndex++] = createCell('n', persentaseEfisiensi)
-                  rincianSubKegiatan[excelIndex++] = createCell('n', realisasiReal)
-                  rincianSubKegiatan[excelIndex++] = createCell('n', selisihBelanja)
-                }
-              }
-            }
-
-            let lainnyaIndex = findIndex(listSubkegiatanDinas[1], 'Rekening Lainnya')[1]
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaMurni)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', 0)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaMurni)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaInput)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaInput - totalBelanjaRekeningLainnyaMurni)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', 0)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', totalRealisasiBelanjaRekeningLainnya)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaMurni - totalBelanjaRekeningLainnyaInput)
-            // TOTAL
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', paguDAUMurni)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', totalEfisiensiMurni)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', paguDAUMurni + totalEfisiensiMurni)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', paguDAUInput)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', paguDAUInput - (paguDAUMurni + totalEfisiensiMurni))
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', (paguDAUMurni - paguDAUInput) / totalEfisiensiMurni * 100 * -1)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', totalRealisasi)
-            rincianSubKegiatan[lainnyaIndex++] = createCell('n', selisihInput)
           }
 
           dataPerSubKegiatan.push(rincianSubKegiatan)
@@ -598,190 +535,48 @@ function pemotongan() {
       })
 
       if (pergeseranDAU.length) {
-        // console.log("DAU PERUNTUKKAN")
-        let totalEfisiensiMurni = 0
-        let totalBelanjaRekeningLainnyaMurni = 0
-        let totalBelanjaRekeningLainnyaInput = 0
-        let totalRealisasi = 0
-        let totalRealisasiBelanjaRekeningLainnya = 0
-        let listSubkegiatanMurni = newDataMurni.filter(x =>
-          x['KODE SUB UNIT'] === keyDinas &&
-          isDAUUmum(x['NAMA SUMBER DANA'])
-        );
-
-        let realisasi = listRealisasi.filter(x =>
-          x['KODE SUB UNIT'] === keyDinas
+        // console.log("DAU UMUM")
+        buildPemotongan(
+          rincianPerDinas,
+          newDataMurni,
+          pergeseranDAU,
+          listRealisasi,
+          keyDinas,
+          listEfisiensiDinas,
+          rekeningEfisiensiDau,
+          efisiensiDau,
+          options = { index: 0, sumberDanaFilter: 'umum' }
         )
-
-        // console.log(listSubkegiatanMurni);
-        let paguDAUMurni = total(listSubkegiatanMurni, 'PAGU')
-        let paguDAUInput = total(pergeseranDAU, 'PAGU')
-        let selisihInput = paguDAUMurni - paguDAUInput
-        // console.log(subkegiatan[0]['NAMA SUB KEGIATAN'], paguDAUMurni, paguDAUInput, selisihInput)
-        let listBelanja = reducer(pergeseranDAU, 'SUB RINCIAN OBJEK')
-        for (const keyBelanja in listBelanja) {
-          if (Object.hasOwnProperty.call(listBelanja, keyBelanja)) {
-            // console.log(keyBelanja)
-            const belanja = listBelanja[keyBelanja];
-            let listBelanjaKegiatanMurni = listSubkegiatanMurni.filter(x =>
-              x['SUB RINCIAN OBJEK'] === keyBelanja
-            )
-
-            let realisasiBelanja = realisasi.filter(x =>
-              x['SUB RINCIAN OBJEK'] === keyBelanja
-            )
-
-            let belanjaMurni = total(listBelanjaKegiatanMurni, 'PAGU')
-            let belanjaInput = total(belanja, 'PAGU')
-            let realisasiReal = total(realisasiBelanja, 'REALISASI')
-            // console.log(belanja[0]['NAMA REKENING'], belanjaMurni.v, belanjaInput.v)
-
-            if (!rekeningEfisiensiDau.includes(keyBelanja)) {
-              totalBelanjaRekeningLainnyaMurni += belanjaMurni
-              totalBelanjaRekeningLainnyaInput += belanjaInput
-              totalRealisasiBelanjaRekeningLainnya += realisasiReal
-            } else {
-              let startIndex = findIndex(listEfisiensiDinas[1], keyBelanja)
-              let excelIndex = startIndex[0]
-              let rekening = getRekening(keyBelanja, efisiensiDau)
-              let efisiensiBelanjaMurni = belanjaMurni * rekening.persentase * -1
-              totalEfisiensiMurni += efisiensiBelanjaMurni
-              let targetInput = belanjaMurni + efisiensiBelanjaMurni
-              let lkPotongan = belanjaInput - targetInput
-              let persentaseEfisiensi = (belanjaMurni - belanjaInput) / efisiensiBelanjaMurni * 100 * -1
-              totalRealisasi += realisasiReal
-              let selisihBelanja = belanjaMurni - belanjaInput
-
-              rincianPerDinas[excelIndex++] = createCell('n', belanjaMurni)
-              rincianPerDinas[excelIndex++] = createCell('n', efisiensiBelanjaMurni)
-              rincianPerDinas[excelIndex++] = createCell('n', targetInput)
-              rincianPerDinas[excelIndex++] = createCell('n', belanjaInput)
-              rincianPerDinas[excelIndex++] = createCell('n', lkPotongan)
-              rincianPerDinas[excelIndex++] = createCell('n', persentaseEfisiensi)
-              rincianPerDinas[excelIndex++] = createCell('n', realisasiReal)
-              rincianPerDinas[excelIndex++] = createCell('n', selisihBelanja)
-            }
-          }
-        }
-
-        let lainnyaIndex = findIndex(listEfisiensiDinas[1], 'Rekening Lainnya')[0]
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', 0)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaInput)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaInput - totalBelanjaRekeningLainnyaMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', 0)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalRealisasiBelanjaRekeningLainnya)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaMurni - totalBelanjaRekeningLainnyaInput)
-        // TOTAL
-        rincianPerDinas[lainnyaIndex++] = createCell('n', paguDAUMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalEfisiensiMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', paguDAUMurni + totalEfisiensiMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', paguDAUInput)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', paguDAUInput - (paguDAUMurni + totalEfisiensiMurni))
-        rincianPerDinas[lainnyaIndex++] = createCell('n', (paguDAUMurni - paguDAUInput) / totalEfisiensiMurni * 100 * -1)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalRealisasi)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', selisihInput)
       }
 
       if (pergeseranDAUPeruntukkan.length) {
         // console.log("DAU PERUNTUKKAN")
-        let totalEfisiensiMurni = 0
-        let totalBelanjaRekeningLainnyaMurni = 0
-        let totalBelanjaRekeningLainnyaInput = 0
-        let totalRealisasi = 0
-        let totalRealisasiBelanjaRekeningLainnya = 0
-        let listSubkegiatanMurni = newDataMurni.filter(x =>
-          x['KODE SUB UNIT'] === keyDinas &&
-          isDAUPeruntukkan(x['NAMA SUMBER DANA'])
-        );
-
-        let realisasi = listRealisasi.filter(x =>
-          x['KODE SUB UNIT'] === keyDinas
+        buildPemotongan(
+          rincianPerDinas,
+          newDataMurni,
+          pergeseranDAUPeruntukkan,
+          listRealisasi,
+          keyDinas,
+          listEfisiensiDinas,
+          rekeningEfisiensiDauPeruntukkan,
+          efisiensiDauPeruntukkan,
+          options = { index: 1, sumberDanaFilter: 'peruntukkan' }
         )
-
-        // console.log(listSubkegiatanMurni);
-        let paguDAUMurni = total(listSubkegiatanMurni, 'PAGU')
-        let paguDAUInput = total(pergeseranDAUPeruntukkan, 'PAGU')
-        let selisihInput = paguDAUMurni - paguDAUInput
-        // console.log(subkegiatan[0]['NAMA SUB KEGIATAN'], paguDAUMurni, paguDAUInput, selisihInput)
-        let listBelanja = reducer(pergeseranDAUPeruntukkan, 'SUB RINCIAN OBJEK')
-        for (const keyBelanja in listBelanja) {
-          if (Object.hasOwnProperty.call(listBelanja, keyBelanja)) {
-            // console.log(keyBelanja)
-            const belanja = listBelanja[keyBelanja];
-            let listBelanjaKegiatanMurni = listSubkegiatanMurni.filter(x =>
-              x['SUB RINCIAN OBJEK'] === keyBelanja
-            )
-
-            let realisasiBelanja = realisasi.filter(x =>
-              x['SUB RINCIAN OBJEK'] === keyBelanja
-            )
-
-            let belanjaMurni = total(listBelanjaKegiatanMurni, 'PAGU')
-            let belanjaInput = total(belanja, 'PAGU')
-            let realisasiReal = total(realisasiBelanja, 'REALISASI')
-            // console.log(belanja[0]['NAMA REKENING'], belanjaMurni.v, belanjaInput.v)
-
-            if (!rekeningEfisiensiDauPeruntukkan.includes(keyBelanja)) {
-              totalBelanjaRekeningLainnyaMurni += belanjaMurni
-              totalBelanjaRekeningLainnyaInput += belanjaInput
-              totalRealisasiBelanjaRekeningLainnya += realisasiReal
-            } else {
-              let startIndex = findIndex(listEfisiensiDinas[1], keyBelanja)
-              let excelIndex = startIndex[1]
-              let rekening = getRekening(keyBelanja, efisiensiDauPeruntukkan)
-              let efisiensiBelanjaMurni = belanjaMurni * rekening.persentase * -1
-              totalEfisiensiMurni += efisiensiBelanjaMurni
-              let targetInput = belanjaMurni + efisiensiBelanjaMurni
-              let lkPotongan = belanjaInput - targetInput
-              let persentaseEfisiensi = (belanjaMurni - belanjaInput) / efisiensiBelanjaMurni * 100 * -1
-              totalRealisasi += realisasiReal
-              let selisihBelanja = belanjaMurni - belanjaInput
-
-              rincianPerDinas[excelIndex++] = createCell('n', belanjaMurni)
-              rincianPerDinas[excelIndex++] = createCell('n', efisiensiBelanjaMurni)
-              rincianPerDinas[excelIndex++] = createCell('n', targetInput)
-              rincianPerDinas[excelIndex++] = createCell('n', belanjaInput)
-              rincianPerDinas[excelIndex++] = createCell('n', lkPotongan)
-              rincianPerDinas[excelIndex++] = createCell('n', persentaseEfisiensi)
-              rincianPerDinas[excelIndex++] = createCell('n', realisasiReal)
-              rincianPerDinas[excelIndex++] = createCell('n', selisihBelanja)
-            }
-          }
-        }
-
-        let lainnyaIndex = findIndex(listEfisiensiDinas[1], 'Rekening Lainnya')[1]
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', 0)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaInput)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaInput - totalBelanjaRekeningLainnyaMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', 0)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalRealisasiBelanjaRekeningLainnya)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalBelanjaRekeningLainnyaMurni - totalBelanjaRekeningLainnyaInput)
-        // TOTAL
-        rincianPerDinas[lainnyaIndex++] = createCell('n', paguDAUMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalEfisiensiMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', paguDAUMurni + totalEfisiensiMurni)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', paguDAUInput)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', paguDAUInput - (paguDAUMurni + totalEfisiensiMurni))
-        rincianPerDinas[lainnyaIndex++] = createCell('n', (paguDAUMurni - paguDAUInput) / totalEfisiensiMurni * 100 * -1)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', totalRealisasi)
-        rincianPerDinas[lainnyaIndex++] = createCell('n', selisihInput)
       }
-
-      let grandTotalEfisiensiMurni = 0
-      let grandTotalBelanjaRekeningLainnyaMurni = 0
-      let grandTotalBelanjaRekeningLainnyaInput = 0
-      let grandTotalRealisasi = 0
-      let grandTotalRealisasiBelanjaRekeningLainnya = 0
 
       let pergeseranTotal = dinas.filter((x) => {
         if (isDAUUmum(x['NAMA SUMBER DANA']) || isDAUPeruntukkan(x['NAMA SUMBER DANA'])) {
           return x
         }
       })
+      console.log("++++++++++++++++++++++++++++++++++")
+      console.log("GRAND TOTAL")
+
+      let grandTotalEfisiensiMurni = 0
+      let grandTotalBelanjaRekeningLainnyaMurni = 0
+      let grandTotalBelanjaRekeningLainnyaInput = 0
+      let grandTotalRealisasi = 0
+      let grandTotalRealisasiBelanjaRekeningLainnya = 0
 
       let listSubkegiatanMurni = newDataMurni.filter(x =>
         x['KODE SUB UNIT'] === keyDinas &&
@@ -812,9 +607,12 @@ function pemotongan() {
             x['SUB RINCIAN OBJEK'] === keyBelanja
           )
 
+          // console.log(listBelanjaKegiatanMurni)
+
           let belanjaMurni = total(listBelanjaKegiatanMurni, 'PAGU')
           let belanjaInput = total(belanja, 'PAGU')
           let realisasiReal = total(realisasiBelanja, 'REALISASI')
+
           // console.log(belanja[0]['NAMA REKENING'], belanjaMurni.v, belanjaInput.v)
 
           if (!rekeningEfisiensiGrandTotal.includes(keyBelanja)) {
@@ -825,9 +623,39 @@ function pemotongan() {
             let startIndex = findIndex(listEfisiensiDinas[1], keyBelanja)
             let excelIndex = startIndex[2]
             let rekening = getRekening(keyBelanja, efisiensiGrandTotal)
-            let efisiensiBelanjaMurni = belanjaMurni * rekening.persentase * -1
-            grandTotalEfisiensiMurni += efisiensiBelanjaMurni
-            let targetInput = belanjaMurni + efisiensiBelanjaMurni
+            let efisiensiBelanjaMurni = 0
+            if (rekening.owner.length === 2) {
+              console.log("UMUM + PERUNTUKKAN")
+              efisiensiBelanjaMurni = belanjaMurni * rekening.persentase * -1
+              console.log(keyBelanja, format(belanjaMurni), rekening.persentase, format(efisiensiBelanjaMurni))
+              grandTotalEfisiensiMurni += efisiensiBelanjaMurni
+            } else {
+              console.log(rekening.owner)
+              if (rekening.owner.includes('umum')) {
+                console.log("UMUM")
+                let listBelanjaKegiatanMurniOwner = listBelanjaKegiatanMurni.filter(x =>
+                  isDAUUmum(x['NAMA SUMBER DANA'])
+                )
+
+                let totalBelanja = total(listBelanjaKegiatanMurniOwner, 'PAGU')
+                efisiensiBelanjaMurni = totalBelanja * rekening.persentase * -1
+                console.log(keyBelanja, format(belanjaMurni), rekening.persentase, format(efisiensiBelanjaMurni))
+                grandTotalEfisiensiMurni += efisiensiBelanjaMurni
+              }
+
+              if (rekening.owner.includes('peruntukkan')) {
+                console.log("PERUNTUKKAN")
+                let listBelanjaKegiatanMurniOwner = listBelanjaKegiatanMurni.filter(x =>
+                  isDAUPeruntukkan(x['NAMA SUMBER DANA'])
+                )
+
+                totalBelanja = total(listBelanjaKegiatanMurniOwner, 'PAGU')
+                let efisiensiBelanjaMurni = totalBelanja * rekening.persentase * -1
+                console.log(keyBelanja, format(belanjaMurni), rekening.persentase, format(efisiensiBelanjaMurni))
+                grandTotalEfisiensiMurni += efisiensiBelanjaMurni
+              }
+            }
+            let targetInput = belanjaMurni - efisiensiBelanjaMurni
             let lkPotongan = belanjaInput - targetInput
             let persentaseEfisiensi = (belanjaMurni - belanjaInput) / efisiensiBelanjaMurni * 100 * -1
             grandTotalRealisasi += realisasiReal
@@ -860,7 +688,7 @@ function pemotongan() {
       rincianPerDinas[lainnyaIndex++] = createCell('n', grandTotalMurni + grandTotalEfisiensiMurni)
       rincianPerDinas[lainnyaIndex++] = createCell('n', grandTotalInput)
       rincianPerDinas[lainnyaIndex++] = createCell('n', grandTotalInput - (grandTotalMurni + grandTotalEfisiensiMurni))
-      rincianPerDinas[lainnyaIndex++] = createCell('n', (grandTotalMurni - grandTotalInput) / grandTotalEfisiensiMurni * 100 * -1)
+      rincianPerDinas[lainnyaIndex++] = createCell('n', (grandTotalMurni - grandTotalInput) / grandTotalEfisiensiMurni * 100)
       rincianPerDinas[lainnyaIndex++] = createCell('n', grandTotalRealisasi)
       rincianPerDinas[lainnyaIndex++] = createCell('n', selisihInput)
 
