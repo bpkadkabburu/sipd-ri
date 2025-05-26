@@ -1,47 +1,8 @@
 const XLSX = require('xlsx-js-style')
-
-function total(x, y){
-    return x.reduce((acc, item) => acc + parseFloat(item[y]), 0)
-}
-
-function reducer(element, x){
-    return element.reduce((accumulator, currentValue) =>{
-        (accumulator[currentValue[x]] = accumulator[currentValue[x]] || []).push(currentValue);
-        return accumulator;
-    }, {})
-}
-
-function mapper(element, x){
-    return element.map(a => a[x])
-}
-
-function unique(element, index, mode){
-    const temp = []
-    const duplItem = []
-    for (const item of element) {
-        const isDuplicate = temp.find(x => x[index] === item[index])
-        if(!isDuplicate){
-            temp.push(item)
-        } else {
-            duplItem.push(item)
-        }
-    }
-
-    if (mode === 'duplikat') {
-        return duplItem
-    } else if (mode === 'non') {
-        return temp
-    }
-}
-
-function format(x) {
-    let a = Intl.NumberFormat('id-ID', { style: "currency", currency: "IDR" }).format(x)
-    a = a.replace("Rp", "Rp.")
-    return a
-}
+const { calculateSum, groupByProperty, formatToRupiah, filterByUniqueness } = require('./lib/utils.js');
 
 let b = require('./JSON/ringkasan-kua-ppas-16-11-2023.json')
-let listDinas = reducer(b, 'nama_sub_skpd');
+let listDinas = groupByProperty(b, 'nama_sub_skpd');
 let TOTAL = 0
 let all = [];
 let paguAll = [];
@@ -51,7 +12,7 @@ for (const key in listDinas) {
   if (Object.hasOwnProperty.call(listDinas, key)) {
     TOTAL = 0
     const element = listDinas[key]
-    let duplicate = unique(element, 'kode_sub_giat', 'non')
+    let duplicate = filterByUniqueness(element, 'kode_sub_giat')
     // console.log('\x1b[31m%s\x1b[0m', key)
     all = []
     all.push(
@@ -71,10 +32,10 @@ for (const key in listDinas) {
         null, 
         null, 
         null, 
-        {t:"n", z:"#,##0.00", v:total(duplicate, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
+        {t:"n", z:"#,##0.00", v:calculateSum(duplicate, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
       ]
     )
-    let listUrusan = reducer(duplicate, 'nama_urusan')
+    let listUrusan = groupByProperty(duplicate, 'nama_urusan')
     for (const keyUrusan in listUrusan) {
         if (Object.hasOwnProperty.call(listUrusan, keyUrusan)) {
           const urusan = listUrusan[keyUrusan];
@@ -83,23 +44,23 @@ for (const key in listDinas) {
             {t:"s", v:keyUrusan, s:{font:{bold:true, name: "Calibri", sz: 9}}},
             null,
             null,
-            {t:"n", z:"#,##0.00", v:total(urusan, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
+            {t:"n", z:"#,##0.00", v:calculateSum(urusan, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
           ])
 
-          let listBidangUrusan = reducer(urusan, 'nama_bidang_urusan')
+          let listBidangUrusan = groupByProperty(urusan, 'nama_bidang_urusan')
           for (const keyBidangUrusan in listBidangUrusan) {
             if (Object.hasOwnProperty.call(listBidangUrusan, keyBidangUrusan)) {
               const bidangUrusan = listBidangUrusan[keyBidangUrusan];
               // console.log('\x1b[31m%s\x1b[0m', keyBidangUrusan)
-              // console.log("PAGU " + format(total(duplicate, 'pagu_indikatif')))
+              // console.log("PAGU " + formatToRupiah(calculateSum(duplicate, 'pagu_indikatif')))
               all.push([
                 {t:"s", v:bidangUrusan[0].kode_bidang_urusan, s:{font:{bold:true, name: "Calibri", sz: 9}}},
                 {t:"s", v:keyBidangUrusan, s:{font:{bold:true, name: "Calibri", sz: 9}}},
                 null,
                 null,
-                {t:"n", z:"#,##0.00", v:total(bidangUrusan, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
+                {t:"n", z:"#,##0.00", v:calculateSum(bidangUrusan, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
               ])
-              let listProgram = reducer(bidangUrusan, 'nama_program')
+              let listProgram = groupByProperty(bidangUrusan, 'nama_program')
               for (const keyProgram in listProgram) {
                 if (Object.hasOwnProperty.call(listProgram, keyProgram)) {
                   const program = listProgram[keyProgram];
@@ -110,9 +71,9 @@ for (const key in listDinas) {
                     {t:"s", v:keyProgram, s:{font:{bold:true, name: "Calibri", sz: 9}, alignment: { wrapText: true }},},
                     {t:"s", v:totalUkurCapaian, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}},
                     {t:"s", v:targetTeksCapaian, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}},
-                    {t:"n", z:"#,##0.00", v:total(program, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
+                    {t:"n", z:"#,##0.00", v:calculateSum(program, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
                   ])
-                  let listKegiatan = reducer(program, 'nama_giat')
+                  let listKegiatan = groupByProperty(program, 'nama_giat')
                   for (const keyKegiatan in listKegiatan) {
                     if (Object.hasOwnProperty.call(listKegiatan, keyKegiatan)) {
                       const kegiatan = listKegiatan[keyKegiatan];
@@ -123,9 +84,9 @@ for (const key in listDinas) {
                         {t:"s", v:keyKegiatan, s:{font:{bold:true, name: "Calibri", sz: 9}, alignment: { wrapText: true }}},
                         {t:"s", v:totalUkurOutput, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}},
                         {t:"s", v:targetTeksOutput, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}},
-                        {t:"n", z:"#,##0.00", v:total(kegiatan, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
+                        {t:"n", z:"#,##0.00", v:calculateSum(kegiatan, 'pagu_indikatif'), s:{font:{bold:true, name: "Calibri", sz: 9}}}
                       ])
-                      let listSubkegiatan = reducer(kegiatan, 'nama_sub_giat')
+                      let listSubkegiatan = groupByProperty(kegiatan, 'nama_sub_giat')
                       for (const keySubkegiatan in listSubkegiatan) {
                         if (Object.hasOwnProperty.call(listSubkegiatan, keySubkegiatan)) {
                           const subkegiatan = listSubkegiatan[keySubkegiatan];
@@ -136,10 +97,10 @@ for (const key in listDinas) {
                             {t:"s", v:keySubkegiatan, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}},
                             {t:"s", v:tolakUkurSub, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}},
                             {t:"s", v:targetSubTeks, s:{font:{name: "Calibri", sz: 9}, alignment: { wrapText: true }}},
-                            {t:"n", z:"#,##0.00", v:total(subkegiatan, 'pagu_indikatif'), s:{font:{name: "Calibri", sz: 9}}}
+                            {t:"n", z:"#,##0.00", v:calculateSum(subkegiatan, 'pagu_indikatif'), s:{font:{name: "Calibri", sz: 9}}}
                           ])
-                          TOTAL += total(subkegiatan, 'pagu_indikatif')
-                          // console.log(`${keySubkegiatan} ${format(total(subkegiatan, 'pagu_indikatif'))}`)
+                          TOTAL += calculateSum(subkegiatan, 'pagu_indikatif')
+                          // console.log(`${keySubkegiatan} ${formatToRupiah(calculateSum(subkegiatan, 'pagu_indikatif'))}`)
                         }
                       }
                     }
@@ -158,16 +119,16 @@ for (const key in listDinas) {
     XLSX.utils.book_append_sheet(workbook, worksheet, duplicate[0].nama_sub_skpd.substring(0,30));
     totalAll+=TOTAL
     // console.log('\x1b[31m%s\x1b[0m', key)
-    console.log("PAGU " + key + " " + format(total(duplicate, 'pagu_indikatif')))
-    console.log("PAGU JUMLAH SUB KEGIATAN " + key + " " + format(TOTAL))
+    console.log("PAGU " + key + " " + formatToRupiah(calculateSum(duplicate, 'pagu_indikatif')))
+    console.log("PAGU JUMLAH SUB KEGIATAN " + key + " " + formatToRupiah(TOTAL))
     paguAll.push([
       key,
       {t:"n", z:"#,##0.00", v:Math.round(TOTAL)}
     ])
-    // console.log("PENGURANG " + format(total(duplicate, 'pagu')))
-    // let pagu = total(element, 'pagu') - total(duplicate, 'pagu')
-    // console.log("REAL " +format(pagu))
-    // console.log("PEMBULATAN " +format(Math.round(pagu)))
+    // console.log("PENGURANG " + formatToRupiah(calculateSum(duplicate, 'pagu')))
+    // let pagu = calculateSum(element, 'pagu') - calculateSum(duplicate, 'pagu')
+    // console.log("REAL " +formatToRupiah(pagu))
+    // console.log("PEMBULATAN " +formatToRupiah(Math.round(pagu)))
     // TOTAL += Math.round(pagu)
   }
 }
@@ -179,4 +140,4 @@ XLSX.writeFile(paguWb, "PAGU DINAS-2.xlsx", {compression: true})
 
 XLSX.writeFile(workbook, "PAGU PER DINAS PER URUSAN-2.xlsx", { compression: true });
 // console.log(all)
-console.log("\nTOTAL PAGU " + format(Math.round(totalAll)))
+console.log("\nTOTAL PAGU " + formatToRupiah(Math.round(totalAll)))

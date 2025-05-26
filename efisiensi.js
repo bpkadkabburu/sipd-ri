@@ -115,6 +115,12 @@ function isDAUPeruntukkan(namaSumberDana) {
   return /yang Ditentukan Penggunaannya|Tambahan Dukungan/i.test(namaSumberDana);
 }
 
+function format(x) {
+  let a = Intl.NumberFormat('id-ID', { style: "currency", currency: "IDR" }).format(x)
+  a = a.replace("Rp", "Rp.")
+  return a
+}
+
 function pushItemPlusNull(arr, value, count) {
   arr.push(value);
   for (let i = 0; i < (count * 8) - 1; i++) {
@@ -144,12 +150,6 @@ function pushNamaPerItem(namaArr, templArr, data) {
   pushFiveTemplate(templArr);
   pushItemPlusNull(namaArr, "Total", 1);
   pushFiveTemplate(templArr);
-}
-
-function format(x) {
-  let a = Intl.NumberFormat('id-ID', { style: "currency", currency: "IDR" }).format(x)
-  a = a.replace("Rp", "Rp.")
-  return a
 }
 
 function buildHeader(data, rek1, rek2) {

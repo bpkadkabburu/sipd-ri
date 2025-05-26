@@ -1,58 +1,13 @@
 const XLSX = require('xlsx-js-style')
 const fs = require('fs')
+const { calculateSum, groupByProperty, extractProperty } = require('./lib/utils.js');
 
-function total(x, y) {
-  return x.reduce((acc, item) => {
-    let value = item[y]
-    if (typeof value === 'undefined') {
-      value = 0
-    }
-    return acc + parseFloat(value)
-  }, 0)
-}
-
-function reducer(element, x) {
-  return element.reduce((accumulator, currentValue) => {
-    (accumulator[currentValue[x]] = accumulator[currentValue[x]] || []).push(currentValue);
-    return accumulator;
-  }, {})
-}
-
-function mapper(element, x) {
-  return element.map(a => a[x])
-}
-
-function unique(element, index, mode) {
-  const temp = []
-  const duplItem = []
-  for (const item of element) {
-    const isDuplicate = temp.find(x => x[index] === item[index])
-    if (!isDuplicate) {
-      temp.push(item)
-    } else {
-      duplItem.push(item)
-    }
-  }
-
-  if (mode === 'duplikat') {
-    return duplItem
-  } else if (mode === 'non') {
-    return temp
-  }
-}
-
-function format(x) {
-  let a = Intl.NumberFormat('id-ID', { style: "currency", currency: "IDR" }).format(x)
-  a = a.replace("Rp", "Rp.")
-  return a
-}
-
-function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
+function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, tahun, namaFile) {
   const xlb = fs.readFileSync(xlf)
   const wb = XLSX.read(xlb)
   let listData = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]])
   // console.log(listData)
-  const listDinas = reducer(listData, 'KODE SUB UNIT')
+  const listDinas = groupByProperty(listData, 'KODE SUB UNIT')
   let all = []
   let sdAll = []
   let totalPagu = []
@@ -74,7 +29,6 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
       { t: "s", v: "GAJI ASN + TPP (Rp)", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
     ]
   )
-
 
   gajiTunjanganPNS.push(
     [
@@ -116,7 +70,6 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
     ]
   )
 
-
   const workbook = XLSX.utils.book_new();
   all.push(
     [
@@ -141,10 +94,10 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
       // }
       let arrTotalPagu = [
         { t: "s", v: element[0]['NAMA SUB UNIT'], s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true, vertical: 'center' } } },
-        { t: "n", v: total(element, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } },
+        { t: "n", v: calculateSum(element, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } },
       ]
 
-      let listSubkegiatan = reducer(element, 'KODE SUB KEGIATAN')
+      let listSubkegiatan = groupByProperty(element, 'KODE SUB KEGIATAN')
 
       for (const keyListSubkegiatan in listSubkegiatan) {
         if (Object.hasOwnProperty.call(listSubkegiatan, keyListSubkegiatan)) {
@@ -166,118 +119,118 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
             }
 
             arrTotalPagu.push(
-              { t: "n", v: total(subkegiatan, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+              { t: "n", v: calculateSum(subkegiatan, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
             )
 
-            let listKodeRekening = reducer(subkegiatan, 'KODE REKENING')
+            let listKodeRekening = groupByProperty(subkegiatan, 'KODE REKENING')
             for (const keyKodeRekening in listKodeRekening) {
               if (Object.hasOwnProperty.call(listKodeRekening, keyKodeRekening)) {
                 const kodeRekening = listKodeRekening[keyKodeRekening];
 
                 if (keyKodeRekening === '5.1.01.01.01.0001') {
-                  arrGajiPNS[0] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[0] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === '5.1.01.01.02.0001') {
-                  arrGajiPNS[1] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[1] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.03.0001") {
-                  arrGajiPNS[2] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[2] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.04.0001") {
-                  arrGajiPNS[3] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[3] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.05.0001") {
-                  arrGajiPNS[4] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[4] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.06.0001") {
-                  arrGajiPNS[5] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[5] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.07.0001") {
-                  arrGajiPNS[6] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[6] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.08.0001") {
-                  arrGajiPNS[7] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[7] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.09.0001") {
-                  arrGajiPNS[8] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[8] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.10.0001") {
-                  arrGajiPNS[9] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[9] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.11.0001") {
-                  arrGajiPNS[10] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[10] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.02.01.0001") {
-                  arrGajiPNS[11] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[11] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.02.02.0001") {
-                  arrGajiPNS[12] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[12] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.02.03.0001") {
-                  arrGajiPNS[13] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[13] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.02.04.0001") {
-                  arrGajiPNS[14] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiPNS[14] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 // P3K
 
                 if (keyKodeRekening === "5.1.01.01.01.0002") {
-                  arrGajiP3K[0] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[0] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.02.0002") {
-                  arrGajiP3K[1] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[1] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.03.0002") {
-                  arrGajiP3K[2] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[2] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.04.0002") {
-                  arrGajiP3K[3] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[3] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.05.0002") {
-                  arrGajiP3K[4] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[4] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.06.0002") {
-                  arrGajiP3K[5] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[5] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.07.0002") {
-                  arrGajiP3K[6] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[6] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.08.0002") {
-                  arrGajiP3K[7] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[7] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.09.0002") {
-                  arrGajiP3K[8] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[8] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.10.0002") {
-                  arrGajiP3K[9] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[9] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
 
                 if (keyKodeRekening === "5.1.01.01.11.0002") {
-                  arrGajiP3K[10] = { t: "n", v: total(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
+                  arrGajiP3K[10] = { t: "n", v: calculateSum(kodeRekening, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } }
                 }
               }
             }
@@ -314,13 +267,13 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
               bidangPmk = { t: "s", v: cariSubkegiatanPmk[0].bidang, s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true } } }
               paguPmk = { t: "n", v: cariSubkegiatanPmk[0].pagu, s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true } } }
             } else {
-              kodePmk = { t: "s", v: mapper(cariSubkegiatanPmk, 'kode').join(', '), s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true } } }
-              bidangPmk = { t: "s", v: mapper(cariSubkegiatanPmk, 'bidang').join(', '), s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true } } }
-              paguPmk = { t: "n", v: mapper(cariSubkegiatanPmk, 'pagu').join(', '), s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true } } }
+              kodePmk = { t: "s", v: extractProperty(cariSubkegiatanPmk, 'kode').join(', '), s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true } } }
+              bidangPmk = { t: "s", v: extractProperty(cariSubkegiatanPmk, 'bidang').join(', '), s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true } } }
+              paguPmk = { t: "n", v: extractProperty(cariSubkegiatanPmk, 'pagu').join(', '), s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true } } }
             }
           }
 
-          let listSumberDana = reducer(subkegiatan, 'KODE SUMBER DANA')
+          let listSumberDana = groupByProperty(subkegiatan, 'KODE SUMBER DANA')
           for (const keySumberDana in listSumberDana) {
             if (Object.hasOwnProperty.call(listSumberDana, keySumberDana)) {
               const sumberDana = listSumberDana[keySumberDana];
@@ -332,7 +285,7 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
                   { t: "s", v: "-", s: { font: { name: "Calibri", sz: 9 } } },
                   { t: "s", v: "-", s: { font: { name: "Calibri", sz: 9 } } },
                   { t: "s", v: "-", s: { font: { name: "Calibri", sz: 9 } } },
-                  { t: "n", v: total(sumberDana, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } },
+                  { t: "n", v: calculateSum(sumberDana, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } },
                   { t: "s", v: subkegiatan[0]['NAMA SUB UNIT'], s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true, vertical: 'center' } } },
                   kodePmk,
                   bidangPmk,
@@ -346,7 +299,7 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
                   { t: "s", v: sumberDana[0]['KODE SUMBER DANA'], s: { font: { name: "Calibri", sz: 9 } } },
                   { t: "s", v: sumberDana[0]['NAMA SUMBER DANA'], s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true, vertical: 'center' } } },
                   { t: "s", v: !isMutakhir ? 'FALSE' : 'TRUE', s: { font: { name: "Calibri", sz: 9 } } },
-                  { t: "n", v: total(sumberDana, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } },
+                  { t: "n", v: calculateSum(sumberDana, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } },
                   { t: "s", v: subkegiatan[0]['NAMA SUB UNIT'], s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true, vertical: 'center' } } },
                   kodePmk,
                   bidangPmk,
@@ -365,7 +318,7 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
         arrTotalPagu
       )
 
-      let listSD = reducer(element, 'NAMA SUMBER DANA')
+      let listSD = groupByProperty(element, 'NAMA SUMBER DANA')
       for (const sd in listSD) {
         if (Object.hasOwnProperty.call(listSD, sd)) {
           const SD = listSD[sd];
@@ -374,7 +327,7 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
               { t: "s", v: element[0]['NAMA SUB UNIT'], s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true, vertical: 'center' } } },
               { t: "s", v: SD[0]['KODE SUMBER DANA'] ?? '-', s: { font: { name: "Calibri", sz: 9 } } },
               { t: "s", v: SD[0]['NAMA SUMBER DANA'] ?? '-', s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true, vertical: 'center' } } },
-              { t: "n", v: total(SD, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } },
+              { t: "n", v: calculateSum(SD, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } },
             ]
           )
         }
@@ -399,7 +352,7 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile) {
   XLSX.utils.book_append_sheet(workbook, totalPaguWs, 'PAGU PER OPD');
   XLSX.utils.book_append_sheet(workbook, gajiTunjanganPNSWs, 'GAJI PNS PER OPD');
   XLSX.utils.book_append_sheet(workbook, gajiTunjanganP3KWs, 'GAJI P3K PER OPD');
-  XLSX.writeFile(workbook, namaFile, { compression: true });
+  XLSX.writeFile(workbook, `output/${tahun}/${namaFile}`, { compression: true });
 }
 
 function mutakhir(xlf) {
@@ -449,11 +402,12 @@ function mutakhir(xlf) {
   XLSX.writeFile(workbook, "MUTAKHIR.xlsx", { compression: true });
 }
 
-const xlf = './EXCEL/2025/rekap3.xlsx'
-const listPMK = require('./JSON/2025/pmk-110-baru.json') // 2024 pmk-110-dari-sikd-terisi-anggaran. 2025 pmk-110
-const listSumberDanaSIPD = require('./JSON/2025/sumber_dana.json')
-let namaFile = 'PAGU OPD 2025 BARU.xlsx'
+const xlf = './input/excel/2025/rekap5_murni.xlsx'
+const listPMK = require('./input/json/2025/pmk-110-baru.json') // 2024 pmk-110-dari-sikd-terisi-anggaran. 2025 pmk-110
+const listSumberDanaSIPD = require('./input/json/2025/sumber_dana.json')
+let namaFile = 'CEK SUMBER DANA 2025.xlsx'
+const tahun = '2025'
 
-cekSumberDana(xlf, listPMK, listSumberDanaSIPD, namaFile)
+cekSumberDana(xlf, listPMK, listSumberDanaSIPD, tahun, namaFile)
 // s(xlf)
 
