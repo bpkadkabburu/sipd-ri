@@ -1,6 +1,6 @@
 const XLSX = require('xlsx-js-style')
 const fs = require('fs')
-const listRealisasi = require('./JSON/2025/realisasi_complete.json')
+const listRealisasi = require('./input/json/2025/realisasi_complete.json')
 
 const efisiensiDau = [
   { "rekening": "5.1.02.04.01.0001", "nama": "Belanja Perjalanan Dinas Biasa", "persentase": 0.5, },
@@ -338,8 +338,8 @@ const buildPemotongan = (
 }
 
 function pemotongan() {
-  const xlfPergeseran = './EXCEL/2025/rekap5_pergeseran_2.xlsx'
-  const xlfMurni = './EXCEL/2025/rekap5_pergeseran_1.xlsx'
+  const xlfPergeseran = './input/excel/2025/rekap5_pergeseran_2.xlsx'
+  const xlfMurni = './input/excel/2025/rekap5_pergeseran_1.xlsx'
   const xlbPergeseran = fs.readFileSync(xlfPergeseran)
   const xlbMurni = fs.readFileSync(xlfMurni)
   const wbPergeseran = XLSX.read(xlbPergeseran)
@@ -695,7 +695,7 @@ function pemotongan() {
 
       console.log("Total Belanja Rekening Murni", grandTotalMurni, grandTotalInput, selisihInput)
 
-
+      
       // per sumber dana
 
       dataPerDinas.push(rincianPerDinas)
@@ -706,8 +706,8 @@ function pemotongan() {
 
   const worksheetDinas = XLSX.utils.aoa_to_sheet(dataPerDinas)
   XLSX.utils.book_append_sheet(workbookDinas, worksheetDinas, "EFISIENSI");
-  XLSX.writeFile(workbookDinas, "EFISIENSI PER DINAS.xlsx", { compression: true });
-  XLSX.writeFile(workbookSubkegiatan, "EFISIENSI PER SUBKEGIATAN.xlsx", { compression: true });
+  XLSX.writeFile(workbookDinas, "./output/2025/EFISIENSI PER DINAS.xlsx", { compression: true });
+  XLSX.writeFile(workbookSubkegiatan, "./output/2025/EFISIENSI PER SUBKEGIATAN.xlsx", { compression: true });
 }
 
 pemotongan()

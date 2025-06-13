@@ -1,13 +1,14 @@
 const XLSX = require('xlsx-js-style')
 const fs = require('fs')
-const { calculateSum, groupByProperty, extractProperty } = require('./lib/utils.js');
+const { calculateSum, groupByProperty, extractProperty, isObject, isArray, isArrayOfObjects } = require('./lib/utils.js');
 
 function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, tahun, namaFile) {
   const xlb = fs.readFileSync(xlf)
   const wb = XLSX.read(xlb)
   let listData = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]])
-  // console.log(listData)
+  // console.log(listData.length)
   const listDinas = groupByProperty(listData, 'KODE SUB UNIT')
+  const workbook = XLSX.utils.book_new();
   let all = []
   let sdAll = []
   let totalPagu = []
@@ -70,7 +71,6 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, tahun, namaFile) {
     ]
   )
 
-  const workbook = XLSX.utils.book_new();
   all.push(
     [
       { t: "s", v: "Kode", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
@@ -85,13 +85,12 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, tahun, namaFile) {
       { t: "s", v: "Pagu Diberi (Rp)", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
     ],
   )
+
+
   for (const key in listDinas) {
     if (Object.hasOwnProperty.call(listDinas, key)) {
       const element = listDinas[key];
 
-      // if(key !== 'Dinas Pendidikan dan Kebudayaan'){
-      //   break
-      // }
       let arrTotalPagu = [
         { t: "s", v: element[0]['NAMA SUB UNIT'], s: { font: { name: "Calibri", sz: 9 }, alignment: { wrapText: true, vertical: 'center' } } },
         { t: "n", v: calculateSum(element, 'PAGU'), s: { font: { name: "Calibri", sz: 9 } } },
@@ -332,12 +331,13 @@ function cekSumberDana(xlf, listPMK, listSumberDanaSIPD, tahun, namaFile) {
           )
         }
       }
-
     }
   }
 
+
   const worksheet = XLSX.utils.aoa_to_sheet(all);
   worksheet["!cols"] = [{ wpx: 80 }, { wpx: 275 }, { wpx: 80 }, { wpx: 200 }, { wpx: 85 }, { wpx: 90 }, { wpx: 80 }, { wpx: 60 }, { wpx: 75 }];
+
   const sdAllWs = XLSX.utils.aoa_to_sheet(sdAll);
   sdAllWs["!cols"] = [{ wpx: 125 }, { wpx: 80 }, { wpx: 250 }, { wpx: 85 }];
   const totalPaguWs = XLSX.utils.aoa_to_sheet(totalPagu);
@@ -402,12 +402,12 @@ function mutakhir(xlf) {
   XLSX.writeFile(workbook, "MUTAKHIR.xlsx", { compression: true });
 }
 
-const xlf = './input/excel/2025/rekap5_murni.xlsx'
+const xlf = './input/excel/2025/rekap5_pergeseran_2.xlsx'
 const listPMK = require('./input/json/2025/pmk-110-baru.json') // 2024 pmk-110-dari-sikd-terisi-anggaran. 2025 pmk-110
 const listSumberDanaSIPD = require('./input/json/2025/sumber_dana.json')
-let namaFile = 'CEK SUMBER DANA 2025.xlsx'
+let namaFile = 'CEK SUMBER DANA'
 const tahun = '2025'
 
-cekSumberDana(xlf, listPMK, listSumberDanaSIPD, tahun, namaFile)
+cekSumberDana(xlf, listPMK, listSumberDanaSIPD, tahun, `${namaFile} ${tahun}.xlsx`);
 // s(xlf)
 
