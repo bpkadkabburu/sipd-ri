@@ -1,0 +1,4234 @@
+[
+  {
+    "id_dana": 12760,
+    "kode_dana": "1",
+    "nama_dana": "DANA UMUM",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - DANA UMUM",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 2,
+    "kode_dana": "1.1",
+    "nama_dana": "PENDAPATAN ASLI DAERAH (PAD)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - PENDAPATAN ASLI DAERAH (PAD)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 282,
+    "kode_dana": "1.1.01",
+    "nama_dana": "Pajak Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 283,
+    "kode_dana": "1.1.01.01",
+    "nama_dana": "Pajak Kendaraan Bermotor (PKB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Kendaraan Bermotor (PKB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 284,
+    "kode_dana": "1.1.01.02",
+    "nama_dana": "Bea Balik Nama Kendaraan Bermotor (BBNKB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Bea Balik Nama Kendaraan Bermotor (BBNKB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 285,
+    "kode_dana": "1.1.01.03",
+    "nama_dana": "Pajak Bahan Bakar Kendaraan Bermotor (PBBKB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Bahan Bakar Kendaraan Bermotor (PBBKB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 286,
+    "kode_dana": "1.1.01.04",
+    "nama_dana": "Pajak Air Permukaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Air Permukaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 287,
+    "kode_dana": "1.1.01.05",
+    "nama_dana": "Pajak Rokok",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Rokok",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 288,
+    "kode_dana": "1.1.01.06",
+    "nama_dana": "Pajak Hotel",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Hotel",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 289,
+    "kode_dana": "1.1.01.07",
+    "nama_dana": "Pajak Restoran",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Restoran",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 290,
+    "kode_dana": "1.1.01.08",
+    "nama_dana": "Pajak Hiburan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Hiburan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 291,
+    "kode_dana": "1.1.01.09",
+    "nama_dana": "Pajak Reklame",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Reklame",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 292,
+    "kode_dana": "1.1.01.10",
+    "nama_dana": "Pajak Penerangan Jalan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Penerangan Jalan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 293,
+    "kode_dana": "1.1.01.11",
+    "nama_dana": "Pajak Parkir",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Parkir",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 294,
+    "kode_dana": "1.1.01.12",
+    "nama_dana": "Pajak Air Tanah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Air Tanah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 295,
+    "kode_dana": "1.1.01.13",
+    "nama_dana": "Pajak Sarang Burung Walet",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Sarang Burung Walet",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 296,
+    "kode_dana": "1.1.01.14",
+    "nama_dana": "Pajak Mineral Bukan Logam dan Batuan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Mineral Bukan Logam dan Batuan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 297,
+    "kode_dana": "1.1.01.15",
+    "nama_dana": "Pajak Bumi dan Bangunan Pedesaan dan Perkotaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Bumi dan Bangunan Pedesaan dan Perkotaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 298,
+    "kode_dana": "1.1.01.16",
+    "nama_dana": "Bea Perolehan Hak Atas Tanah dan Bangunan (BPHTB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Bea Perolehan Hak Atas Tanah dan Bangunan (BPHTB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12745,
+    "kode_dana": "1.1.01.17",
+    "nama_dana": "Pajak Alat Berat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Alat Berat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12746,
+    "kode_dana": "1.1.01.18",
+    "nama_dana": "Opsen Pajak Mineral Bukan Logam dan Batuan (MBLB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Opsen Pajak Mineral Bukan Logam dan Batuan (MBLB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12747,
+    "kode_dana": "1.1.01.19",
+    "nama_dana": "Pajak Barang dan Jasa Tertentu (PBJT)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pajak Barang dan Jasa Tertentu (PBJT)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12748,
+    "kode_dana": "1.1.01.20",
+    "nama_dana": "Opsen Pajak Kendaraan Bermotor (PKB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Opsen Pajak Kendaraan Bermotor (PKB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12749,
+    "kode_dana": "1.1.01.21",
+    "nama_dana": "Opsen Bea Balik Nama Kendaraan Bermotor (BBNKB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Opsen Bea Balik Nama Kendaraan Bermotor (BBNKB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 299,
+    "kode_dana": "1.1.02",
+    "nama_dana": "Retribusi Daerah - LRA",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Retribusi Daerah - LRA",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 300,
+    "kode_dana": "1.1.02.01",
+    "nama_dana": "Retribusi Jasa Umum",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Retribusi Jasa Umum",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 301,
+    "kode_dana": "1.1.02.02",
+    "nama_dana": "Retribusi Jasa Usaha",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Retribusi Jasa Usaha",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 302,
+    "kode_dana": "1.1.02.03",
+    "nama_dana": "Retribusi Perizinan Tertentu",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Retribusi Perizinan Tertentu",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 303,
+    "kode_dana": "1.1.03",
+    "nama_dana": "Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hasil Pengelolaan Kekayaan Daerah yang Dipisahkan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 304,
+    "kode_dana": "1.1.03.01",
+    "nama_dana": "Bagian Laba yang Dibagikan kepada Pemerintah Daerah (Dividen) atas Penyertaan Modal pada Perusahaan Milik Pemerintah/BUMN",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Bagian Laba yang Dibagikan kepada Pemerintah Daerah (Dividen) atas Penyertaan Modal pada Perusahaan Milik Pemerintah/BUMN",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12790,
+    "kode_dana": "1.1.03.02",
+    "nama_dana": "Bagian Laba yang Dibagikan kepada Pemerintah Daerah (Dividen) atas Penyertaan Modal pada Perusahaan Milik Daerah/BUMD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Bagian Laba yang Dibagikan kepada Pemerintah Daerah (Dividen) atas Penyertaan Modal pada Perusahaan Milik Daerah/BUMD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12791,
+    "kode_dana": "1.1.03.03",
+    "nama_dana": "Bagian Laba yang dibagikan kepada Pemerintah Daerah (Dividen) atas Penyertaan Modal pada Perusahaan Milik Swasta",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Bagian Laba yang dibagikan kepada Pemerintah Daerah (Dividen) atas Penyertaan Modal pada Perusahaan Milik Swasta",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 307,
+    "kode_dana": "1.1.04",
+    "nama_dana": "Lain-lain PAD Yang Sah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Lain-lain PAD Yang Sah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 308,
+    "kode_dana": "1.1.04.01",
+    "nama_dana": "Hasil Penjualan BMD yang Tidak Dipisahkan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hasil Penjualan BMD yang Tidak Dipisahkan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 309,
+    "kode_dana": "1.1.04.02",
+    "nama_dana": "Hasil Selisih Lebih Tukar Menukar BMD yang Tidak Dipisahkan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hasil Selisih Lebih Tukar Menukar BMD yang Tidak Dipisahkan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 310,
+    "kode_dana": "1.1.04.03",
+    "nama_dana": "Hasil Pemanfaatan BMD yang Tidak Dipisahkan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hasil Pemanfaatan BMD yang Tidak Dipisahkan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 311,
+    "kode_dana": "1.1.04.04",
+    "nama_dana": "Hasil Kerja Sama Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hasil Kerja Sama Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 312,
+    "kode_dana": "1.1.04.05",
+    "nama_dana": "Jasa Giro",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Jasa Giro",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 313,
+    "kode_dana": "1.1.04.06",
+    "nama_dana": "Hasil Pengelolaan Dana Bergulir",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hasil Pengelolaan Dana Bergulir",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 314,
+    "kode_dana": "1.1.04.07",
+    "nama_dana": "Pendapatan Bunga",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Bunga",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 315,
+    "kode_dana": "1.1.04.08",
+    "nama_dana": "Penerimaan atas Tuntutan Ganti Kerugian Keuangan Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan atas Tuntutan Ganti Kerugian Keuangan Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 316,
+    "kode_dana": "1.1.04.09",
+    "nama_dana": "Penerimaan Komisi, Potongan, atau Bentuk Lain",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Komisi, Potongan, atau Bentuk Lain",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 317,
+    "kode_dana": "1.1.04.10",
+    "nama_dana": "Penerimaan Keuntungan dari Selisih Nilai Tukar Rupiah terhadap Mata Uang Asing",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Keuntungan dari Selisih Nilai Tukar Rupiah terhadap Mata Uang Asing",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 318,
+    "kode_dana": "1.1.04.11",
+    "nama_dana": "Pendapatan Denda atas Keterlambatan Pelaksanaan Pekerjaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Denda atas Keterlambatan Pelaksanaan Pekerjaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 321,
+    "kode_dana": "1.1.04.14",
+    "nama_dana": "Pendapatan Hasil Eksekusi atas Jaminan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hasil Eksekusi atas Jaminan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 322,
+    "kode_dana": "1.1.04.15",
+    "nama_dana": "Pendapatan dari Pengembalian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan dari Pengembalian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 323,
+    "kode_dana": "1.1.04.16",
+    "nama_dana": "Pendapatan dari BLUD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan dari BLUD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 324,
+    "kode_dana": "1.1.04.17",
+    "nama_dana": "Pendapatan Denda Pemanfaatan BMD yang tidak Dipisahkan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Denda Pemanfaatan BMD yang tidak Dipisahkan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12810,
+    "kode_dana": "1.1.04.18",
+    "nama_dana": "Pendapatan Dana Kapitasi JKN pada FKTP",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Dana Kapitasi JKN pada FKTP",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 326,
+    "kode_dana": "1.1.04.19",
+    "nama_dana": "Pendapatan Hasil Pengelolaan Dana Bergulir",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hasil Pengelolaan Dana Bergulir",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12812,
+    "kode_dana": "1.1.04.20",
+    "nama_dana": "Pendapatan Berdasarkan Putusan Pengadilan (Inkracht)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Berdasarkan Putusan Pengadilan (Inkracht)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 328,
+    "kode_dana": "1.1.04.21",
+    "nama_dana": "Pendapatan Denda atas Pelanggaran Peraturan Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Denda atas Pelanggaran Peraturan Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 329,
+    "kode_dana": "1.1.04.22",
+    "nama_dana": "Pendapatan Zakat, Infaq, Shadaqah, dan Wakaf",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Zakat, Infaq, Shadaqah, dan Wakaf",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 565,
+    "kode_dana": "1.1.04.23",
+    "nama_dana": "Pendapatan Hasil Pelaksanaan Perjanjian/Kontrak",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hasil Pelaksanaan Perjanjian/Kontrak",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13473,
+    "kode_dana": "1.1.04.27",
+    "nama_dana": "Pendapatan atas Sanksi Administrasi Pajak Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan atas Sanksi Administrasi Pajak Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13474,
+    "kode_dana": "1.1.04.28",
+    "nama_dana": "Pendapatan atas Sanksi Administrasi Retribusi Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan atas Sanksi Administrasi Retribusi Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 44,
+    "kode_dana": "1.2",
+    "nama_dana": "PENDAPATAN TRANSFER ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - PENDAPATAN TRANSFER ",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 331,
+    "kode_dana": "1.2.01",
+    "nama_dana": "Pendapatan Transfer Pemerintah Pusat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Transfer Pemerintah Pusat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13848,
+    "kode_dana": "1.2.01.03",
+    "nama_dana": "Dana Otonomi Khusus  [BLOCK GRANT]",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus  [BLOCK GRANT]",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13849,
+    "kode_dana": "1.2.01.03.001",
+    "nama_dana": "Dana Otonomi Khusus-Provinsi Papua",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus-Provinsi Papua",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13850,
+    "kode_dana": "1.2.01.03.002",
+    "nama_dana": "Dana Otonomi Khusus-Provinsi Papua Barat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus-Provinsi Papua Barat",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13851,
+    "kode_dana": "1.2.01.03.006",
+    "nama_dana": "Dana Bagi Hasil (DBH) Minyak dan Gas Otonomi Khusus Papua",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Bagi Hasil (DBH) Minyak dan Gas Otonomi Khusus Papua",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13852,
+    "kode_dana": "1.2.01.03.007",
+    "nama_dana": "Dana Bagi Hasil (DBH) Minyak dan Gas Otonomi Khusus Aceh",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Bagi Hasil (DBH) Minyak dan Gas Otonomi Khusus Aceh",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13853,
+    "kode_dana": "1.2.01.03.008",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13686,
+    "kode_dana": "1.2.01.03.008.00001",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Pendidikan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Pendidikan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13687,
+    "kode_dana": "1.2.01.03.008.00002",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13688,
+    "kode_dana": "1.2.01.03.008.00003",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Administrasi Pemerintahan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Administrasi Pemerintahan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13689,
+    "kode_dana": "1.2.01.03.008.00004",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Infrastruktur",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Infrastruktur",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13690,
+    "kode_dana": "1.2.01.03.008.00005",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Infrastruktur Air Bersih",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Infrastruktur Air Bersih",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13691,
+    "kode_dana": "1.2.01.03.008.00006",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Infrastruktur Energi Listrik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Infrastruktur Energi Listrik",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13692,
+    "kode_dana": "1.2.01.03.008.00007",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Infrastruktur Perhubungan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Infrastruktur Perhubungan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13693,
+    "kode_dana": "1.2.01.03.008.00008",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Infrastruktur Sanitasi Lingkungan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Infrastruktur Sanitasi Lingkungan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13694,
+    "kode_dana": "1.2.01.03.008.00009",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Infrastruktur Telekomunikasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Infrastruktur Telekomunikasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13695,
+    "kode_dana": "1.2.01.03.008.00010",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Kebudayaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Kebudayaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13696,
+    "kode_dana": "1.2.01.03.008.00011",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Kepemudaan dan Olahraga",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Kepemudaan dan Olahraga",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13697,
+    "kode_dana": "1.2.01.03.008.00012",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Pemberdayaan Ekonomi Masyarakat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Pemberdayaan Ekonomi Masyarakat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13698,
+    "kode_dana": "1.2.01.03.008.00013",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Pemberdayaan Masyarakat Adat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Pemberdayaan Masyarakat Adat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13699,
+    "kode_dana": "1.2.01.03.008.00014",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Pemeliharaan dan Pelestarian Lingkungan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Pemeliharaan dan Pelestarian Lingkungan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13700,
+    "kode_dana": "1.2.01.03.008.00015",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Penguatan Kelembagaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Penguatan Kelembagaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13701,
+    "kode_dana": "1.2.01.03.008.00016",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Penguatan Perdamaian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Penguatan Perdamaian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13702,
+    "kode_dana": "1.2.01.03.008.00017",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Pertanahan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Pertanahan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13703,
+    "kode_dana": "1.2.01.03.008.00018",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Sosial",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Sosial",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13704,
+    "kode_dana": "1.2.01.03.008.00019",
+    "nama_dana": "Dana Otonomi Khusus 1%-Papua-Teknologi, Informasi, dan Komunikasi Publik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Otonomi Khusus 1%-Papua-Teknologi, Informasi, dan Komunikasi Publik",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12829,
+    "kode_dana": "1.2.01.07",
+    "nama_dana": "Dana Bagi Hasil (DBH)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Bagi Hasil (DBH)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12830,
+    "kode_dana": "1.2.01.08",
+    "nama_dana": "Dana Alokasi Umum (DAU)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Dana Alokasi Umum (DAU)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12831,
+    "kode_dana": "1.2.02",
+    "nama_dana": "Pendapatan Transfer Antar Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Transfer Antar Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12754,
+    "kode_dana": "1.2.02.01",
+    "nama_dana": "Pendapatan Bagi Hasil",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Bagi Hasil",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 342,
+    "kode_dana": "1.2.02.02",
+    "nama_dana": "Bantuan Keuangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Bantuan Keuangan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12834,
+    "kode_dana": "1.3",
+    "nama_dana": "LAIN-LAIN PENDAPATAN DAERAH YANG SAH",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - LAIN-LAIN PENDAPATAN DAERAH YANG SAH",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 344,
+    "kode_dana": "1.3.01",
+    "nama_dana": "Hibah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hibah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 345,
+    "kode_dana": "1.3.01.01",
+    "nama_dana": "Pendapatan Hibah dari Pemerintah Pusat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Pemerintah Pusat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13475,
+    "kode_dana": "1.3.01.01.001",
+    "nama_dana": "Pendapatan Hibah dari Pemerintah Pusat ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Pemerintah Pusat ",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 347,
+    "kode_dana": "1.3.01.02",
+    "nama_dana": "Pendapatan Hibah dari Pemerintah Daerah Lainnya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Pemerintah Daerah Lainnya",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13729,
+    "kode_dana": "1.3.01.02.001",
+    "nama_dana": "Pendapatan Hibah dari Pemerintah Daerah Lainnya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Pemerintah Daerah Lainnya",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 349,
+    "kode_dana": "1.3.01.03",
+    "nama_dana": "Pendapatan Hibah dari Kelompok Masyarakat/ Perorangan Dalam Negeri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Kelompok Masyarakat/ Perorangan Dalam Negeri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13730,
+    "kode_dana": "1.3.01.03.001",
+    "nama_dana": "Pendapatan Hibah dari Kelompok Masyarakat/ Perorangan Dalam Negeri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Kelompok Masyarakat/ Perorangan Dalam Negeri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 351,
+    "kode_dana": "1.3.01.04",
+    "nama_dana": "Pendapatan Hibah dari Badan/Lembaga/ Organisasi Dalam Negeri/Luar Negeri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Badan/Lembaga/ Organisasi Dalam Negeri/Luar Negeri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13731,
+    "kode_dana": "1.3.01.04.001",
+    "nama_dana": "Pendapatan Hibah dari Badan/Lembaga/ Organisasi Dalam Negeri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Badan/Lembaga/ Organisasi Dalam Negeri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13732,
+    "kode_dana": "1.3.01.04.002",
+    "nama_dana": "Pendapatan Hibah dari Badan/Lembaga/ Organisasi Luar Negeri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Badan/Lembaga/ Organisasi Luar Negeri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13733,
+    "kode_dana": "1.3.01.04.003",
+    "nama_dana": "Pendapatan Hibah dari Lembaga/Organisasi Swasta Dalam Negeri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Lembaga/Organisasi Swasta Dalam Negeri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13734,
+    "kode_dana": "1.3.01.04.004",
+    "nama_dana": "Pendapatan Hibah dari Lembaga/Organisasi Swasta Luar Negeri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Hibah dari Lembaga/Organisasi Swasta Luar Negeri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 356,
+    "kode_dana": "1.3.01.05",
+    "nama_dana": "Sumbangan Pihak Ketiga/Sejenis",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Sumbangan Pihak Ketiga/Sejenis",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13735,
+    "kode_dana": "1.3.01.05.001",
+    "nama_dana": "Sumbangan Pihak Ketiga/Sejenis",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Sumbangan Pihak Ketiga/Sejenis",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13328,
+    "kode_dana": "1.3.01.06",
+    "nama_dana": "Pendapatan atas Tanggung Jawab Sosial dan Lingkungan/Sejenis",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan atas Tanggung Jawab Sosial dan Lingkungan/Sejenis",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13736,
+    "kode_dana": "1.3.01.06.001",
+    "nama_dana": "Pendapatan atas Tanggung Jawab Sosial dan Lingkungan/Sejenis",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan atas Tanggung Jawab Sosial dan Lingkungan/Sejenis",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12849,
+    "kode_dana": "1.3.03",
+    "nama_dana": "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12850,
+    "kode_dana": "1.3.03.03",
+    "nama_dana": "Pendapatan Bagi Hasil Pemegang IUPK atas Pertambangan Mineral Logam dan Batu Bara",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Bagi Hasil Pemegang IUPK atas Pertambangan Mineral Logam dan Batu Bara",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13476,
+    "kode_dana": "1.3.03.03.001",
+    "nama_dana": "Pendapatan Bagi Hasil Pemegang IUPK atas Pertambangan Mineral Logam dan Batu Bara",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Bagi Hasil Pemegang IUPK atas Pertambangan Mineral Logam dan Batu Bara",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13330,
+    "kode_dana": "1.3.03.08",
+    "nama_dana": "Pendapatan Pembayaran Tetap (Lumpsum Payment) Perjanjian Karya Pengusahaan Pertambangan Batubara (PKP2B) Generasi 1",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Pembayaran Tetap (Lumpsum Payment) Perjanjian Karya Pengusahaan Pertambangan Batubara (PKP2B) Generasi 1",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13737,
+    "kode_dana": "1.3.03.08.001",
+    "nama_dana": "Pendapatan Pembayaran Tetap (Lumpsum Payment) Perjanjian Karya Pengusahaan Pertambangan Batubara (PKP2B) Generasi 1",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Pembayaran Tetap (Lumpsum Payment) Perjanjian Karya Pengusahaan Pertambangan Batubara (PKP2B) Generasi 1",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13332,
+    "kode_dana": "1.3.03.09",
+    "nama_dana": "Pendapatan Divestasi Saham pada Pemegang IUP dan IUPK pada Tahap Kegiatan Operasi Produksi dalam rangka Penanaman Modal Asing",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Divestasi Saham pada Pemegang IUP dan IUPK pada Tahap Kegiatan Operasi Produksi dalam rangka Penanaman Modal Asing",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13738,
+    "kode_dana": "1.3.03.09.001",
+    "nama_dana": "Pendapatan Divestasi Saham pada Pemegang IUP dan IUPK pada Tahap Kegiatan Operasi Produksi dalam rangka Penanaman Modal Asing",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pendapatan Divestasi Saham pada Pemegang IUP dan IUPK pada Tahap Kegiatan Operasi Produksi dalam rangka Penanaman Modal Asing",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 358,
+    "kode_dana": "1.4",
+    "nama_dana": "Penerimaan Pembiayaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Pembiayaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 359,
+    "kode_dana": "1.4.01",
+    "nama_dana": "Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Sisa Lebih Perhitungan Anggaran Tahun Sebelumnya",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 360,
+    "kode_dana": "1.4.01.01",
+    "nama_dana": "Pelampauan Penerimaan PAD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pelampauan Penerimaan PAD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12855,
+    "kode_dana": "1.4.01.02",
+    "nama_dana": "Pelampauan Penerimaan Pendapatan Transfer",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pelampauan Penerimaan Pendapatan Transfer",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 362,
+    "kode_dana": "1.4.01.03",
+    "nama_dana": "Pelampauan Penerimaan Lain-Lain Pendapatan Daerah yang Sah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pelampauan Penerimaan Lain-Lain Pendapatan Daerah yang Sah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 363,
+    "kode_dana": "1.4.01.04",
+    "nama_dana": "Pelampauan Penerimaan Pembiayaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pelampauan Penerimaan Pembiayaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 364,
+    "kode_dana": "1.4.01.05",
+    "nama_dana": "Penghematan Belanja",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penghematan Belanja",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 365,
+    "kode_dana": "1.4.01.06",
+    "nama_dana": "Kewajiban kepada Pihak Ketiga sampai dengan Akhir Tahun Belum Terselesaikan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Kewajiban kepada Pihak Ketiga sampai dengan Akhir Tahun Belum Terselesaikan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 366,
+    "kode_dana": "1.4.01.07",
+    "nama_dana": "Sisa Dana Akibat Tidak Tercapainya Capaian Target Kinerja dan Sisa Dana Pengeluaran Pembiayaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Sisa Dana Akibat Tidak Tercapainya Capaian Target Kinerja dan Sisa Dana Pengeluaran Pembiayaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 367,
+    "kode_dana": "1.4.01.08",
+    "nama_dana": "Sisa Belanja Lainnya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Sisa Belanja Lainnya",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 368,
+    "kode_dana": "1.4.01.09",
+    "nama_dana": "Penarikan Sisa Lebih Perhitungan Anggaran BLUD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penarikan Sisa Lebih Perhitungan Anggaran BLUD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 369,
+    "kode_dana": "1.4.02",
+    "nama_dana": "Pencairan Dana Cadangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pencairan Dana Cadangan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 370,
+    "kode_dana": "1.4.02.01",
+    "nama_dana": "Pencairan Dana Cadangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pencairan Dana Cadangan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 371,
+    "kode_dana": "1.4.03",
+    "nama_dana": "Hasil Penjualan Kekayaan Daerah yang Dipisahkan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hasil Penjualan Kekayaan Daerah yang Dipisahkan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 372,
+    "kode_dana": "1.4.03.01",
+    "nama_dana": "Hasil Penjualan Kekayaan Daerah yang Dipisahkan pada Badan Usaha Milik Negara (BUMN)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hasil Penjualan Kekayaan Daerah yang Dipisahkan pada Badan Usaha Milik Negara (BUMN)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 373,
+    "kode_dana": "1.4.03.02",
+    "nama_dana": "Hasil Penjualan Kekayaan Daerah yang Dipisahkan pada Badan Usaha Milik Daerah (BUMD)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Hasil Penjualan Kekayaan Daerah yang Dipisahkan pada Badan Usaha Milik Daerah (BUMD)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 374,
+    "kode_dana": "1.4.04",
+    "nama_dana": "Penerimaan Pinjaman Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Pinjaman Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 375,
+    "kode_dana": "1.4.04.01",
+    "nama_dana": "Pinjaman Daerah dari Pemerintah Pusat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pinjaman Daerah dari Pemerintah Pusat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 376,
+    "kode_dana": "1.4.04.02",
+    "nama_dana": "Pinjaman Daerah dari Pemerintah Daerah Lain",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pinjaman Daerah dari Pemerintah Daerah Lain",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 377,
+    "kode_dana": "1.4.04.03",
+    "nama_dana": "Pinjaman Daerah dari Lembaga Keuangan Bank (LKB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pinjaman Daerah dari Lembaga Keuangan Bank (LKB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 378,
+    "kode_dana": "1.4.04.04",
+    "nama_dana": "Pinjaman Daerah dari Lembaga Keuangan Bukan Bank (LKBB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pinjaman Daerah dari Lembaga Keuangan Bukan Bank (LKBB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 379,
+    "kode_dana": "1.4.04.05",
+    "nama_dana": "Pinjaman Daerah dari Masyarakat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Pinjaman Daerah dari Masyarakat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 380,
+    "kode_dana": "1.4.05",
+    "nama_dana": "Penerimaan Kembali Pemberian Pinjaman Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Kembali Pemberian Pinjaman Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 381,
+    "kode_dana": "1.4.05.01",
+    "nama_dana": "Penerimaan Kembali Pemberian Pinjaman Daerah kepada Pemerintah Pusat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Kembali Pemberian Pinjaman Daerah kepada Pemerintah Pusat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 382,
+    "kode_dana": "1.4.05.02",
+    "nama_dana": "Penerimaan Kembali Pemberian Pinjaman Daerah kepada Pemerintah Daerah Lainnya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Kembali Pemberian Pinjaman Daerah kepada Pemerintah Daerah Lainnya",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 383,
+    "kode_dana": "1.4.05.03",
+    "nama_dana": "Penerimaan Kembali Pinjaman kepada BUMD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Kembali Pinjaman kepada BUMD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 384,
+    "kode_dana": "1.4.05.04",
+    "nama_dana": "Penerimaan Kembali Pinjaman kepada BUMN",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Kembali Pinjaman kepada BUMN",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 385,
+    "kode_dana": "1.4.05.05",
+    "nama_dana": "Penerimaan Kembali Pinjaman kepada Koperasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Kembali Pinjaman kepada Koperasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 386,
+    "kode_dana": "1.4.05.06",
+    "nama_dana": "Penerimaan Kembali Pinjaman kepada Masyarakat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Kembali Pinjaman kepada Masyarakat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 387,
+    "kode_dana": "1.4.05.07",
+    "nama_dana": "Penerimaan Kembali Dana Bergulir kepada BLUD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Kembali Dana Bergulir kepada BLUD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 388,
+    "kode_dana": "1.4.06",
+    "nama_dana": "Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Pembiayaan Lainnya Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 389,
+    "kode_dana": "1.4.06.01",
+    "nama_dana": "Penerimaan Kembali Pinjaman melalui BLUD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Penerimaan Kembali Pinjaman melalui BLUD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 390,
+    "kode_dana": "1.4.06.02",
+    "nama_dana": "Divestasi BLUD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA UMUM] - Divestasi BLUD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 391,
+    "kode_dana": "2",
+    "nama_dana": "DANA KHUSUS",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DANA KHUSUS",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 59,
+    "kode_dana": "2.1",
+    "nama_dana": "PENDAPATAN ASLI DAERAH",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - PENDAPATAN ASLI DAERAH",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 393,
+    "kode_dana": "2.1.01",
+    "nama_dana": "Pajak Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pajak Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 394,
+    "kode_dana": "2.1.01.01",
+    "nama_dana": "Pajak Kendaraan Bermotor",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pajak Kendaraan Bermotor",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13477,
+    "kode_dana": "2.1.01.01.001",
+    "nama_dana": "PKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - PKB",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13478,
+    "kode_dana": "2.1.01.01.001.00001",
+    "nama_dana": "PKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - PKB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12891,
+    "kode_dana": "2.1.01.05",
+    "nama_dana": "Pajak Rokok",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pajak Rokok",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13479,
+    "kode_dana": "2.1.01.05.001",
+    "nama_dana": "Pajak Rokok",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pajak Rokok",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13480,
+    "kode_dana": "2.1.01.05.001.00001",
+    "nama_dana": "Pajak Rokok",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pajak Rokok",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12894,
+    "kode_dana": "2.1.01.12",
+    "nama_dana": "Pajak Air Tanah ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pajak Air Tanah ",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13481,
+    "kode_dana": "2.1.01.12.001",
+    "nama_dana": "Pajak Air Tanah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pajak Air Tanah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13482,
+    "kode_dana": "2.1.01.12.001.00001",
+    "nama_dana": "Pajak Air  Tanah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pajak Air  Tanah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12897,
+    "kode_dana": "2.1.01.19",
+    "nama_dana": "Pajak Barang dan Jasa Tertentu (PBJT)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pajak Barang dan Jasa Tertentu (PBJT)",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13483,
+    "kode_dana": "2.1.01.19.002",
+    "nama_dana": "PBJT-Tenaga Listrik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - PBJT-Tenaga Listrik",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13484,
+    "kode_dana": "2.1.01.19.002.00001",
+    "nama_dana": "PBJT-Konsumsi Tenaga Listrik dari Sumber Lain",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - PBJT-Konsumsi Tenaga Listrik dari Sumber Lain",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13485,
+    "kode_dana": "2.1.01.19.002.00002",
+    "nama_dana": "PBJT-Konsumsi Tenaga Listrik yang Dihasilkan Sendiri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - PBJT-Konsumsi Tenaga Listrik yang Dihasilkan Sendiri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13307,
+    "kode_dana": "2.1.01.20",
+    "nama_dana": "Opsen Pajak Kendaraan Bermotor (PKB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Opsen Pajak Kendaraan Bermotor (PKB)",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13486,
+    "kode_dana": "2.1.01.20.001",
+    "nama_dana": "Opsen PKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Opsen PKB",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13487,
+    "kode_dana": "2.1.01.20.001.00001",
+    "nama_dana": "Opsen PKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Opsen PKB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12901,
+    "kode_dana": "2.1.02",
+    "nama_dana": "Retribusi Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 12902,
+    "kode_dana": "2.1.02.01",
+    "nama_dana": "Retribusi Jasa Umum",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Jasa Umum",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13488,
+    "kode_dana": "2.1.02.01.001",
+    "nama_dana": "Retribusi Pelayanan Kesehatan ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Pelayanan Kesehatan ",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13489,
+    "kode_dana": "2.1.02.01.001.00001",
+    "nama_dana": "Retribusi Pelayanan Kesehatan di Puskesmas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Pelayanan Kesehatan di Puskesmas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13490,
+    "kode_dana": "2.1.02.01.001.00002",
+    "nama_dana": "Retribusi Pelayanan Kesehatan di Puskesmas Keliling ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Pelayanan Kesehatan di Puskesmas Keliling ",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13491,
+    "kode_dana": "2.1.02.01.001.00003",
+    "nama_dana": "Retribusi Pelayanan Kesehatan di Puskesmas Pembantu ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Pelayanan Kesehatan di Puskesmas Pembantu ",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13492,
+    "kode_dana": "2.1.02.01.001.00004",
+    "nama_dana": "Retribusi Pelayanan Kesehatan di Balai Pengobatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Pelayanan Kesehatan di Balai Pengobatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13493,
+    "kode_dana": "2.1.02.01.001.00005",
+    "nama_dana": "Retribusi Pelayanan Kesehatan di Rumah Sakit Umum Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Pelayanan Kesehatan di Rumah Sakit Umum Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13494,
+    "kode_dana": "2.1.02.01.001.00006",
+    "nama_dana": "Retribusi Pelayanan Kesehatan di Tempat Pelayanan Kesehatan Lainnya yang Sejenis ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Pelayanan Kesehatan di Tempat Pelayanan Kesehatan Lainnya yang Sejenis ",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13495,
+    "kode_dana": "2.1.02.01.015",
+    "nama_dana": "Retribusi Pengendalian Lalu Lintas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Pengendalian Lalu Lintas",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13496,
+    "kode_dana": "2.1.02.01.015.00001",
+    "nama_dana": "Retribusi Pengendalian Lalu Lintas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Pengendalian Lalu Lintas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12912,
+    "kode_dana": "2.1.02.03",
+    "nama_dana": "Retribusi Perizinan Tertentu",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Perizinan Tertentu",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13497,
+    "kode_dana": "2.1.02.03.008",
+    "nama_dana": "Retribusi Penggunaan Tenaga Kerja Asing (TKA)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Penggunaan Tenaga Kerja Asing (TKA)",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13498,
+    "kode_dana": "2.1.02.03.008.00001",
+    "nama_dana": "Retribusi Penggunaan Tenaga Kerja Asing (TKA)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Retribusi Penggunaan Tenaga Kerja Asing (TKA)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12915,
+    "kode_dana": "2.1.04",
+    "nama_dana": "Lain-lain PAD yang Sah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Lain-lain PAD yang Sah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 12916,
+    "kode_dana": "2.1.04.24",
+    "nama_dana": "Pungutan bagi Wisatawan Asing",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pungutan bagi Wisatawan Asing",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13499,
+    "kode_dana": "2.1.04.24.001",
+    "nama_dana": "Pungutan bagi Wisatawan Asing",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pungutan bagi Wisatawan Asing",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13500,
+    "kode_dana": "2.1.04.24.001.00001",
+    "nama_dana": "Pungutan bagi Wisatawan Asing",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pungutan bagi Wisatawan Asing",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12919,
+    "kode_dana": "2.1.04.25",
+    "nama_dana": "Hasil Pengelolaan Dana Abadi Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hasil Pengelolaan Dana Abadi Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13501,
+    "kode_dana": "2.1.04.25.001",
+    "nama_dana": "Hasil Pengelolaan Dana Abadi Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hasil Pengelolaan Dana Abadi Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13502,
+    "kode_dana": "2.1.04.25.001.00001",
+    "nama_dana": "Hasil Pengelolaan Dana Abadi Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hasil Pengelolaan Dana Abadi Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13334,
+    "kode_dana": "2.1.04.26",
+    "nama_dana": "Hasil Pengelolaan Dana Cadangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hasil Pengelolaan Dana Cadangan",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13739,
+    "kode_dana": "2.1.04.26.001",
+    "nama_dana": "Hasil Pengelolaan Dana Cadangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hasil Pengelolaan Dana Cadangan",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13740,
+    "kode_dana": "2.1.04.26.001.00001",
+    "nama_dana": "Hasil Pengelolaan Dana Cadangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hasil Pengelolaan Dana Cadangan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 12922,
+    "kode_dana": "2.2",
+    "nama_dana": "PENDAPATAN TRANSFER ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - PENDAPATAN TRANSFER ",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 12923,
+    "kode_dana": "2.2.01",
+    "nama_dana": "Pendapatan Transfer Pemerintah Pusat ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Transfer Pemerintah Pusat ",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13079,
+    "kode_dana": "2.2.01.03",
+    "nama_dana": "Dana Otonomi Khusus dan Dana Tambahan Otonomi Khusus/Dana Tambahan Infrastruktur [SPESIFIC GRANT]",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus dan Dana Tambahan Otonomi Khusus/Dana Tambahan Infrastruktur [SPESIFIC GRANT]",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13705,
+    "kode_dana": "2.2.01.03.001",
+    "nama_dana": "Dana Otonomi Khusus-Provinsi Papua [SPESIFIC GRANT]",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Provinsi Papua [SPESIFIC GRANT]",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13721,
+    "kode_dana": "2.2.01.03.002",
+    "nama_dana": "Dana Tambahan Otonomi Khusus/Dana Tambahan Infrastruktur Provinsi Papua [SPESIFIC GRANT]",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Tambahan Otonomi Khusus/Dana Tambahan Infrastruktur Provinsi Papua [SPESIFIC GRANT]",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13706,
+    "kode_dana": "2.2.01.03.003",
+    "nama_dana": "Dana Otonomi Khusus-Provinsi Papua Barat [SPESIFIC GRANT]",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Provinsi Papua Barat [SPESIFIC GRANT]",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13722,
+    "kode_dana": "2.2.01.03.004",
+    "nama_dana": "Dana Tambahan Otonomi Khusus/Dana Tambahan Infrastruktur Provinsi Papua Barat [SPESIFIC GRANT]",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Tambahan Otonomi Khusus/Dana Tambahan Infrastruktur Provinsi Papua Barat [SPESIFIC GRANT]",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13707,
+    "kode_dana": "2.2.01.03.005",
+    "nama_dana": "Dana Otonomi Khusus-Provinsi Aceh [SPESIFIC GRANT]",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Provinsi Aceh [SPESIFIC GRANT]",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13708,
+    "kode_dana": "2.2.01.03.005.00002",
+    "nama_dana": "Dana Otonomi Khusus-Aceh-Pembangunan dan Pemeliharaan Infrastruktur",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Aceh-Pembangunan dan Pemeliharaan Infrastruktur",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13709,
+    "kode_dana": "2.2.01.03.005.00003",
+    "nama_dana": "Dana Otonomi Khusus-Aceh-Pemberdayaan Ekonomi Rakyat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Aceh-Pemberdayaan Ekonomi Rakyat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13710,
+    "kode_dana": "2.2.01.03.005.00004",
+    "nama_dana": "Dana Otonomi Khusus-Aceh-Pengentasan Kemiskinan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Aceh-Pengentasan Kemiskinan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13711,
+    "kode_dana": "2.2.01.03.005.00005",
+    "nama_dana": "Dana Otonomi Khusus-Aceh-Pendidikan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Aceh-Pendidikan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13712,
+    "kode_dana": "2.2.01.03.005.00006",
+    "nama_dana": "Dana Otonomi Khusus-Aceh-Sosial",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Aceh-Sosial",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13713,
+    "kode_dana": "2.2.01.03.005.00007",
+    "nama_dana": "Dana Otonomi Khusus-Aceh-Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Aceh-Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13714,
+    "kode_dana": "2.2.01.03.005.00008",
+    "nama_dana": "Dana Otonomi Khusus-Aceh-Pelaksanaan Keistimewaan Aceh",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Aceh-Pelaksanaan Keistimewaan Aceh",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13715,
+    "kode_dana": "2.2.01.03.005.00009",
+    "nama_dana": "Dana Otonomi Khusus-Aceh-Penguatan Perdamaian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus-Aceh-Penguatan Perdamaian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13503,
+    "kode_dana": "2.2.01.03.006",
+    "nama_dana": "Dana Bagi Hasil (DBH) Minyak dan Gas Otonomi Khusus Papua [SPESIFIC GRANT]",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Bagi Hasil (DBH) Minyak dan Gas Otonomi Khusus Papua [SPESIFIC GRANT]",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13504,
+    "kode_dana": "2.2.01.03.007",
+    "nama_dana": "Dana Bagi Hasil (DBH) Minyak dan Gas Otonomi Khusus Aceh [SPESIFIC GRANT]",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Bagi Hasil (DBH) Minyak dan Gas Otonomi Khusus Aceh [SPESIFIC GRANT]",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13741,
+    "kode_dana": "2.2.01.03.009",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Papua",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Papua",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13742,
+    "kode_dana": "2.2.01.03.009.00001",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Papua-Pendidikan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Papua-Pendidikan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13743,
+    "kode_dana": "2.2.01.03.009.00002",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Papua-Kesehatan dan Perbaikan Gizi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Papua-Kesehatan dan Perbaikan Gizi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13744,
+    "kode_dana": "2.2.01.03.009.00003",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Papua-Infrastruktur",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Papua-Infrastruktur",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13745,
+    "kode_dana": "2.2.01.03.009.00004",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Papua-Bantuan Pemberdayaan Masyarakat Adat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Papua-Bantuan Pemberdayaan Masyarakat Adat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13746,
+    "kode_dana": "2.2.01.03.010",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Papua",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Papua",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13747,
+    "kode_dana": "2.2.01.03.010.00001",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Papua-Pendidikan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Papua-Pendidikan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13748,
+    "kode_dana": "2.2.01.03.010.00002",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Papua-Kesehatan dan Perbaikan Gizi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Papua-Kesehatan dan Perbaikan Gizi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13749,
+    "kode_dana": "2.2.01.03.010.00003",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Papua-Infrastruktur",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Papua-Infrastruktur",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13750,
+    "kode_dana": "2.2.01.03.010.00004",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Papua-Bantuan Pemberdayaan Masyarakat Adat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Papua-Bantuan Pemberdayaan Masyarakat Adat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13751,
+    "kode_dana": "2.2.01.03.011",
+    "nama_dana": "Dana Otonomi Khusus 1,25%-Papua",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus 1,25%-Papua",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13716,
+    "kode_dana": "2.2.01.03.011.00001",
+    "nama_dana": "Dana Otonomi Khusus 1,25%-Papua-Pendidikan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus 1,25%-Papua-Pendidikan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13717,
+    "kode_dana": "2.2.01.03.011.00002",
+    "nama_dana": "Dana Otonomi Khusus 1,25%-Papua-Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus 1,25%-Papua-Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13718,
+    "kode_dana": "2.2.01.03.011.00003",
+    "nama_dana": "Dana Otonomi Khusus 1,25%-Papua-Pemberdayaan Ekonomi Masyarakat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Otonomi Khusus 1,25%-Papua-Pemberdayaan Ekonomi Masyarakat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13752,
+    "kode_dana": "2.2.01.03.012",
+    "nama_dana": "DTI-Papua",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DTI-Papua",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13723,
+    "kode_dana": "2.2.01.03.012.00001",
+    "nama_dana": "DTI-Papua-Pendanaan Pembangunan Infrastruktur Perhubungan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DTI-Papua-Pendanaan Pembangunan Infrastruktur Perhubungan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13724,
+    "kode_dana": "2.2.01.03.012.00002",
+    "nama_dana": "DTI-Papua-Energi Listrik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DTI-Papua-Energi Listrik",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13725,
+    "kode_dana": "2.2.01.03.012.00003",
+    "nama_dana": "DTI-Papua-Air Bersih",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DTI-Papua-Air Bersih",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13726,
+    "kode_dana": "2.2.01.03.012.00004",
+    "nama_dana": "DTI-Papua-Telekomunikasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DTI-Papua-Telekomunikasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13727,
+    "kode_dana": "2.2.01.03.012.00005",
+    "nama_dana": "DTI-Papua-Sanitasi Lingkungan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DTI-Papua-Sanitasi Lingkungan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13753,
+    "kode_dana": "2.2.01.03.013",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13754,
+    "kode_dana": "2.2.01.03.013.00001",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Pendidikan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Pendidikan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13755,
+    "kode_dana": "2.2.01.03.013.00002",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13756,
+    "kode_dana": "2.2.01.03.013.00003",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Infrastruktur",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Infrastruktur",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13757,
+    "kode_dana": "2.2.01.03.013.00004",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Infrastruktur Energi Listrik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Infrastruktur Energi Listrik",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13758,
+    "kode_dana": "2.2.01.03.013.00005",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Kebudayaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Kebudayaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13759,
+    "kode_dana": "2.2.01.03.013.00006",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Keistimewaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Keistimewaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13760,
+    "kode_dana": "2.2.01.03.013.00007",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Kepemudaan dan Olahraga",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Kepemudaan dan Olahraga",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13761,
+    "kode_dana": "2.2.01.03.013.00008",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Pemberdayaan Ekonomi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Pemberdayaan Ekonomi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13762,
+    "kode_dana": "2.2.01.03.013.00009",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Pemberdayaan Masyarakat Adat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Pemberdayaan Masyarakat Adat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13763,
+    "kode_dana": "2.2.01.03.013.00010",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Pemeliharaan dan Pelestarian Lingkungan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Pemeliharaan dan Pelestarian Lingkungan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13764,
+    "kode_dana": "2.2.01.03.013.00011",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Penguatan Kelembagaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Penguatan Kelembagaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13765,
+    "kode_dana": "2.2.01.03.013.00012",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Penguatan Perdamaian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Penguatan Perdamaian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13766,
+    "kode_dana": "2.2.01.03.013.00013",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Pertanahan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Pertanahan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13767,
+    "kode_dana": "2.2.01.03.013.00014",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Sosial",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Sosial",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13768,
+    "kode_dana": "2.2.01.03.013.00015",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Teknologi Informasi dan Komunikasi Publik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Teknologi Informasi dan Komunikasi Publik",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13769,
+    "kode_dana": "2.2.01.03.013.00016",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Administrasi Pemerintahan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Administrasi Pemerintahan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13770,
+    "kode_dana": "2.2.01.03.013.00017",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Implementasi Syariat Islam",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Implementasi Syariat Islam",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13771,
+    "kode_dana": "2.2.01.03.013.00018",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Penerapan Syariat Islam",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Penerapan Syariat Islam",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13772,
+    "kode_dana": "2.2.01.03.013.00019",
+    "nama_dana": "DBH SDA Pertambangan Minyak Bumi-Aceh-Pengentasan Kemiskinan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Minyak Bumi-Aceh-Pengentasan Kemiskinan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13773,
+    "kode_dana": "2.2.01.03.014",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13774,
+    "kode_dana": "2.2.01.03.014.00001",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Pendidikan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Pendidikan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13775,
+    "kode_dana": "2.2.01.03.014.00002",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13776,
+    "kode_dana": "2.2.01.03.014.00003",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Infrastruktur",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Infrastruktur",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13777,
+    "kode_dana": "2.2.01.03.014.00004",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Infrastruktur Energi Listrik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Infrastruktur Energi Listrik",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13778,
+    "kode_dana": "2.2.01.03.014.00005",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Kebudayaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Kebudayaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13779,
+    "kode_dana": "2.2.01.03.014.00006",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Keistimewaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Keistimewaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13780,
+    "kode_dana": "2.2.01.03.014.00007",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Kepemudaan dan Olahraga",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Kepemudaan dan Olahraga",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13781,
+    "kode_dana": "2.2.01.03.014.00008",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Pemberdayaan Ekonomi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Pemberdayaan Ekonomi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13782,
+    "kode_dana": "2.2.01.03.014.00009",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Pemberdayaan Masyarakat Adat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Pemberdayaan Masyarakat Adat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13783,
+    "kode_dana": "2.2.01.03.014.00010",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Pemeliharaan dan Pelestarian Lingkungan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Pemeliharaan dan Pelestarian Lingkungan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13784,
+    "kode_dana": "2.2.01.03.014.00011",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Penguatan Kelembagaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Penguatan Kelembagaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13785,
+    "kode_dana": "2.2.01.03.014.00012",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Penguatan Perdamaian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Penguatan Perdamaian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13786,
+    "kode_dana": "2.2.01.03.014.00013",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Pertanahan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Pertanahan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13787,
+    "kode_dana": "2.2.01.03.014.00014",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Sosial",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Sosial",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13788,
+    "kode_dana": "2.2.01.03.014.00015",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Teknologi Informasi dan Komunikasi Publik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Teknologi Informasi dan Komunikasi Publik",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13789,
+    "kode_dana": "2.2.01.03.014.00016",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Administrasi Pemerintahan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Administrasi Pemerintahan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13790,
+    "kode_dana": "2.2.01.03.014.00017",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Implementasi Syariat Islam",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Implementasi Syariat Islam",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13791,
+    "kode_dana": "2.2.01.03.014.00018",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Penerapan Syariat Islam",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Penerapan Syariat Islam",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13792,
+    "kode_dana": "2.2.01.03.014.00019",
+    "nama_dana": "DBH SDA Pertambangan Gas Alam-Aceh-Pengentasan Kemiskinan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Pertambangan Gas Alam-Aceh-Pengentasan Kemiskinan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13104,
+    "kode_dana": "2.2.01.04",
+    "nama_dana": "Dana Keistimewaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Keistimewaan",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13719,
+    "kode_dana": "2.2.01.04.001",
+    "nama_dana": "Dana Keistimewaan DIY",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Keistimewaan DIY",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13720,
+    "kode_dana": "2.2.01.04.001.00001",
+    "nama_dana": "Dana Keistimewaan DIY",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Keistimewaan DIY",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13107,
+    "kode_dana": "2.2.01.05",
+    "nama_dana": "Dana Desa",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Desa",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13505,
+    "kode_dana": "2.2.01.05.001",
+    "nama_dana": "Dana Desa",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Desa",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13506,
+    "kode_dana": "2.2.01.05.001.00001",
+    "nama_dana": "Dana Desa",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Desa",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13110,
+    "kode_dana": "2.2.01.06",
+    "nama_dana": "Insentif Fiskal",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Insentif Fiskal",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13507,
+    "kode_dana": "2.2.01.06.002",
+    "nama_dana": "Insentif Fiskal Untuk Penghargaan Kinerja Tahun Sebelumnya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Insentif Fiskal Untuk Penghargaan Kinerja Tahun Sebelumnya",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13508,
+    "kode_dana": "2.2.01.06.002.00001",
+    "nama_dana": "Insentif Fiskal Untuk Penghargaan Kinerja Tahun Sebelumnya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Insentif Fiskal Untuk Penghargaan Kinerja Tahun Sebelumnya",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13509,
+    "kode_dana": "2.2.01.06.003",
+    "nama_dana": "Insentif Fiskal Untuk Penghargaan Kinerja Tahun Berjalan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Insentif Fiskal Untuk Penghargaan Kinerja Tahun Berjalan",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13510,
+    "kode_dana": "2.2.01.06.003.00001",
+    "nama_dana": "Insentif Fiskal Untuk Penghargaan Kinerja Tahun Berjalan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Insentif Fiskal Untuk Penghargaan Kinerja Tahun Berjalan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13115,
+    "kode_dana": "2.2.01.07",
+    "nama_dana": "Dana Bagi Hasil (DBH)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Bagi Hasil (DBH)",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13511,
+    "kode_dana": "2.2.01.07.001",
+    "nama_dana": "DBH Pajak",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH Pajak",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13512,
+    "kode_dana": "2.2.01.07.001.00004",
+    "nama_dana": "DBH Cukai Hasil Tembakau (CHT)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH Cukai Hasil Tembakau (CHT)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13513,
+    "kode_dana": "2.2.01.07.002",
+    "nama_dana": "DBH Sumber Daya Alam (SDA)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH Sumber Daya Alam (SDA)",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13514,
+    "kode_dana": "2.2.01.07.002.00008",
+    "nama_dana": "DBH SDA Kehutanan-Dana Reboisasi (DR)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH SDA Kehutanan-Dana Reboisasi (DR)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13515,
+    "kode_dana": "2.2.01.07.003",
+    "nama_dana": "DBH Lainnya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH Lainnya",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13516,
+    "kode_dana": "2.2.01.07.003.00001",
+    "nama_dana": "DBH Sawit",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DBH Sawit",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13122,
+    "kode_dana": "2.2.01.08",
+    "nama_dana": "Dana Alokasi Umum (DAU)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Alokasi Umum (DAU)",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13517,
+    "kode_dana": "2.2.01.08.002",
+    "nama_dana": "DAU yang Ditentukan Penggunaannya ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAU yang Ditentukan Penggunaannya ",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13518,
+    "kode_dana": "2.2.01.08.002.00001",
+    "nama_dana": "DAU Tambahan Dukungan Pendanaan Kelurahan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAU Tambahan Dukungan Pendanaan Kelurahan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13519,
+    "kode_dana": "2.2.01.08.002.00002",
+    "nama_dana": "DAU Tambahan Dukungan Pendanaan atas Kebijakan Penyetaraan Penghasilan Tetap Kepala Desa dan Perangkat Desa",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAU Tambahan Dukungan Pendanaan atas Kebijakan Penyetaraan Penghasilan Tetap Kepala Desa dan Perangkat Desa",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13520,
+    "kode_dana": "2.2.01.08.002.00003",
+    "nama_dana": "DAU Tambahan Dukungan Pendanaan atas Kebijakan Penggajian Pegawai Pemerintah dengan Perjanjian Kerja",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAU Tambahan Dukungan Pendanaan atas Kebijakan Penggajian Pegawai Pemerintah dengan Perjanjian Kerja",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13521,
+    "kode_dana": "2.2.01.08.002.00004",
+    "nama_dana": "DAU yang Ditentukan Penggunaannya Bidang Pendidikan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAU yang Ditentukan Penggunaannya Bidang Pendidikan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13522,
+    "kode_dana": "2.2.01.08.002.00005",
+    "nama_dana": "DAU yang Ditentukan Penggunaannya Bidang Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAU yang Ditentukan Penggunaannya Bidang Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13523,
+    "kode_dana": "2.2.01.08.002.00006",
+    "nama_dana": "DAU yang Ditentukan Penggunaannya Bidang Pekerjaan Umum",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAU yang Ditentukan Penggunaannya Bidang Pekerjaan Umum",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13130,
+    "kode_dana": "2.2.01.09",
+    "nama_dana": "Dana Alokasi Khusus (DAK)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Alokasi Khusus (DAK)",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13524,
+    "kode_dana": "2.2.01.09.001",
+    "nama_dana": "DAK Fisik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13525,
+    "kode_dana": "2.2.01.09.001.00001",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Reguler-PAUD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Reguler-PAUD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13526,
+    "kode_dana": "2.2.01.09.001.00002",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Reguler-SD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Reguler-SD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13527,
+    "kode_dana": "2.2.01.09.001.00003",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Reguler-SMP",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Reguler-SMP",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13528,
+    "kode_dana": "2.2.01.09.001.00004",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Reguler-SMA",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Reguler-SMA",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13529,
+    "kode_dana": "2.2.01.09.001.00005",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Reguler-SLB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Reguler-SLB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13530,
+    "kode_dana": "2.2.01.09.001.00006",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Reguler-SKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Reguler-SKB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13531,
+    "kode_dana": "2.2.01.09.001.00007",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Afirmasi-SD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Afirmasi-SD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13532,
+    "kode_dana": "2.2.01.09.001.00008",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Afirmasi-SMP",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Afirmasi-SMP",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13533,
+    "kode_dana": "2.2.01.09.001.00009",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Afirmasi-SMA",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Afirmasi-SMA",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13534,
+    "kode_dana": "2.2.01.09.001.00010",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Penugasan-SMK",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Penugasan-SMK",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13535,
+    "kode_dana": "2.2.01.09.001.00011",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Reguler-Perpustakaan Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Reguler-Perpustakaan Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13536,
+    "kode_dana": "2.2.01.09.001.00012",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Reguler-Gedung Olahraga",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Reguler-Gedung Olahraga",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13537,
+    "kode_dana": "2.2.01.09.001.00013",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Reguler-Pelayanan Kesehatan Dasar",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Reguler-Pelayanan Kesehatan Dasar",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13538,
+    "kode_dana": "2.2.01.09.001.00014",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Reguler-Pelayanan Kesehatan Rujukan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Reguler-Pelayanan Kesehatan Rujukan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13539,
+    "kode_dana": "2.2.01.09.001.00015",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Reguler-Pelayanan Kefarmasian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Reguler-Pelayanan Kefarmasian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13540,
+    "kode_dana": "2.2.01.09.001.00016",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Penurunan AKI dan AKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Penurunan AKI dan AKB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13541,
+    "kode_dana": "2.2.01.09.001.00017",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Penguatan Intervensi Stunting",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Penguatan Intervensi Stunting",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13542,
+    "kode_dana": "2.2.01.09.001.00018",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Peningkatan Pencegahan dan Pengendalian Penyakit dan Sanitasi Total Berbasis Masyarakat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Peningkatan Pencegahan dan Pengendalian Penyakit dan Sanitasi Total Berbasis Masyarakat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13543,
+    "kode_dana": "2.2.01.09.001.00019",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Penguatan RS Rujukan Nasional/Provinsi/Regional/Pariwisata",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Penguatan RS Rujukan Nasional/Provinsi/Regional/Pariwisata",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13544,
+    "kode_dana": "2.2.01.09.001.00020",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Pembangunan RS Pratama",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Pembangunan RS Pratama",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13545,
+    "kode_dana": "2.2.01.09.001.00021",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Puskesmas Pariwisata",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Puskesmas Pariwisata",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13546,
+    "kode_dana": "2.2.01.09.001.00022",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Balai Pelatihan Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Balai Pelatihan Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13547,
+    "kode_dana": "2.2.01.09.001.00023",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Afirmasi-Penguatan Puskesmas Daerah Tertinggal Perbatasan Negara dan Kepulauan (DTPK)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Afirmasi-Penguatan Puskesmas Daerah Tertinggal Perbatasan Negara dan Kepulauan (DTPK)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13548,
+    "kode_dana": "2.2.01.09.001.00024",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Afirmasi-Penguatan Prasarana Dasar Puskesmas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Afirmasi-Penguatan Prasarana Dasar Puskesmas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13549,
+    "kode_dana": "2.2.01.09.001.00025",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Reguler-KB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Reguler-KB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13550,
+    "kode_dana": "2.2.01.09.001.00026",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Penurunan Stunting (KB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Penurunan Stunting (KB)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13551,
+    "kode_dana": "2.2.01.09.001.00027",
+    "nama_dana": "DAK Fisik-Bidang Perumahan dan Permukiman-Reguler-Penyediaan Rumah Swadaya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Perumahan dan Permukiman-Reguler-Penyediaan Rumah Swadaya",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13552,
+    "kode_dana": "2.2.01.09.001.00028",
+    "nama_dana": "DAK Fisik-Bidang Perumahan dan Permukiman-Afirmasi-Penyediaan Rumah Swadaya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Perumahan dan Permukiman-Afirmasi-Penyediaan Rumah Swadaya",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13553,
+    "kode_dana": "2.2.01.09.001.00029",
+    "nama_dana": "DAK Fisik-Bidang Perumahan dan Permukiman-Afirmasi-Penyediaan Rumah Khusus",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Perumahan dan Permukiman-Afirmasi-Penyediaan Rumah Khusus",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13554,
+    "kode_dana": "2.2.01.09.001.00030",
+    "nama_dana": "DAK Fisik-Bidang Industri Kecil dan Menengah-Penugasan-Pembangunan Sentra IKM dan Revitalisasi Sentra IKM",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Industri Kecil dan Menengah-Penugasan-Pembangunan Sentra IKM dan Revitalisasi Sentra IKM",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13555,
+    "kode_dana": "2.2.01.09.001.00031",
+    "nama_dana": "DAK Fisik-Bidang Pertanian-Penugasan-Pembangunan/Renovasi Sarana dan Prasarana Fisik Dasar Pembangunan Pertanian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pertanian-Penugasan-Pembangunan/Renovasi Sarana dan Prasarana Fisik Dasar Pembangunan Pertanian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13556,
+    "kode_dana": "2.2.01.09.001.00032",
+    "nama_dana": "DAK Fisik-Bidang Kelautan dan Perikanan-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kelautan dan Perikanan-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13557,
+    "kode_dana": "2.2.01.09.001.00033",
+    "nama_dana": "DAK Fisik-Bidang Pariwisata-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pariwisata-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13558,
+    "kode_dana": "2.2.01.09.001.00034",
+    "nama_dana": "DAK Fisik-Bidang Jalan-Reguler-Jalan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Jalan-Reguler-Jalan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13559,
+    "kode_dana": "2.2.01.09.001.00035",
+    "nama_dana": "DAK Fisik-Bidang Jalan-Penugasan-Jalan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Jalan-Penugasan-Jalan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13560,
+    "kode_dana": "2.2.01.09.001.00036",
+    "nama_dana": "DAK Fisik-Bidang Jalan-Penugasan-Keselamatan Jalan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Jalan-Penugasan-Keselamatan Jalan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13561,
+    "kode_dana": "2.2.01.09.001.00037",
+    "nama_dana": "DAK Fisik-Bidang Air Minum-Reguler",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Air Minum-Reguler",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13562,
+    "kode_dana": "2.2.01.09.001.00038",
+    "nama_dana": "DAK Fisik-Bidang Air Minum-Afirmasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Air Minum-Afirmasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13563,
+    "kode_dana": "2.2.01.09.001.00039",
+    "nama_dana": "DAK Fisik-Bidang Air Minum-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Air Minum-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13564,
+    "kode_dana": "2.2.01.09.001.00040",
+    "nama_dana": "DAK Fisik-Bidang Sanitasi-Reguler",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Sanitasi-Reguler",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13565,
+    "kode_dana": "2.2.01.09.001.00041",
+    "nama_dana": "DAK Fisik-Bidang Sanitasi-Afirmasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Sanitasi-Afirmasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13566,
+    "kode_dana": "2.2.01.09.001.00042",
+    "nama_dana": "DAK Fisik-Bidang Sanitasi-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Sanitasi-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13567,
+    "kode_dana": "2.2.01.09.001.00043",
+    "nama_dana": "DAK Fisik-Bidang Irigasi-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Irigasi-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13568,
+    "kode_dana": "2.2.01.09.001.00044",
+    "nama_dana": "DAK Fisik-Bidang Pasar-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pasar-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13569,
+    "kode_dana": "2.2.01.09.001.00045",
+    "nama_dana": "DAK Fisik-Bidang Lingkungan Hidup dan Kehutanan-Penugasan-Lingkungan Hidup",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Lingkungan Hidup dan Kehutanan-Penugasan-Lingkungan Hidup",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13570,
+    "kode_dana": "2.2.01.09.001.00046",
+    "nama_dana": "DAK Fisik-Bidang Lingkungan Hidup dan Kehutanan-Penugasan-Kehutanan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Lingkungan Hidup dan Kehutanan-Penugasan-Kehutanan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13571,
+    "kode_dana": "2.2.01.09.001.00047",
+    "nama_dana": "DAK Fisik-Bidang Transportasi Perdesaan-Afirmasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Transportasi Perdesaan-Afirmasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13572,
+    "kode_dana": "2.2.01.09.001.00048",
+    "nama_dana": "DAK Fisik-Bidang Transportasi Laut-Afirmasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Transportasi Laut-Afirmasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13573,
+    "kode_dana": "2.2.01.09.001.00049",
+    "nama_dana": "DAK Fisik-Bidang Transportasi Laut-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Transportasi Laut-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13574,
+    "kode_dana": "2.2.01.09.001.00050",
+    "nama_dana": "DAK Fisik-Bidang Sosial-Reguler",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Sosial-Reguler",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13575,
+    "kode_dana": "2.2.01.09.001.00051",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Reguler-Sekolah Menengah Kejuruan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Reguler-Sekolah Menengah Kejuruan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13576,
+    "kode_dana": "2.2.01.09.001.00052",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Reguler-Peningkatan Kesiapan Sistem Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Reguler-Peningkatan Kesiapan Sistem Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13577,
+    "kode_dana": "2.2.01.09.001.00053",
+    "nama_dana": "DAK Fisik-Bidang Transportasi Laut-Reguler",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Transportasi Laut-Reguler",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13578,
+    "kode_dana": "2.2.01.09.001.00054",
+    "nama_dana": "DAK Fisik-Bidang Transportasi Perdesaan-Reguler",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Transportasi Perdesaan-Reguler",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13579,
+    "kode_dana": "2.2.01.09.001.00055",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Keluarga Berencana",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Penugasan-Keluarga Berencana",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13580,
+    "kode_dana": "2.2.01.09.001.00056",
+    "nama_dana": "DAK Fisik-Bidang Perumahan dan Permukiman-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Perumahan dan Permukiman-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13581,
+    "kode_dana": "2.2.01.09.001.00057",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Reguler-Penurunan AKI dan AKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Reguler-Penurunan AKI dan AKB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13582,
+    "kode_dana": "2.2.01.09.001.00058",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Reguler-Penguatan Percepatan Penurunan Stunting",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Reguler-Penguatan Percepatan Penurunan Stunting",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13583,
+    "kode_dana": "2.2.01.09.001.00059",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Reguler-Pengendalian Penyakit",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Reguler-Pengendalian Penyakit",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13584,
+    "kode_dana": "2.2.01.09.001.00060",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan dan KB-Reguler-Penguatan Sistem Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan dan KB-Reguler-Penguatan Sistem Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13585,
+    "kode_dana": "2.2.01.09.001.00061",
+    "nama_dana": "DAK Fisik-Bidang Perdagangan-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Perdagangan-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13586,
+    "kode_dana": "2.2.01.09.001.00062",
+    "nama_dana": "DAK Fisik-Bidang Usaha Mikro, Kecil, dan Menengah-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Usaha Mikro, Kecil, dan Menengah-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13587,
+    "kode_dana": "2.2.01.09.001.00063",
+    "nama_dana": "DAK Fisik-Bidang Transportasi Perairan-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Transportasi Perairan-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13588,
+    "kode_dana": "2.2.01.09.001.00064",
+    "nama_dana": "DAK Fisik-Bidang Transportasi Perdesaan-Penugasan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Transportasi Perdesaan-Penugasan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13589,
+    "kode_dana": "2.2.01.09.001.00065",
+    "nama_dana": "DAK Fisik-Bidang Infrastruktur Energi Terbarukan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Infrastruktur Energi Terbarukan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13590,
+    "kode_dana": "2.2.01.09.001.00066",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-PAUD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-PAUD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13591,
+    "kode_dana": "2.2.01.09.001.00067",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-SD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-SD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13592,
+    "kode_dana": "2.2.01.09.001.00068",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-SMP",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-SMP",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13593,
+    "kode_dana": "2.2.01.09.001.00069",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-SKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-SKB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13594,
+    "kode_dana": "2.2.01.09.001.00070",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-SMA",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-SMA",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13595,
+    "kode_dana": "2.2.01.09.001.00071",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-SMK",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-SMK",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13596,
+    "kode_dana": "2.2.01.09.001.00072",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-SLB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-SLB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13597,
+    "kode_dana": "2.2.01.09.001.00073",
+    "nama_dana": "DAK Fisik-Bidang Pendidikan-Perpustakaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pendidikan-Perpustakaan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13598,
+    "kode_dana": "2.2.01.09.001.00074",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan-Penguatan Penurunan Angka Kematian Ibu, Bayi, dan Intervensi Stunting",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan-Penguatan Penurunan Angka Kematian Ibu, Bayi, dan Intervensi Stunting",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13599,
+    "kode_dana": "2.2.01.09.001.00075",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan-Penguatan Sistem Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan-Penguatan Sistem Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13600,
+    "kode_dana": "2.2.01.09.001.00076",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan-Keluarga Berencana",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan-Keluarga Berencana",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13601,
+    "kode_dana": "2.2.01.09.001.00077",
+    "nama_dana": "DAK Fisik-Bidang Jalan-Jalan Mendukung Konektivitas Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Jalan-Jalan Mendukung Konektivitas Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13602,
+    "kode_dana": "2.2.01.09.001.00078",
+    "nama_dana": "DAK Fisik-Bidang Jalan-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Jalan-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13603,
+    "kode_dana": "2.2.01.09.001.00079",
+    "nama_dana": "DAK Fisik-Bidang Jalan-Tematik Peningkatan Konektivitas dan Elektrifikasi di Daerah Afirmasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Jalan-Tematik Peningkatan Konektivitas dan Elektrifikasi di Daerah Afirmasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13604,
+    "kode_dana": "2.2.01.09.001.00080",
+    "nama_dana": "DAK Fisik-Bidang Jalan-Tematik Pengembangan Food Estate",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Jalan-Tematik Pengembangan Food Estate",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13605,
+    "kode_dana": "2.2.01.09.001.00081",
+    "nama_dana": "DAK Fisik-Bidang Jalan-Tematik Penguatan Kawasan Sentra Produksi Pangan (Pertanian, Perikanan, dan Hewani)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Jalan-Tematik Penguatan Kawasan Sentra Produksi Pangan (Pertanian, Perikanan, dan Hewani)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13606,
+    "kode_dana": "2.2.01.09.001.00082",
+    "nama_dana": "DAK Fisik-Bidang Air Minum-Air Minum Mendukung Peningkatan Kualitas SDM",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Air Minum-Air Minum Mendukung Peningkatan Kualitas SDM",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13607,
+    "kode_dana": "2.2.01.09.001.00083",
+    "nama_dana": "DAK Fisik-Bidang Air Minum-Tematik Pengentasan Permukiman Kumuh Terpadu",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Air Minum-Tematik Pengentasan Permukiman Kumuh Terpadu",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13608,
+    "kode_dana": "2.2.01.09.001.00084",
+    "nama_dana": "DAK Fisik-Bidang Sanitasi-Sanitasi Mendukung Peningkatan Kualitas SDM",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Sanitasi-Sanitasi Mendukung Peningkatan Kualitas SDM",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13609,
+    "kode_dana": "2.2.01.09.001.00085",
+    "nama_dana": "DAK Fisik-Bidang Sanitasi-Tematik Pengentasan Permukiman Kumuh Terpadu",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Sanitasi-Tematik Pengentasan Permukiman Kumuh Terpadu",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13610,
+    "kode_dana": "2.2.01.09.001.00086",
+    "nama_dana": "DAK Fisik-Bidang Perumahan dan Permukiman-Tematik Pengentasan Permukiman Kumuh Terpadu",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Perumahan dan Permukiman-Tematik Pengentasan Permukiman Kumuh Terpadu",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13611,
+    "kode_dana": "2.2.01.09.001.00087",
+    "nama_dana": "DAK Fisik-Bidang Irigasi-Tematik Pengembangan Food Estate",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Irigasi-Tematik Pengembangan Food Estate",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13612,
+    "kode_dana": "2.2.01.09.001.00088",
+    "nama_dana": "DAK Fisik-Bidang Irigasi-Tematik Penguatan Kawasan Sentra Produksi Pangan (Pertanian, Perikanan, dan Hewani)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Irigasi-Tematik Penguatan Kawasan Sentra Produksi Pangan (Pertanian, Perikanan, dan Hewani)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13613,
+    "kode_dana": "2.2.01.09.001.00089",
+    "nama_dana": "DAK Fisik-Bidang Pertanian-Tematik Pengembangan Food Estate",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pertanian-Tematik Pengembangan Food Estate",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13614,
+    "kode_dana": "2.2.01.09.001.00090",
+    "nama_dana": "DAK Fisik-Bidang Pertanian-Tematik Penguatan Kawasan Sentra Produksi Pangan (Pertanian, Perikanan, dan Hewani)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pertanian-Tematik Penguatan Kawasan Sentra Produksi Pangan (Pertanian, Perikanan, dan Hewani)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13615,
+    "kode_dana": "2.2.01.09.001.00091",
+    "nama_dana": "DAK Fisik-Bidang Kelautan dan Perikanan-Tematik Penguatan Kawasan Sentra Produksi Pangan (Pertanian, Perikanan, dan Hewani)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kelautan dan Perikanan-Tematik Penguatan Kawasan Sentra Produksi Pangan (Pertanian, Perikanan, dan Hewani)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13616,
+    "kode_dana": "2.2.01.09.001.00092",
+    "nama_dana": "DAK Fisik-Bidang Perdagangan-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Perdagangan-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13617,
+    "kode_dana": "2.2.01.09.001.00093",
+    "nama_dana": "DAK Fisik-Bidang Industri Kecil dan Menengah-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Industri Kecil dan Menengah-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13618,
+    "kode_dana": "2.2.01.09.001.00094",
+    "nama_dana": "DAK Fisik-Bidang Pariwisata-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pariwisata-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13619,
+    "kode_dana": "2.2.01.09.001.00095",
+    "nama_dana": "DAK Fisik-Bidang Lingkungan Hidup-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Lingkungan Hidup-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13620,
+    "kode_dana": "2.2.01.09.001.00096",
+    "nama_dana": "DAK Fisik-Bidang Transportasi Perairan-Tematik Peningkatan Konektivitas dan Elektrifikasi di Daerah Afirmasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Transportasi Perairan-Tematik Peningkatan Konektivitas dan Elektrifikasi di Daerah Afirmasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13621,
+    "kode_dana": "2.2.01.09.001.00097",
+    "nama_dana": "DAK Fisik-Bidang Transportasi Perdesaan-Tematik Peningkatan Konektivitas dan Elektrifikasi di Daerah Afirmasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Transportasi Perdesaan-Tematik Peningkatan Konektivitas dan Elektrifikasi di Daerah Afirmasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13622,
+    "kode_dana": "2.2.01.09.001.00098",
+    "nama_dana": "DAK Fisik-Bidang Kehutanan-Tematik Pengembangan Food Estate",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kehutanan-Tematik Pengembangan Food Estate",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13623,
+    "kode_dana": "2.2.01.09.001.00099",
+    "nama_dana": "DAK Fisik-Bidang Usaha Mikro, Kecil, dan Menengah-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Usaha Mikro, Kecil, dan Menengah-Tematik Penguatan Destinasi Pariwisata Prioritas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13624,
+    "kode_dana": "2.2.01.09.001.00100",
+    "nama_dana": "DAK Fisik-Bidang Infrastruktur Energi Terbarukan-Tematik Peningkatan Konektivitas dan Elektrifikasi di Daerah Afirmasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Infrastruktur Energi Terbarukan-Tematik Peningkatan Konektivitas dan Elektrifikasi di Daerah Afirmasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13793,
+    "kode_dana": "2.2.01.09.001.00101",
+    "nama_dana": "DAK Fisik-Bidang Kesehatan-Penguatan Sistem dan Kapasitas Pelayanan Kesehatan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Kesehatan-Penguatan Sistem dan Kapasitas Pelayanan Kesehatan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13794,
+    "kode_dana": "2.2.01.09.001.00102",
+    "nama_dana": "DAK Fisik-Bidang Konektivitas-Jalan-Layanan Dasar",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Konektivitas-Jalan-Layanan Dasar",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13795,
+    "kode_dana": "2.2.01.09.001.00103",
+    "nama_dana": "DAK Fisik-Bidang Konektivitas-Jalan-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Konektivitas-Jalan-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13796,
+    "kode_dana": "2.2.01.09.001.00104",
+    "nama_dana": "DAK Fisik-Bidang Konektivitas-Jalan-Tematik Kawasan Produksi Pangan Nasional",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Konektivitas-Jalan-Tematik Kawasan Produksi Pangan Nasional",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13797,
+    "kode_dana": "2.2.01.09.001.00105",
+    "nama_dana": "DAK Fisik-Bidang Konektivitas-Transportasi Perairan-Tematik Kawasan Produksi Pangan Nasional",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Konektivitas-Transportasi Perairan-Tematik Kawasan Produksi Pangan Nasional",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13798,
+    "kode_dana": "2.2.01.09.001.00106",
+    "nama_dana": "DAK Fisik-Bidang Air Minum-Layanan Dasar",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Air Minum-Layanan Dasar",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13799,
+    "kode_dana": "2.2.01.09.001.00107",
+    "nama_dana": "DAK Fisik-Bidang Air Minum-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Air Minum-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13800,
+    "kode_dana": "2.2.01.09.001.00108",
+    "nama_dana": "DAK Fisik-Bidang Sanitasi-Layanan Dasar",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Sanitasi-Layanan Dasar",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13801,
+    "kode_dana": "2.2.01.09.001.00109",
+    "nama_dana": "DAK Fisik-Bidang Sanitasi-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Sanitasi-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13802,
+    "kode_dana": "2.2.01.09.001.00110",
+    "nama_dana": "DAK Fisik-Bidang Irigasi-Layanan Dasar",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Irigasi-Layanan Dasar",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13803,
+    "kode_dana": "2.2.01.09.001.00111",
+    "nama_dana": "DAK Fisik-Bidang Irigasi-Tematik Kawasan Produksi Pangan Nasional",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Irigasi-Tematik Kawasan Produksi Pangan Nasional",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13804,
+    "kode_dana": "2.2.01.09.001.00112",
+    "nama_dana": "DAK Fisik-Bidang Pangan Pertanian-Pertanian-Tematik Kawasan Produksi Pangan Nasional",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pangan Pertanian-Pertanian-Tematik Kawasan Produksi Pangan Nasional",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13805,
+    "kode_dana": "2.2.01.09.001.00113",
+    "nama_dana": "DAK Fisik-Bidang Pangan Pertanian-Pangan-Tematik Kawasan Produksi Pangan Nasional",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pangan Pertanian-Pangan-Tematik Kawasan Produksi Pangan Nasional",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13806,
+    "kode_dana": "2.2.01.09.001.00114",
+    "nama_dana": "DAK Fisik-Bidang Pangan Akuatik-Tematik Kawasan Produksi Pangan Nasional",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Pangan Akuatik-Tematik Kawasan Produksi Pangan Nasional",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13807,
+    "kode_dana": "2.2.01.09.001.00115",
+    "nama_dana": "DAK Fisik-Bidang Perdagangan-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Perdagangan-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13808,
+    "kode_dana": "2.2.01.09.001.00116",
+    "nama_dana": "DAK Fisik-Bidang Industri Kecil dan Menengah-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Industri Kecil dan Menengah-Tematik Pengembangan Ekosistem dan Rantai Pasok Kawasan Industri",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13809,
+    "kode_dana": "2.2.01.09.001.00117",
+    "nama_dana": "DAK Fisik-Bidang Perlindungan Perempuan dan Anak-Perlindungan Perempuan dan Anak",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Fisik-Bidang Perlindungan Perempuan dan Anak-Perlindungan Perempuan dan Anak",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13625,
+    "kode_dana": "2.2.01.09.002",
+    "nama_dana": "DAK Non Fisik",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13626,
+    "kode_dana": "2.2.01.09.002.00001",
+    "nama_dana": "DAK Non Fisik-BOS Reguler",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOS Reguler",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13627,
+    "kode_dana": "2.2.01.09.002.00002",
+    "nama_dana": "DAK Non Fisik-BOS Afirmasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOS Afirmasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13628,
+    "kode_dana": "2.2.01.09.002.00003",
+    "nama_dana": "DAK Non Fisik-BOS Kinerja",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOS Kinerja",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13629,
+    "kode_dana": "2.2.01.09.002.00004",
+    "nama_dana": "DAK Non Fisik-TPG PNSD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-TPG PNSD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13630,
+    "kode_dana": "2.2.01.09.002.00005",
+    "nama_dana": "DAK Non Fisik-Tamsil Guru PNSD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Tamsil Guru PNSD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13631,
+    "kode_dana": "2.2.01.09.002.00006",
+    "nama_dana": "DAK Non Fisik-TKG PNSD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-TKG PNSD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13632,
+    "kode_dana": "2.2.01.09.002.00007",
+    "nama_dana": "DAK Non Fisik-BOP PAUD",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOP PAUD",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13633,
+    "kode_dana": "2.2.01.09.002.00008",
+    "nama_dana": "DAK Non Fisik-BOP Pendidikan Kesetaraan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOP Pendidikan Kesetaraan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13634,
+    "kode_dana": "2.2.01.09.002.00009",
+    "nama_dana": "DAK Non Fisik-BOP Museum dan Taman Budaya-Museum",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOP Museum dan Taman Budaya-Museum",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13635,
+    "kode_dana": "2.2.01.09.002.00010",
+    "nama_dana": "DAK Non Fisik-BOP Museum dan Taman Budaya-Taman Budaya",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOP Museum dan Taman Budaya-Taman Budaya",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13636,
+    "kode_dana": "2.2.01.09.002.00011",
+    "nama_dana": "DAK Non Fisik-BOKKB-BOK ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOKKB-BOK ",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13637,
+    "kode_dana": "2.2.01.09.002.00012",
+    "nama_dana": "DAK Non Fisik-BOKKB-Pengawasan Obat dan Makanan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOKKB-Pengawasan Obat dan Makanan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13638,
+    "kode_dana": "2.2.01.09.002.00013",
+    "nama_dana": "DAK Non Fisik-BOKKB-Akreditasi Puskesmas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOKKB-Akreditasi Puskesmas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13639,
+    "kode_dana": "2.2.01.09.002.00014",
+    "nama_dana": "DAK Non Fisik-BOKKB-Jaminan Persalinan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOKKB-Jaminan Persalinan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13640,
+    "kode_dana": "2.2.01.09.002.00015",
+    "nama_dana": "DAK Non Fisik-BOKKB-BOKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOKKB-BOKB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13641,
+    "kode_dana": "2.2.01.09.002.00016",
+    "nama_dana": "DAK Non Fisik-PK2UKM",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-PK2UKM",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13642,
+    "kode_dana": "2.2.01.09.002.00017",
+    "nama_dana": "DAK Non Fisik-Dana Pelayanan Administrasi Kependudukan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana Pelayanan Administrasi Kependudukan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13643,
+    "kode_dana": "2.2.01.09.002.00018",
+    "nama_dana": "DAK Non Fisik-Dana Pelayanan Kepariwisataan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana Pelayanan Kepariwisataan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13644,
+    "kode_dana": "2.2.01.09.002.00019",
+    "nama_dana": "DAK Non Fisik-Dana Bantuan BLPS",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana Bantuan BLPS",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13645,
+    "kode_dana": "2.2.01.09.002.00020",
+    "nama_dana": "DAK Non Fisik-Fasilitasi Penanaman Modal",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Fasilitasi Penanaman Modal",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13646,
+    "kode_dana": "2.2.01.09.002.00021",
+    "nama_dana": "DAK Non Fisik-BOKB-KB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOKB-KB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13647,
+    "kode_dana": "2.2.01.09.002.00022",
+    "nama_dana": "DAK Non Fisik-Dana Pelayanan Perlindungan Perempuan dan Anak",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana Pelayanan Perlindungan Perempuan dan Anak",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13648,
+    "kode_dana": "2.2.01.09.002.00023",
+    "nama_dana": "DAK Non Fisik-Dana Ketahanan Pangan dan Pertanian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana Ketahanan Pangan dan Pertanian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13649,
+    "kode_dana": "2.2.01.09.002.00024",
+    "nama_dana": "DAK Non Fisik-Dana Penguatan Kapasitas Kelembagaan Sentra IKM",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana Penguatan Kapasitas Kelembagaan Sentra IKM",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13650,
+    "kode_dana": "2.2.01.09.002.00025",
+    "nama_dana": "DAK Non Fisik-PK2UMK",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-PK2UMK",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13651,
+    "kode_dana": "2.2.01.09.002.00026",
+    "nama_dana": "DAK Non Fisik-Dana BOSP-BOS Reguler",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOSP-BOS Reguler",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13652,
+    "kode_dana": "2.2.01.09.002.00027",
+    "nama_dana": "DAK Non Fisik-Dana BOSP-BOS Kinerja",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOSP-BOS Kinerja",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13653,
+    "kode_dana": "2.2.01.09.002.00028",
+    "nama_dana": "DAK Non Fisik-Dana BOSP-BOP PAUD Reguler",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOSP-BOP PAUD Reguler",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13654,
+    "kode_dana": "2.2.01.09.002.00029",
+    "nama_dana": "DAK Non Fisik-Dana BOSP-BOP PAUD Kinerja",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOSP-BOP PAUD Kinerja",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13655,
+    "kode_dana": "2.2.01.09.002.00030",
+    "nama_dana": "DAK Non Fisik-Dana BOSP-BOP Kesetaraan Reguler",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOSP-BOP Kesetaraan Reguler",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13656,
+    "kode_dana": "2.2.01.09.002.00031",
+    "nama_dana": "DAK Non Fisik-Dana BOSP-BOP Kesetaraan Kinerja",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOSP-BOP Kesetaraan Kinerja",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13657,
+    "kode_dana": "2.2.01.09.002.00032",
+    "nama_dana": "DAK Non Fisik-Dana BOK-BOK Dinas-BOK Provinsi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOK-BOK Dinas-BOK Provinsi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13658,
+    "kode_dana": "2.2.01.09.002.00033",
+    "nama_dana": "DAK Non Fisik-Dana BOK-BOK Dinas-BOK Kabupaten/Kota",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOK-BOK Dinas-BOK Kabupaten/Kota",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13659,
+    "kode_dana": "2.2.01.09.002.00034",
+    "nama_dana": "DAK Non Fisik-Dana BOK-BOK Dinas-BOK Pengawasan Obat dan Makanan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOK-BOK Dinas-BOK Pengawasan Obat dan Makanan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13660,
+    "kode_dana": "2.2.01.09.002.00035",
+    "nama_dana": "DAK Non Fisik-Dana BOK-BOK Puskesmas",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana BOK-BOK Puskesmas",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13661,
+    "kode_dana": "2.2.01.09.002.00036",
+    "nama_dana": "DAK Non Fisik-Tunjangan Guru ASN Daerah-Tunjangan Profesi Guru",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Tunjangan Guru ASN Daerah-Tunjangan Profesi Guru",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13662,
+    "kode_dana": "2.2.01.09.002.00037",
+    "nama_dana": "DAK Non Fisik-Tunjangan Guru ASN Daerah-Tambahan Penghasilan Guru",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Tunjangan Guru ASN Daerah-Tambahan Penghasilan Guru",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13663,
+    "kode_dana": "2.2.01.09.002.00038",
+    "nama_dana": "DAK Non Fisik-Tunjangan Guru ASN Daerah-Tunjangan Khusus Guru",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Tunjangan Guru ASN Daerah-Tunjangan Khusus Guru",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13664,
+    "kode_dana": "2.2.01.09.002.00039",
+    "nama_dana": "DAK Non Fisik-Bantuan Operasional Keluarga Berencana",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Bantuan Operasional Keluarga Berencana",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13810,
+    "kode_dana": "2.2.01.09.002.00040",
+    "nama_dana": "DAK Non Fisik-BOK-BOK Pengawasan Obat dan Makanan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-BOK-BOK Pengawasan Obat dan Makanan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13811,
+    "kode_dana": "2.2.01.09.002.00041",
+    "nama_dana": "DAK Non Fisik-Dana Bantuan Pengembangan Program Perpustakaan Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana Bantuan Pengembangan Program Perpustakaan Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13812,
+    "kode_dana": "2.2.01.09.002.00042",
+    "nama_dana": "DAK Non Fisik-Dana Ketahanan Pangan dan Pertanian-Pangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana Ketahanan Pangan dan Pertanian-Pangan",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13813,
+    "kode_dana": "2.2.01.09.002.00043",
+    "nama_dana": "DAK Non Fisik-Dana Ketahanan Pangan dan Pertanian-Pertanian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Dana Ketahanan Pangan dan Pertanian-Pertanian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13814,
+    "kode_dana": "2.2.01.09.002.00044",
+    "nama_dana": "DAK Non Fisik-Bantuan Operasional Penyuluh Pertanian",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - DAK Non Fisik-Bantuan Operasional Penyuluh Pertanian",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13815,
+    "kode_dana": "2.2.01.09.003",
+    "nama_dana": "Hibah kepada Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hibah kepada Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13816,
+    "kode_dana": "2.2.01.09.003.00001",
+    "nama_dana": "Penerimaan Dalam Negeri yang Dihibahkan-Hibah Sanitasi-Air Limbah Setempat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Penerimaan Dalam Negeri yang Dihibahkan-Hibah Sanitasi-Air Limbah Setempat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13817,
+    "kode_dana": "2.2.01.09.003.00002",
+    "nama_dana": "Pinjaman Luar Negeri yang Diterushibahkan-Mas Rapid Transit (MRT) Project",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Luar Negeri yang Diterushibahkan-Mas Rapid Transit (MRT) Project",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13818,
+    "kode_dana": "2.2.01.09.003.00003",
+    "nama_dana": "Penerimaan Dalam Negeri yang Dihibahkan-Hibah Sanitasi-Air Limbah Terpusat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Penerimaan Dalam Negeri yang Dihibahkan-Hibah Sanitasi-Air Limbah Terpusat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13819,
+    "kode_dana": "2.2.01.09.003.00004",
+    "nama_dana": "Pinjaman Luar Negeri yang Diterushibahkan-Rural Empowerment and Agricultural Development Scaling Up Initiative (READ-SI)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Luar Negeri yang Diterushibahkan-Rural Empowerment and Agricultural Development Scaling Up Initiative (READ-SI)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13820,
+    "kode_dana": "2.2.01.09.003.00005",
+    "nama_dana": "Pinjaman Luar Negeri yang Diterushibahkan-The Development of Integrated Farming System at Upland Areas Project (UPLAND)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Luar Negeri yang Diterushibahkan-The Development of Integrated Farming System at Upland Areas Project (UPLAND)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13821,
+    "kode_dana": "2.2.01.09.003.00006",
+    "nama_dana": "Hibah Luar Negeri yang Diterushibahkan-Hibah Air Minum Berbasis Kinerja Bantuan Pemerintah Australia",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hibah Luar Negeri yang Diterushibahkan-Hibah Air Minum Berbasis Kinerja Bantuan Pemerintah Australia",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13822,
+    "kode_dana": "2.2.01.09.003.00007",
+    "nama_dana": "Hibah Luar Negeri yang Diterushibahkan-Instalasi Pengolahan Air Limbah untuk Kota Palembang/ Palembang City Sewerage Project (PCSP)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hibah Luar Negeri yang Diterushibahkan-Instalasi Pengolahan Air Limbah untuk Kota Palembang/ Palembang City Sewerage Project (PCSP)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13823,
+    "kode_dana": "2.2.01.09.003.00008",
+    "nama_dana": "Hibah Luar Negeri yang Diterushibahkan-Bio Carbon Fund Initiative for Sustainable Forest Landscape (BIO CF ISFL)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Hibah Luar Negeri yang Diterushibahkan-Bio Carbon Fund Initiative for Sustainable Forest Landscape (BIO CF ISFL)",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13272,
+    "kode_dana": "2.2.02",
+    "nama_dana": "Pendapatan Transfer Antar Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Transfer Antar Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13273,
+    "kode_dana": "2.2.02.01",
+    "nama_dana": "Pendapatan Bagi Hasil",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bagi Hasil",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13665,
+    "kode_dana": "2.2.02.01.001",
+    "nama_dana": "Pendapatan Bagi Hasil Pajak",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bagi Hasil Pajak",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13666,
+    "kode_dana": "2.2.02.01.001.00001",
+    "nama_dana": "Pendapatan Bagi Hasil Pajak Kendaraan Bermotor",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bagi Hasil Pajak Kendaraan Bermotor",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13667,
+    "kode_dana": "2.2.02.01.001.00005",
+    "nama_dana": "Pendapatan Bagi Hasil Pajak Rokok",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bagi Hasil Pajak Rokok",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13277,
+    "kode_dana": "2.2.02.02",
+    "nama_dana": "Bantuan Keuangan ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Bantuan Keuangan ",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13668,
+    "kode_dana": "2.2.02.02.001",
+    "nama_dana": "Bantuan Keuangan Khusus dari Pemerintah Provinsi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Bantuan Keuangan Khusus dari Pemerintah Provinsi",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13669,
+    "kode_dana": "2.2.02.02.001.00001",
+    "nama_dana": "Bantuan Keuangan Khusus dari Pemerintah Daerah Provinsi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Bantuan Keuangan Khusus dari Pemerintah Daerah Provinsi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13670,
+    "kode_dana": "2.2.02.02.002",
+    "nama_dana": "Bantuan Keuangan Khusus dari Pemerintah Kabupaten/Kota",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Bantuan Keuangan Khusus dari Pemerintah Kabupaten/Kota",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13671,
+    "kode_dana": "2.2.02.02.002.00001",
+    "nama_dana": "Bantuan Keuangan Khusus dari Pemerintah Daerah Kabupaten/Kota",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Bantuan Keuangan Khusus dari Pemerintah Daerah Kabupaten/Kota",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13282,
+    "kode_dana": "2.3",
+    "nama_dana": "LAIN-LAIN PENDAPATAN DAERAH YANG SAH",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - LAIN-LAIN PENDAPATAN DAERAH YANG SAH",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13283,
+    "kode_dana": "2.3.02",
+    "nama_dana": "Dana Darurat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Darurat",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13284,
+    "kode_dana": "2.3.02.01",
+    "nama_dana": "Dana Darurat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Darurat",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13672,
+    "kode_dana": "2.3.02.01.001",
+    "nama_dana": "Dana Darurat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Darurat",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13673,
+    "kode_dana": "2.3.02.01.001.00001",
+    "nama_dana": "Dana Darurat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Dana Darurat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13287,
+    "kode_dana": "2.3.03",
+    "nama_dana": "Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Lain-lain Pendapatan Sesuai dengan Ketentuan Peraturan Perundang-Undangan",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13288,
+    "kode_dana": "2.3.03.01",
+    "nama_dana": "Lain-lain Pendapatan ",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Lain-lain Pendapatan ",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13674,
+    "kode_dana": "2.3.03.01.003",
+    "nama_dana": "Pendapatan atas Dana Reducing Emission from Deforestration and Forest Degradation (REDD+) Results Based Payment",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan atas Dana Reducing Emission from Deforestration and Forest Degradation (REDD+) Results Based Payment",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13675,
+    "kode_dana": "2.3.03.01.003.00001",
+    "nama_dana": "Pendapatan atas Dana Reducing Emission from Deforestration and Forest Degradation (REDD+) Results Based Payment",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan atas Dana Reducing Emission from Deforestration and Forest Degradation (REDD+) Results Based Payment",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13291,
+    "kode_dana": "2.3.03.02",
+    "nama_dana": "Pendapatan Dana Kapitasi JKN pada FKTP",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Dana Kapitasi JKN pada FKTP",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13676,
+    "kode_dana": "2.3.03.02.001",
+    "nama_dana": "Pendapatan Dana Kapitasi JKN pada FKTP",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Dana Kapitasi JKN pada FKTP",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13677,
+    "kode_dana": "2.3.03.02.001.00001",
+    "nama_dana": "Pendapatan Dana Kapitasi JKN pada FKTP",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Dana Kapitasi JKN pada FKTP",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13294,
+    "kode_dana": "2.3.03.04",
+    "nama_dana": "Kontribusi dari Sumber Lain yang Sah dan Tidak Mengikat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Kontribusi dari Sumber Lain yang Sah dan Tidak Mengikat",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13678,
+    "kode_dana": "2.3.03.04.001",
+    "nama_dana": "Kontribusi dari Sumber Lain yang Sah dan Tidak Mengikat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Kontribusi dari Sumber Lain yang Sah dan Tidak Mengikat",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13679,
+    "kode_dana": "2.3.03.04.001.00001",
+    "nama_dana": "Kontribusi dari Sumber Lain yang Sah dan Tidak Mengikat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Kontribusi dari Sumber Lain yang Sah dan Tidak Mengikat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13409,
+    "kode_dana": "2.3.03.05",
+    "nama_dana": "Pendapatan Klaim Pelayanan Kesehatan/Nonkapitasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Klaim Pelayanan Kesehatan/Nonkapitasi",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13824,
+    "kode_dana": "2.3.03.05.001",
+    "nama_dana": "Pendapatan Klaim Pelayanan Kesehatan/Nonkapitasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Klaim Pelayanan Kesehatan/Nonkapitasi",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13825,
+    "kode_dana": "2.3.03.05.001.00001",
+    "nama_dana": "Pendapatan Klaim Pelayanan Kesehatan/Nonkapitasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Klaim Pelayanan Kesehatan/Nonkapitasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13412,
+    "kode_dana": "2.3.03.06",
+    "nama_dana": "Pendapatan Bonus Produksi Panas Bumi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bonus Produksi Panas Bumi",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13826,
+    "kode_dana": "2.3.03.06.001",
+    "nama_dana": "Pendapatan Bonus Produksi Panas Bumi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bonus Produksi Panas Bumi",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13827,
+    "kode_dana": "2.3.03.06.001.00001",
+    "nama_dana": "Pendapatan Bonus Produksi Panas Bumi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bonus Produksi Panas Bumi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13415,
+    "kode_dana": "2.3.03.07",
+    "nama_dana": "Pendapatan Bonus Tandatangan dan Bonus Produksi Pemerintah Aceh",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bonus Tandatangan dan Bonus Produksi Pemerintah Aceh",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13828,
+    "kode_dana": "2.3.03.07.001",
+    "nama_dana": "Pendapatan Bonus Tandatangan dan Bonus Produksi Pemerintah Aceh",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bonus Tandatangan dan Bonus Produksi Pemerintah Aceh",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13829,
+    "kode_dana": "2.3.03.07.001.00001",
+    "nama_dana": "Pendapatan Bonus Tandatangan dan Bonus Produksi Pemerintah Aceh",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pendapatan Bonus Tandatangan dan Bonus Produksi Pemerintah Aceh",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13297,
+    "kode_dana": "2.4",
+    "nama_dana": "Penerimaan Pembiayaan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Penerimaan Pembiayaan",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13418,
+    "kode_dana": "2.4.02",
+    "nama_dana": "Pencairan Dana Cadangan",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pencairan Dana Cadangan",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13419,
+    "kode_dana": "2.4.02.02",
+    "nama_dana": "Pencairan Dana Cadangan untuk Pembayaran Pokok Obligasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pencairan Dana Cadangan untuk Pembayaran Pokok Obligasi",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13830,
+    "kode_dana": "2.4.02.02.001",
+    "nama_dana": "Pencairan Dana Cadangan untuk Pembayaran Pokok Obligasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pencairan Dana Cadangan untuk Pembayaran Pokok Obligasi",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13831,
+    "kode_dana": "2.4.02.02.001.00001",
+    "nama_dana": "Pencairan Dana Cadangan untuk Pembayaran Pokok Obligasi",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pencairan Dana Cadangan untuk Pembayaran Pokok Obligasi",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13422,
+    "kode_dana": "2.4.02.03",
+    "nama_dana": "Pencairan Dana Cadangan untuk Pembayaran Pokok Sukuk",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pencairan Dana Cadangan untuk Pembayaran Pokok Sukuk",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13832,
+    "kode_dana": "2.4.02.03.001",
+    "nama_dana": "Pencairan Dana Cadangan untuk Pembayaran Pokok Sukuk",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pencairan Dana Cadangan untuk Pembayaran Pokok Sukuk",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13833,
+    "kode_dana": "2.4.02.03.001.00001",
+    "nama_dana": "Pencairan Dana Cadangan untuk Pembayaran Pokok Sukuk",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pencairan Dana Cadangan untuk Pembayaran Pokok Sukuk",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13298,
+    "kode_dana": "2.4.07",
+    "nama_dana": "Penarikan Pokok Dana Abadi Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Penarikan Pokok Dana Abadi Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13299,
+    "kode_dana": "2.4.07.01",
+    "nama_dana": "Penarikan Pokok Dana Abadi Daerah Dalam Kondisi Darurat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Penarikan Pokok Dana Abadi Daerah Dalam Kondisi Darurat",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13680,
+    "kode_dana": "2.4.07.01.001",
+    "nama_dana": "Penarikan Pokok Dana Abadi Daerah Dalam Kondisi Darurat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Penarikan Pokok Dana Abadi Daerah Dalam Kondisi Darurat",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13681,
+    "kode_dana": "2.4.07.01.001.00001",
+    "nama_dana": "Penarikan Pokok Dana Abadi Daerah Dalam Kondisi Darurat",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Penarikan Pokok Dana Abadi Daerah Dalam Kondisi Darurat",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13425,
+    "kode_dana": "2.4.08",
+    "nama_dana": "Penerimaan Pembiayaan Utang Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Penerimaan Pembiayaan Utang Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13426,
+    "kode_dana": "2.4.08.01",
+    "nama_dana": "Pinjaman Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13834,
+    "kode_dana": "2.4.08.01.001",
+    "nama_dana": "Pinjaman Daerah dari Pemerintah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari Pemerintah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13835,
+    "kode_dana": "2.4.08.01.001.00001",
+    "nama_dana": "Pinjaman Daerah dari Pemerintah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari Pemerintah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13836,
+    "kode_dana": "2.4.08.01.001.00002",
+    "nama_dana": "Pinjaman Daerah dari Pemerintah yang diteruspinjamkan kepada Pemerintah Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari Pemerintah yang diteruspinjamkan kepada Pemerintah Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13837,
+    "kode_dana": "2.4.08.01.001.00003",
+    "nama_dana": "Pinjaman Daerah dari Pemerintah yang bersumber dari Hibah yang diteruspinjamkan kepada Pemerintah Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari Pemerintah yang bersumber dari Hibah yang diteruspinjamkan kepada Pemerintah Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13838,
+    "kode_dana": "2.4.08.01.002",
+    "nama_dana": "Pinjaman Daerah dari Pemerintah Daerah Lain",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari Pemerintah Daerah Lain",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13839,
+    "kode_dana": "2.4.08.01.002.00001",
+    "nama_dana": "Pinjaman Daerah dari Pemerintah Daerah Lain",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari Pemerintah Daerah Lain",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13840,
+    "kode_dana": "2.4.08.01.003",
+    "nama_dana": "Pinjaman Daerah dari Lembaga Keuangan Bank (LKB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari Lembaga Keuangan Bank (LKB)",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13841,
+    "kode_dana": "2.4.08.01.003.00001",
+    "nama_dana": "Pinjaman Daerah dari LKB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari LKB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13842,
+    "kode_dana": "2.4.08.01.004",
+    "nama_dana": "Pinjaman Daerah dari Lembaga Keuangan Bukan Bank (LKBB)",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari Lembaga Keuangan Bukan Bank (LKBB)",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13843,
+    "kode_dana": "2.4.08.01.004.00001",
+    "nama_dana": "Pinjaman Daerah dari LKBB",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Pinjaman Daerah dari LKBB",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13437,
+    "kode_dana": "2.4.08.02",
+    "nama_dana": "Obligasi Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Obligasi Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13844,
+    "kode_dana": "2.4.08.02.001",
+    "nama_dana": "Obligasi Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Obligasi Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13845,
+    "kode_dana": "2.4.08.02.001.00001",
+    "nama_dana": "Obligasi Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Obligasi Daerah",
+    "set_input": "Ya"
+  },
+  {
+    "id_dana": 13440,
+    "kode_dana": "2.4.08.03",
+    "nama_dana": "Sukuk Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Sukuk Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13846,
+    "kode_dana": "2.4.08.03.001",
+    "nama_dana": "Sukuk Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Sukuk Daerah",
+    "set_input": "Tidak"
+  },
+  {
+    "id_dana": 13847,
+    "kode_dana": "2.4.08.03.001.00001",
+    "nama_dana": "Sukuk Daerah",
+    "is_locked": 0,
+    "sumber_dana": "[DANA KHUSUS] - Sukuk Daerah",
+    "set_input": "Ya"
+  }
+]
