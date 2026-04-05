@@ -81,35 +81,35 @@ function generateArray(listDinas) {
             rincian[2] = totalBelanja
           }
 
-          if (keyBelanja === '5.1.05') {
+          if (keyBelanja === '5.1.03') {
             rincian[3] = totalBelanja
           }
 
-          if (keyBelanja === '5.1.06') {
+          if (keyBelanja === '5.1.05') {
             rincian[4] = totalBelanja
           }
 
-          if (keyBelanja === '5.2.01') {
+          if (keyBelanja === '5.1.06') {
             rincian[5] = totalBelanja
           }
 
-          if (keyBelanja === '5.2.02') {
+          if (keyBelanja === '5.2.01') {
             rincian[6] = totalBelanja
           }
 
-          if (keyBelanja === '5.2.03') {
+          if (keyBelanja === '5.2.02') {
             rincian[7] = totalBelanja
           }
 
-          if (keyBelanja === '5.2.04') {
+          if (keyBelanja === '5.2.03') {
             rincian[8] = totalBelanja
           }
 
-          if (keyBelanja === '5.2.05') {
+          if (keyBelanja === '5.2.04') {
             rincian[9] = totalBelanja
           }
 
-          if (keyBelanja === '5.2.06') {
+          if (keyBelanja === '5.2.05') {
             rincian[10] = totalBelanja
           }
 
@@ -329,7 +329,7 @@ function generateEfisiensi(listDinas) {
 
 function cekUp() {
 
-  const xlf = './EXCEL/2025/rekap3.xlsx'
+  const xlf = './input/excel/2026/rekap5.xlsx'
   const xlb = fs.readFileSync(xlf)
   const wb = XLSX.read(xlb)
   let listData = XLSX.utils.sheet_to_json(wb.Sheets[wb.SheetNames[0]])
@@ -349,7 +349,13 @@ function cekUp() {
   })
 
   let newDAU = newData.filter((x) => {
-    if (!/DAK/.test(x['NAMA SUMBER DANA']) && !/Alokasi Khusus/.test(x['NAMA SUMBER DANA'])) {
+    if (!/DAK/.test(x['NAMA SUMBER DANA']) && !/Alokasi Khusus/.test(x['NAMA SUMBER DANA']) && !/Pinjaman/.test(x['NAMA SUMBER DANA'])) {
+      return x
+    }
+  })
+
+  let newPinjaman = newData.filter((x) => {
+    if (/Pinjaman/.test(x['NAMA SUMBER DANA']) || /LKB/.test(x['NAMA SUMBER DANA'])) {
       return x
     }
   })
@@ -357,13 +363,15 @@ function cekUp() {
   const dinasAll = reducer(newData, 'KODE SUB UNIT')
   const dinasDAK = reducer(newDAK, 'KODE SUB UNIT')
   const dinasDAU = reducer(newDAU, 'KODE SUB UNIT')
+  const dinasPinjaman = reducer(newPinjaman, 'KODE SUB UNIT')
 
   const workbook = XLSX.utils.book_new();
 
-  let listSeluruhRekening = listSeluruhDAU = listSeluruhDAK = [
+  let listSeluruhRekening = listSeluruhDAU = listSeluruhDAK = listSeluruhPinjaman = [
     [
       { t: "s", v: "Nama OPD", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
       { t: "s", v: "Belanja Operasi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+      null,
       null,
       null,
       null,
@@ -381,23 +389,26 @@ function cekUp() {
       null,
       { t: "s", v: "Belanja Pegawai", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
       { t: "s", v: "Belanja Barang dan Jasa", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+      { t: "s", v: "Belanja Bunga", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
       { t: "s", v: "Belanja Hibah", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
       { t: "s", v: "Belanja Bantuan Sosial", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
+      { t: "s", v: "Belanja Modal Tanah", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
       { t: "s", v: "Belanja Modal Peralatan Mesin", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
       { t: "s", v: "Belanja Modal Gedung dan Bangunan", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
       { t: "s", v: "Belanja Modal Jalan, Jaringan dan Irigasi", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
       { t: "s", v: "Belanja Modal Aset Tetap Lainnya", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
-      { t: "s", v: "Belanja Modal Aset Lainnya", s: { font: { bold: true, name: "Calibri", sz: 9 } } },
     ]
   ]
 
   let dataAll = generateArray(dinasAll)
   let dataDAK = generateArray(dinasDAK)
   let dataDAU = generateArray(dinasDAU)
+  let dataPinjaman = generateArray(dinasPinjaman)
 
   listSeluruhRekening = listSeluruhRekening.concat(dataAll)
   listSeluruhDAU = listSeluruhDAU.concat(dataDAU)
   listSeluruhDAK = listSeluruhDAK.concat(dataDAK)
+  listSeluruhPinjaman = listSeluruhPinjaman.concat(dataPinjaman)
 
   const listSeluruhRekeningWs = XLSX.utils.aoa_to_sheet(listSeluruhRekening)
   listSeluruhRekeningWs["!cols"] = [{ wpx: 275 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }]
@@ -405,10 +416,13 @@ function cekUp() {
   listSeluruhDAUWs["!cols"] = [{ wpx: 275 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }]
   const listSeluruhDAKWs = XLSX.utils.aoa_to_sheet(listSeluruhDAK)
   listSeluruhDAKWs["!cols"] = [{ wpx: 275 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }]
+  const listSeluruhPinjamanWs = XLSX.utils.aoa_to_sheet(listSeluruhPinjaman)
+  listSeluruhPinjamanWs["!cols"] = [{ wpx: 275 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }, { wpx: 80 }]
 
   XLSX.utils.book_append_sheet(workbook, listSeluruhRekeningWs, 'SELURUH');
   XLSX.utils.book_append_sheet(workbook, listSeluruhDAUWs, 'DAU');
   XLSX.utils.book_append_sheet(workbook, listSeluruhDAKWs, 'DAK');
+  XLSX.utils.book_append_sheet(workbook, listSeluruhPinjamanWs, 'PINJAMAN');
   XLSX.writeFile(workbook, "HITUNGAN UP.xlsx", { compression: true });
 }
 
@@ -755,4 +769,6 @@ function efisiensi() {
   XLSX.writeFile(workbook, "PENGHEMATAN.xlsx", { compression: true });
 
 }
+
+cekUp()
 

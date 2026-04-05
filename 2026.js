@@ -402,10 +402,10 @@ function mutakhir(xlf) {
   XLSX.writeFile(workbook, "MUTAKHIR.xlsx", { compression: true });
 }
 
-const xlf = './input/excel/2026/rekap5.xlsx'
+const xlf = './input/excel/2026/rekap5_murni.xlsx'
 const listPMK = require('./input/json/2025/pmk-110-baru.json') // 2024 pmk-110-dari-sikd-terisi-anggaran. 2025 pmk-110
 const listSumberDanaSIPD = require('./input/json/2026/sumber_dana.json')
-let namaFile = 'CEK SUMBER DANA RAPBD'
+let namaFile = 'CEK SUMBER DANA'
 const tahun = '2026'
 
 cekSumberDana(xlf, listPMK, listSumberDanaSIPD, tahun, `${namaFile} ${tahun}.xlsx`);
